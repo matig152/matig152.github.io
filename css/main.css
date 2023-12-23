@@ -1,0 +1,41 @@
+/*#region FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+/*#endregion FONT*/
+
+/*#region VARIABLES*/
+:root{
+    --primary: #200E3A;
+    --onprimary: #3887BE;
+    --secondary: #38419D;
+    --onsecondary: #52D3D8;
+}
+/*#endregion VARIABLES*/
+
+/*#region DESKTOP*/
+body{
+    font-family: Inconsolata;
+    font-weight: 900;
+    background-color: var(--primary);
+    color: var(--onsecondary)
+}
+
+
+/*#endregion DESKTOP*/
+
+/*#region LAPTOP*/
+@media only screen and (max-width: 1366px) {
+    
+}
+/*#endregion LAPTOP*/
+
+/*#region MOBILE - VERTICAL*/
+@media only screen and (max-width: 992px) {
+    
+}
+/*#endregion MOBILE - VERTICAL*/
+
+/*#region MOBILE - HORIZONTAL*/
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+    
+}
+/*#endregion MOBILE - HORIZONTAL*/
