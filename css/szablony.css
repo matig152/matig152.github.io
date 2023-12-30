@@ -1,0 +1,104 @@
+/*#region FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+/*#endregion FONT*/
+
+/*#region VARIABLES*/
+:root{
+    --primary: #200E3A;
+    --onprimary: #2f76a9;
+    --secondary: #38419D;
+    --onsecondary: #58e0e4;
+}
+/*#endregion VARIABLES*/
+
+
+/*#region INITAL PROPS*/
+button{
+    font-family: inconsolata;
+    height: 50px;
+    background-color: var(--primary);
+    border: 1px solid var(--onprimary);
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    transition: all .2s;
+    box-shadow: 0px 0px 2px var(--onsecondary);
+}
+button:hover{
+    box-shadow: 0px 0px 20px var(--onsecondary);
+    background-color: var(--secondary);
+}
+body{
+    margin: 0;
+    padding: 0 20px;
+    font-family: Inconsolata, sans-serif;
+    font-weight: 900;
+    background: linear-gradient(-15deg, var(--secondary), var(--primary)) no-repeat fixed;
+    color: var(--onsecondary);
+}
+/*#endregion*/
+
+
+/*#region DESKTOP*/
+.iframe-grid{
+    height: 90vh;
+    display: grid;
+    grid-template:
+    'desktoplbl mobilelbl'
+    'desktopfr mobilefr'/ 10fr 3fr;
+    grid-template-rows: 1fr 14fr;
+    gap: 0 10px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--onsecondary);
+    border-radius: 10px;
+}
+#desktop{
+    grid-area: desktopfr;
+}
+#mobile{
+    grid-area: mobilefr
+}
+.version-label{
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    margin-top: 6px;
+}
+#mobile-label{
+    grid-area: mobilelbl;
+}
+#desktop-label{
+    grid-area: desktoplbl;
+}
+#powrot{
+    margin-top: 1.5vh;
+    margin-left: 35%;
+    width: 30%;
+}
+
+
+
+/*#endregion DESKTOP*/
+
+/*#region LAPTOP*/
+@media only screen and (max-width: 1366px) {
+    
+}
+/*#endregion LAPTOP*/
+
+/*#region MOBILE - VERTICAL*/
+@media only screen and (max-width: 992px) {
+    
+}
+/*#endregion MOBILE - VERTICAL*/
+
+/*#region MOBILE - HORIZONTAL*/
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+    
+}
+/*#endregion MOBILE - HORIZONTAL*/
+
+/*ANIMATIONS*/

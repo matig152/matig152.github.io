@@ -9,18 +9,120 @@
 </head>
 <body onload="hidePreloader()">
     <div class="preloader">
-        <h1>ŁADOWANIE...</h1>
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <div class="line" id="line4"></div>
+        <div class="line" id="line5"></div>
+        <div class="line" id="line6"></div>
+        <div class="line" id="line7"></div>
+        <div class="line" id="line8"></div>
     </div>
 
     <nav>
-        <a href="/">MOJE PROJEKTY</a>
-        <a href="/">KONTAKT</a>
-        <a href="/">O MNIE</a>
+        <a onclick="mojeProjekty()">MOJE PROJEKTY</a>
+        <a onclick="mojeSzablony()">MOJE SZABLONY</a>
+        <a onclick="kontakt()">KONTAKT</a>
+        <a onclick="oMnie()">O MNIE</a>
     </nav>
 
-    <div class="sociale-sidebar">
-        
+    
+
+    <div class="main-grid">
+        <div class="side-line">
+            <span class="dot" id="dot1"></span>
+            <span class="dot" id="dot2"></span>
+            <span class="dot" id="dot3"></span>
+            <span class="dot" id="dot4"></span>
+            <h1 class="side-line-text" id="side-line-text1">MOJE<br>PROJEKTY</h1>
+            <p class="side-line-desc" id="side-line-desc1">Aplikacje oraz strony internetowe mojego autorstwa</p>
+            <h1 class="side-line-text" id="side-line-text2">MOJE<br>SZABLONY</h1>
+            <p class="side-line-desc" id="side-line-desc2">Przygotowane przeze mnie szablony stron internetowych</p>
+            <h1 class="side-line-text" id="side-line-text3">KONTAKT</h1>
+            <p class="side-line-desc" id="side-line-desc3">Skontaktuj się ze mną mailowo lub telefonicznie</p>
+            <h1 class="side-line-text" id="side-line-text4">O MNIE</h1>
+            <p class="side-line-desc" id="side-line-desc4">Doświadczenie oraz umiejętności</p>
+            <div id="linia">
+            </div>
+        </div>
+        <div class="main-grid-area" id="moje-projekty">
+            <div class="projekt" id="matura365">
+                <h1> > Matura 365</h1>
+                <img src="imgs/matura365.png">
+                <p>Matura365 to aplikacja w formie strony internetowej oraz mobilnej, 
+                    służąca do generowania testów oraz próbnych arkuszy maturalnych.</p>
+                <button onclick="openMatura()">Sprawdź &gt;</button>
+            </div>
+            
+        </div>
+        <div class="main-grid-area" id="moje-szablony">
+            <div class="szablony-screen">
+                <img id="szablony-screen-img" src="imgs/szablon1.png">
+                <div class="szablony-screen-buttons">
+                    <button class="szablony-przycisk" id="szablony-przycisk-lewo" onclick="plusDivs(-1)">&lt; Wstecz</button>
+                    <button class="szablony-przycisk" id="szablony-przycisk-prawo" onclick="plusDivs(+1)">Dalej &gt;</button>
+                </div>
+            </div>
+            <div class="szablony-info">
+                <h1 id="szablony-info-title"> &gt; Szablon #1</h1>
+                <p id="szablony-info-desc">to jest przykładowy opis szablonu.</p>
+                <p id="szablony-info-desc">Użyj poniższego przycisku aby przetestować szablon na żywo, także w wersji mobilnej.</p>
+                <button id="szablony-info-przycisk">Zobacz &gt;</button>
+            </div>
+
+             
+        </div>
+        <div class="main-grid-area" id="kontakt">
+            <div class="kontakt-info">
+                <h1>Dane kontaktowe</h1>
+                <div class="kontakt-info-div" id="kontakt-info-tel">
+                    <img src="imgs/mailAt1.png">
+                    <p>m.grzelik.cover@gmail.com</p>
+                </div>
+                <div class="kontakt-info-div" id="kontakt-info-mail">
+                    <img src="imgs/phone.png">
+                    <p>692 769 215</p>
+                </div>
+                <div class="kontakt-info-div" id="kontakt-info-web">
+                    <img src="imgs/web.png">
+                    <p>mgrzelik.github.io</p>
+                </div>
+            </div>
+            <form>
+                <h1 style="text-align: center;">Wyślij wiadomość</h1>
+                <label for="imie">Twoje imię:</label>
+                <input type="text" id="imie" name="imie">
+                <label for="mail">Twój email:</label>
+                <input type="text" id="mail" name="mail">
+                <label for="tresc">Wiadomość:</label>
+                <textarea id="tresc"></textarea>
+                <input type="submit" value="Wyślij &gt;">
+            </form>
+        </div>
+        <div class="main-grid-area" id="o-mnie">
+            <p>Nazywam się Mateusz Grzelik i jestem studentem Informatyki i Ekonometrii na Akademii 
+                Górniczo-Hutniczej w Krakowie.<br><br>Interesuję się budową stron statycznych.
+                Większość stron nie będących sklepami internetowymi lub aplikacjami nie wymaga serwerowego
+                zaplecza, co sprawia, że strona statyczna jest idealnym rozwiązaniem. Pozwala ona bardziej skupić 
+                się na szacie graficznej, zwiększa bezpieczeństwo, redukuje koszty utrzymania, a w razie potrzeby
+                wykonania działania poprzez serwer (jak np. wysłanie e-maila) można wspomóc się darmowymi, zewnętrznymi API.
+                <br><br>Posiadam jednak także doświadczenie w tworzeniu stron dynamicznych, głównie w pythonowym 
+                frameworku Django.
+            </p>
+            <img src="">
+        </div>
     </div>
-    <p>Lorem ipsum dsdh kj d dkuy dsudjkhs jdus uidjskj dosj mkdj s</p>
+
+    <footer>
+        <div class="footer-buttons">
+            <a><img src="imgs/mailAt.png"></a>
+            <a><img src="imgs/fb.png"></a>
+            <a><img src="imgs/github.png"></a>
+        </div>
+        <p>&#169; 2023 Mateusz Grzelik, wszelkie prawa zastrzeżone</p>
+
+
+    </footer>
+    
 </body>
 </html>

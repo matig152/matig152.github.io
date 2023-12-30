@@ -5,11 +5,30 @@
 /*#region VARIABLES*/
 :root{
     --primary: #200E3A;
-    --onprimary: #3887BE;
+    --onprimary: #2f76a9;
     --secondary: #38419D;
-    --onsecondary: #52D3D8;
+    --onsecondary: #58e0e4;
 }
 /*#endregion VARIABLES*/
+
+
+/*#region INITAL PROPS*/
+button{
+    font-family: inconsolata;
+    height: 50px;
+    background-color: var(--primary);
+    border: 1px solid var(--onprimary);
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    transition: all .2s;
+    box-shadow: 0px 0px 2px var(--onsecondary);
+}
+button:hover{
+    box-shadow: 0px 0px 20px var(--onsecondary);
+    background-color: var(--secondary);
+}
+/*#endregion*/
 
 /*#region DESKTOP*/
 body{
@@ -23,7 +42,7 @@ body{
 
 /*PRELOADER*/
 .preloader{
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     width: 100%;
@@ -35,22 +54,50 @@ body{
     transition: all .65s;
     z-index: 100;
 }
+.line{
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background: var(--onsecondary);
+    top: calc(50vh - 30px);
+    box-shadow: 0px 0px 0px var(--onsecondary);
+    animation: lineStretch infinite 0.8s;
+    border-radius: 10px;
+}
+#line1{left: calc(50% - 40px);animation-delay: 0; }
+#line2{left: calc(50% - 30px);animation-delay: 0.05s; }
+#line3{left: calc(50% - 20px);animation-delay: 0.1s; }
+#line4{left: calc(50% - 10px);animation-delay: 0.15s; }
+#line5{left: calc(50%);animation-delay: 0.2s; }
+#line6{left: calc(50% + 10px);animation-delay: 0.25s; }
+#line7{left: calc(50% + 20px);animation-delay: 0.3s; }
+#line8{left: calc(50% + 30px);animation-delay: 0.35s; }
+.preloader h1{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 220px;
+    margin-left:0px;
+}
+
+
+
 /*NAVBAR*/
 nav{
     border-radius: 30px;
     border: 1px solid var(--onsecondary);
-    width: 60%;
+    width: 70%;
     top:2%;
-    left: 20%;
+    left: 15%;
     position: fixed;
     font-size: 20px;
     padding: 14px 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     justify-items: center;
     gap: 30px;
     backdrop-filter: blur(4px) brightness(60%);
+    z-index: 2;
 }
 nav a{
     text-decoration: none;
@@ -62,12 +109,298 @@ nav a{
     background-position: 50% 100%;
     background-repeat: no-repeat;
     transition: all .2s;
+    cursor: pointer;
 }
 nav a:hover{
     color: white;
     background-size: 80% 5%;
     
 }
+
+/*MAIN*/
+.side-line{grid-area: linia;z-index:0;}
+#moje-projekty{grid-area: projekty; display: flex;justify-content: space-around;}
+#moje-szablony{grid-area: szablony;display: grid;grid-template-columns: 3fr 2fr;}
+#kontakt{grid-area: kontakt;}
+#o-mnie{grid-area: omnie;}
+.main-grid{
+    margin: auto;
+    margin-top: 100vh;
+    padding: 0 1vw;
+    gap: 10px;
+    width: 96vw;
+    height: 400vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+    'linia projekty'
+    'linia szablony'
+    'linia kontakt'
+    'linia omnie';
+}
+.main-grid-area{
+    padding:10px;
+    border: 1px solid var(--onprimary);
+    border-radius: 10px;
+    background-color: var(--primary);
+    height: 70vh;
+    box-shadow: 0px 0px 14px var(--onprimary);
+    scroll-margin: 100px;
+}
+
+/*LINIA*/
+#linia{
+    position: absolute;
+    top: 100vh;
+    left: 2vw;
+    height: 300vh;
+    width: 1px;
+    background-color: #3887BE;
+}
+.dot{
+    position: absolute;
+    display: block;
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    width:20px;
+    height: 20px;
+    z-index: 1;
+    left: calc(2vw - 10.5px);
+    box-shadow: 0px 0px 20px var(--onsecondary);
+}
+#dot1{top: 100vh;}
+#dot2{top: 200vh;}
+#dot3{top: 300vh;}
+#dot4{top: 400vh;}
+
+.side-line-text{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: calc(2vw + 30px);
+}
+#side-line-text1{top:99vh}
+#side-line-text2{top:199vh}
+#side-line-text3{top:299vh}
+#side-line-text4{top:399vh}
+
+.side-line-desc{
+    position: absolute;
+    font-size: 18px;
+    left: calc(2vw + 30px);
+    width:14vw;
+}
+#side-line-desc1{top: 110vh;}
+#side-line-desc2{top: 210vh;}
+#side-line-desc3{top: 305vh;}
+#side-line-desc4{top: 405vh;}
+
+
+
+
+
+/*PROJEKTY*/
+.projekt{
+    width:95%;
+}
+#matura365{
+    height: auto;
+    display: grid;
+    grid-template:
+    'tytul tytul'
+    'img opis'
+    'img przycisk'/3fr 2fr;
+    place-content: center center;
+}
+#matura365 img{
+    grid-area: img;
+    width: 90%;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 6px var(--onsecondary);
+    background-color: black;
+}
+#matura365 h1{
+    text-align: left;
+    grid-area: tytul;
+    color: var(--onsecondary)
+}
+#matura365 button{
+    grid-area: przycisk;
+    width: 50%;
+}
+#matura365 p{
+    grid-area: opis;
+    font-size: 22px;
+    color: var(--onsecondary);
+}
+
+
+/*SZABLONY*/
+.szablony-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.szablony-screen img{
+    height: 40vh;
+    margin: auto;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 0px 0px 20px var(--onsecondary);
+}
+.szablony-screen-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 8%;
+}
+.szablony-przycisk{
+    width: 30%;
+}
+.szablony-info{
+    margin-top: 4vh;
+    padding: 0 4%;
+}
+#szablony-info-title{
+
+}
+#szablony-info-desc{
+    font-size: 18px;
+}
+#szablony-info-przycisk{
+    width: 60%
+}
+
+
+
+/*FOOTER*/
+footer{
+    padding: 2px;
+    text-align: center;
+    margin-top: -10vh;
+}
+footer p{
+    margin: 0;
+    padding-bottom: 8px;
+}
+.footer-buttons{
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer-buttons img{
+    border-radius: 50%;
+    height: 60px;
+    transition: all .2s;
+    box-shadow: 0px 0px 15px var(--onsecondary);
+}
+.footer-buttons img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px var(--onsecondary);
+}
+
+/*KONTAKT*/
+#kontakt{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+.kontakt-info{
+    margin: 3vh 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid var(--onsecondary)
+}
+.kontakt-info-div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.kontakt-info h1{
+    text-align: center;
+}
+.kontakt-info-div p{
+    font-size: 20px;
+}
+.kontakt-info-div img{
+    margin: auto 0;
+    height: 7vh;
+}
+
+#kontakt form{
+    margin: 2vh 4%;
+    display: grid;
+    gap: 10px;
+}
+#kontakt form h1{
+    margin: 0;
+}
+#kontakt form input{
+    background-color: transparent;
+    backdrop-filter: brightness(0.6);
+    border: 1px solid var(--onsecondary);
+    color: var(--onsecondary);
+    border-radius: 10px;
+    font-family: inconsolata;
+    font-size: 20px;
+}
+textarea{
+    border-radius: 10px;
+    resize: none;
+    backdrop-filter: brightness(0.6);
+    height: 15vh;
+    border: 1px solid var(--onsecondary);
+    color: var(--onsecondary);
+    background-color: transparent;
+    font-family: inconsolata;
+    font-size: 20px;
+}
+input[type="submit"]{
+    font-family: inconsolata;
+    height: 50px;
+    background-color: var(--primary);
+    border: 1px solid var(--onprimary);
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    transition: all .2s;
+    box-shadow: 0px 0px 2px var(--onsecondary);
+    backdrop-filter: brightness(1);
+}
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 20px var(--onsecondary);
+    background-color: var(--secondary);
+}
+
+
+
+/*O MNIE*/
+#o-mnie{
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+#o-mnie p{
+    font-size: 2.5vh;
+    padding: 0px 20px;
+    margin: auto;
+}
+#o-mnie img{
+    height: 80%;
+    width: 300px;
+    background-color: black;
+    border: 1px solid var(--onprimary);
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px var(--onsecondary);
+}
+
+
+
 
 
 /*#endregion DESKTOP*/
@@ -89,3 +422,13 @@ nav a:hover{
     
 }
 /*#endregion MOBILE - HORIZONTAL*/
+
+/*ANIMATIONS*/
+@keyframes preloader {
+    0%{transform: rotate(0);}
+    50%{border-radius:200px;box-shadow: 0px 0px 100px var(--onsecondary);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes lineStretch {
+    50%{transform: scaleY(1.8) scaleX(1.6);box-shadow: 0px 0px 4px var(--onsecondary);}
+}
