@@ -1,6 +1,6 @@
 async function hidePreloader(){
     let preloader = document.querySelector('.preloader')
-    await new Promise(r => setTimeout(r, 2000)) 
+    //await new Promise(r => setTimeout(r, 2000)) 
     preloader.style.top = "-100%"
     pokazSzablon(szablonIndex);
 }
@@ -73,4 +73,45 @@ function pokazSzablon(n) {
             desc.innerHTML = "To jest przykładowy opis szablonu 4.";
             break;
     }
+}
+
+
+function sendMail(){
+    let params = {
+        imie: document.getElementById("imie").value,
+        mail: document.getElementById("mail").value,
+        tresc: document.getElementById("tresc").value
+    }
+    if(params.imie == "" || params.mail == ""|| params.tresc ==""){
+        let sign = document.getElementById('email-sent-sign')
+        let h1 = document.getElementById('email-sent-h1')
+        let p = document.getElementById('email-sent-p')
+        sign.innerHTML = "&#10005";
+        h1.innerHTML = "Wiadomość nie została wysłana."
+        p.innerHTML = "Wprowadź wszystkie dane."
+        let message = document.querySelectorAll('.email-sent')[0];
+        message.style.display = 'block';
+        message.style.opacity = 1
+        return;
+    }
+    emailjs.send("service_8cdqnsf", "template_hz1sklm", params).then(openMail())
+}
+
+function openMail(){
+    let sign = document.getElementById('email-sent-sign')
+    let h1 = document.getElementById('email-sent-h1')
+    let p = document.getElementById('email-sent-p')
+    sign.innerHTML = "&#10003;";
+    h1.innerHTML = "Wiadomość została wysłana"
+    p.innerHTML = "Odezwę się jak najszybciej."
+    let message = document.querySelectorAll('.email-sent')[0]; 
+    message.style.opacity = 1;
+    message.style.display = 'block';
+}
+
+async function closeEmail() {
+    let message = document.querySelectorAll('.email-sent')[0];
+    message.style.opacity = 0;
+    await new Promise(r => setTimeout(r, 300)) 
+    message.style.display = 'none';
 }

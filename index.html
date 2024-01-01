@@ -6,6 +6,15 @@
     <title>WebDev Portfol</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("4Ki_3h_jxYJQ7dN-J");
+    })();
+    </script>
+
 </head>
 <body onload="hidePreloader()">
     <div class="preloader">
@@ -26,7 +35,51 @@
         <a onclick="oMnie()">O MNIE</a>
     </nav>
 
-    
+    <div class="email-sent">
+        <div class="email-sent-bg"></div>
+        <div class="email-sent-box">
+            <div class="email-sent-close"><button onclick="closeEmail()">&#10005;</button></div>
+            <div class="email-sent-text">
+                <span id="email-sent-sign">&#10003;</span>
+                <h1 id="email-sent-h1">Wiadomość została wysłana</h1>
+                <p id="email-sent-p">Odezwę się jak najszybciej.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="scroll-container">
+        <section class="scroll-section"></section>
+        <section class="scroll-section"></section>
+        <section class="scroll-section"></section>
+        <section class="scroll-section"></section>
+        <section class="scroll-section" id="section-last"></section>
+    </div>
+
+    <div class="landing-page">
+        <div class="landing-page-info">
+            <h1>Witaj w moim portfolio!</h1>
+            <p>Porzebujesz strony internetowej? Przewiń w dół aby zobaczyć moje projekty, a także
+                sprawdzić czy wśród moich szablonów znajdziesz coś dla siebie i swojego biznesu.
+            </p>
+            <button onclick="kontakt()">Kontakt ></button>
+        </div>
+        <div class="landing-page-logo">
+            <div class="cube-container">
+                <div class="cube">
+                    <div class="face top">HTML/CSS/JS</div>
+                    <div class="face bottom">Strony OnePage</div>
+                    <div class="face left">SEO</div>
+                    <div class="face right">Strony Statyczne</div>
+                    <div class="face front">FrontEnd</div>
+                    <div class="face back">BackEnd</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="main-grid">
         <div class="side-line">
@@ -96,7 +149,7 @@
                 <input type="text" id="mail" name="mail">
                 <label for="tresc">Wiadomość:</label>
                 <textarea id="tresc"></textarea>
-                <input type="submit" value="Wyślij &gt;">
+                <input id="submit" onclick="sendMail()" value="Wyślij &gt;">
             </form>
         </div>
         <div class="main-grid-area" id="o-mnie">
@@ -115,9 +168,9 @@
 
     <footer>
         <div class="footer-buttons">
-            <a><img src="imgs/mailAt.png"></a>
-            <a><img src="imgs/fb.png"></a>
-            <a><img src="imgs/github.png"></a>
+            <a href="mailto:m.grzelik.cover@gmail.com"><img src="imgs/mailAt.png"></a>
+            <a href="https://www.facebook.com/mateusz.grzelik.1"><img src="imgs/fb.png"></a>
+            <a href="https://github.com/matig152"><img src="imgs/github.png"></a>
         </div>
         <p>&#169; 2023 Mateusz Grzelik, wszelkie prawa zastrzeżone</p>
 
