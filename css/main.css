@@ -52,7 +52,7 @@ body{
     display: grid;
     place-content: center;
     transition: all .65s;
-    z-index: 100;
+    z-index: 99;
 }
 .line{
     position: absolute;
