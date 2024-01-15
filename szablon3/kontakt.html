@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>WebDevInc</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brandlogo"><a href="index.html"><img id="logologo" src="pictures/logosample.png"></a></div>
+        <a class="toggle-button" onclick="mobilemenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbarlinks">
+            <ul>
+                <li><a href="index.html">STRONA GŁÓWNA</a></li>
+                <li><a href="onas.html">POZNAJ NAS</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mobilemenu">
+        <ul>
+            <li><a href="index.html">STRONA GŁÓWNA</a></li>
+            <li><a href="onas.html">POZNAJ NAS</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </div>
+    <div class="socialside">
+        <a class="sociale" href="https://www.facebook.com/"><img src="pictures/fblogo.png" style="height:1.8rem"></a>
+        <a class="sociale" href="https://www.instagram.com/"><img src="pictures/iglogo.png" style="height:1.8rem"></a>
+        <a class="sociale" href="https://www.tiktok.com/"><img src="pictures/tiktoklogo.png" style="height:1.8rem"></a> 
+    </div>
+    <div class="wrapper">
+        <h1 class="kontaktnaglowek">Jak nas znaleźć?</h1>
+        <div class="kontaktgrid">
+            <div class="adresy" id="adresy">
+                <img src="pictures/mail.png"><p>example@example.com</p>
+                <img src="pictures/phone.png"><p>+48 123456789</p>
+                <img src="pictures/pin.png"><p>Al. Jerozolimskie 1, Warszawa</p>
+                <img src="pictures/web.png"><p>www.example.com</p>
+            </div>
+            <iframe id="mapka" src="https://maps.google.com/maps?width=520&amp;height=551&amp;hl=en&amp;q=Aleje%20Jerozolimskie%20Warszawa+(Lokalizacja)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <div id="adresysocial">
+                <h1 class="kontaktnaglowek">Nasze social media:</h1>
+                <div class="socialikony">
+                    <a href="https://www.facebook.com/" style="text-decoration: none;color:black;"><span><img src="pictures/fblogo.png"><p>FirmaFB</p></span></a>
+                    <a href="https://www.instagram.com/" style="text-decoration: none;color:black;"><span><img src="pictures/iglogo.png"><p>@firmaexample</p></span></a>
+                    <a href="https://www.tiktok.com/" style="text-decoration: none;color:black;"><span><img src="pictures/tiktoklogo.png"><p>@firmaexapmle1</p></span></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <span id="mail" class="contacts">
+            <img class="footericon"src="pictures/mail.png">
+            <p>example@example.com</p>
+        </span>
+        <span id="telefon" class="contacts">
+            <img class="footericon" src="pictures/phone.png">
+            <p>+48 123456789</p>
+        </span>
+        <span id="adres" class="contacts">
+            <img class="footericon" src="pictures/pin.png">
+            <p>AL. Jerozolimskie 1, Warszawa</p>
+        </span>
+    </div>
+
+
+</body>
+</html>

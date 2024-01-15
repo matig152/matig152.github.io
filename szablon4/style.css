@@ -1,0 +1,481 @@
+/*#region INITIAL PROPERTIES*/
+/*FONT*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+/*BODY PROPERTIES*/
+*{box-sizing: border-box;}
+h1{margin: 0;}
+h2{margin: 0;}
+body{font-family: 'Roboto Slab', sans-serif;font-size:2rem;margin:0;padding:0;color:black;background-color: white;}
+
+/*SCROLLBAR - opcjonalnie
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #8f8c8c;}
+::-webkit-scrollbar-thumb {background: black;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+*/
+
+
+/*COLOR VARIABLES*/
+:root{
+    --primary: #2a5739;
+    --primaryvar: #80623Aff;
+    --onprimary: #b0e7b9;
+    --bg: #A6AAA6ff;
+    --secondary: #634A29ff;
+    --shadowcol: #242424;
+}
+/*PRELOADER*/
+.preloader{
+    background-color: var(--primary);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    transition: opacity .5s;
+}
+.prebar{
+    width: 3px;
+    height: 160px;
+    background: var(--onprimary);
+    position: fixed;
+    top: calc(50vh - 80px);
+    left: calc(50% - 1px);
+    border-radius: 10px;
+    animation: rotateRight 1.3s infinite ease
+}
+.preloader p{
+    font-size: 20px;
+    color: var(--onprimary);
+    position: fixed;
+    top: calc(50vh + 100px);
+    left: calc(50% - 56px);
+}
+#pre2{animation-delay: .04s;}
+#pre3{animation-delay: .08s;}
+#pre4{animation-delay: .12s;}
+#pre5{animation-delay: .16s;}
+#pre6{animation-delay: .2s;}
+#pre7{animation-delay: .24s;}
+#pre8{animation-delay: .28s;}
+
+.precircle{
+    width: 120px;
+    height:120px;
+    position: absolute;
+    background-color:var(--primary);
+    top:calc(50vh - 60px);
+    left:calc(50% - 60px);
+    border-radius: 60px;
+}
+
+
+
+/*#endregion INITIAL PROPERTIES*/
+
+
+/*#region DESKTOP*/
+.mobilemenu{display: none;}
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 80px;
+    z-index: 1;
+    background-color: var(--primary);
+    box-shadow: 0px 4px 10px var(--shadowcol);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{height: 90%;margin: auto;}
+.logo img{height: 100%;}
+nav span{
+    width:auto;
+    height: 100%;
+    margin: auto 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    gap: 70px;
+
+}
+.navbarlink{
+    margin:auto;
+    color: var(--onprimary);
+    font-size: 28px;
+    text-decoration: none;
+    transition: color .2s;
+}
+.navbarlink:hover{
+    color: var(--shadowcol);
+}
+
+.navsociale{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    height:100%;
+}
+.navbarsocial{
+    height: 60%;
+    margin: auto;
+}
+.navbarsocial img{
+    height:100%;
+    border: 1px solid var(--onprimary);
+    border-radius: 50%;
+    background-color: var(--onprimary);
+    transition: all .2s;
+}
+.navbarsocial img:hover{
+    transform: scale(1.1);
+}
+
+.bgmain{
+    position:absolute;
+    top:80px;
+    width:100%;
+    height:50vh;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.welcome{
+    position: absolute;
+    top:calc(80px + 3vh);
+    width: 80%;
+    height: 44vh;
+    left: 10%;
+    color: var(--onprimary)
+}
+.welcome h1{font-size: 10vh;text-align: center;margin:5vh;}
+.welcome p{font-size: 4vh;text-align: center;}
+
+.action{
+    position: absolute;
+    top: calc(80px + 54vh);
+    left:5%;
+    height: calc(100vh - 80px - 58vh);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.action div{
+    background-color: var(--primary);
+    height:100%;
+    width: 48%;
+    border: 2px solid var(--shadowcol);
+    padding: 20px 40px;
+    color: var(--onprimary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.action div h2{font-size: 5vh;}
+.action div p{font-size: 3vh;margin:1vh auto;}
+.action button{
+    font-size: 2.5vh;
+    height: 5vh;
+    width:40%;
+    border: none;
+    font-family: 'Roboto Slab';
+    background-color: var(--onprimary);
+    transition: all .2s;
+}
+.action button:hover{
+    transform: scale(1.1);
+    filter: brightness(1.05);
+    box-shadow: 5px 5px 0px var(--shadowcol);
+}
+
+
+.glownainfo{
+    position: absolute;
+    top: 105vh;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    display:grid;
+    padding: 5% 5%;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(pictures/bgmain2.jpg);
+    background-position: top;
+    background-size: cover;
+    transition: all .5s;
+    transition-delay: .3s;
+    opacity:0;
+    transform: translateX(-200px);
+}
+.glownainfo.show{
+    opacity:1;
+    transform: translateX(0);
+}
+.glownainfo div{
+    padding:5%;
+    background-color: var(--primary);
+    box-shadow: 0px 0px 0px var(--shadowcol);
+    transition: all .3s;
+    display: grid;
+    place-items: center left;
+}
+.glownainfo div:hover{
+    box-shadow: 10px 10px 0px var(--shadowcol);
+    filter: brightness(1.05);
+}
+.glownainfoh1{
+    font-size: 4vh;
+    color: var(--onprimary);
+    padding-bottom: 10px;
+    background: linear-gradient(var(--onprimary), var(--onprimary));
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+.glownainfop{
+    font-size: 3vh;
+    color: var(--onprimary);
+}
+
+.cennik{
+    position: absolute;
+    top:185vh;
+    left: 5%;
+    height: 80vh;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vh;
+}
+.cenniknagl{
+    text-align: center;
+    font-size: 7vh;
+    background: linear-gradient(var(--primary),var(--primary));
+    background-repeat: no-repeat;
+    background-size: 0% 4px;
+    background-position: 50% 100%;
+    transition: all .4s;
+    transition-delay: .4s;
+}
+.cenniknagl.show{background-size: 40% 4px;}
+.cennikgrid1{
+    height: 85%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cennikphoto{
+    width:47.5%;
+    box-shadow: 10px 10px 0px black;
+    transform: translate(-50px, 200px);
+    opacity: 0;
+    transition: all .4s;
+    transition-delay: .5s;
+}
+.cennikphoto.show{transform: translate(0, 0);opacity:1;}
+.cennikphoto img{
+    border: 10px solid var(--primary);
+    background-color: var(--onprimary);
+    padding: 2px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+.cennikgrid2{
+    padding: 6vh 0;
+    box-shadow: 10px 10px 0px black;
+    width: 47.5%;
+    background-color: var(--primary);
+    transform: translate(50px, 200px);
+    opacity:0;
+    transition: all .4s;
+    transition-delay: .5s;
+}
+.cennikgrid2.show{transform: translate(0,0);opacity:1;}
+.cenniktext{
+    margin: 8px 5%;
+    color: var(--onprimary);
+    display: flex;
+    justify-content: space-between;
+}
+.cenniktext p{margin: 0;}
+.cennikbar{
+    margin: 8px 5%;
+    width:90%;
+    background-color: var(--onprimary);
+    height: 1px;
+}
+
+
+
+
+footer{
+    position: absolute;
+    top: 275vh;
+    left:0;
+    width:100%;
+    height: 300px;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 0 15%;
+}
+footer div{
+   
+    width:100%;
+    height:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer div h1{font-size: 4vh;color: var(--onprimary);}
+footer div a{font-size: 3vh;color: var(--onprimary);transition: all .2s;text-decoration: none;}
+footer div a:hover{color: var(--shadowcol);}
+footer div p{font-size: 3vh;color: var(--onprimary);margin: 0;}
+footer div img{height: 200px;width: 200px;margin: auto;}
+
+.bottomsignature{
+    position: absolute;
+    top: calc(275vh + 300px);
+    left: 0;
+    height: 20px;
+    width: 100%;
+    font-size: 12px;
+    background-color: var(--shadowcol);
+    color: white;
+    display: grid;
+    place-content: center;
+}
+.bottomsignature p{text-align: center;}
+/*#endregion DESKTOP*/
+
+/*#region LAPTOP*/
+@media screen and (max-width: 1366px){
+
+}
+/*#endregion LAPTOP*/
+
+/*#region MOBILE - VERTICAL*/
+@media screen and (max-width: 992px){
+    nav{
+        height: 60px;
+        display: flex;
+        justify-items: space-between;
+    }
+    .mobileicon{
+        margin: auto;
+        margin-left: -5vw;
+        height: 40px;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mobileicon span{
+        margin: 4px 0;
+        background-color: var(--onprimary);
+        width: 100%;
+        height: 2px;
+    }
+    .logo{display: none;}
+    .navbarlink{display: none;}
+    
+    
+    .mobilemenu{
+        display: block;
+        color: var(--onprimary);
+        z-index: 2;
+        position: fixed;
+        height:100vh;
+        width: 0;
+        background-color: var(--primary);
+        box-shadow: 4px 0px 4px var(--shadowcol);
+        padding-top: 20%;
+        overflow: hidden;
+        transition: all .8s;
+        text-wrap: nowrap;
+    }
+    .mobilemenu a{
+        text-decoration: none;
+        color:var(--onprimary);
+        padding: 10px;
+        font-size: 25px;
+    }
+    .mask{
+        background-color: #000000b0;
+        position: fixed;
+        height: 100vh;
+        width:100%;
+        z-index: 2;
+        display: none;
+        opacity:0;
+        transition: all .5s;
+    }
+
+    .bgmain{top:60px;height:28vh;}
+    .welcome{
+        top:75px;
+        width:96%;
+        left:2%;
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .welcome h1{font-size: 5vh;margin:0;}
+    .welcome p{font-size: 2vh;margin: 0;}
+
+    .action{
+        top: 40vh;
+        left: 2%;
+        width: 98%;
+        height: 50vh;
+        display: flex;
+        gap: 3vh;
+        flex-direction: column;
+    }
+    .action div{
+        width: 98%;
+        padding: 10px;
+    }
+    .action div h2{font-size: 4vh;}
+    .action div p{font-size: 2vh;}
+    .action div button{width: 80%; height: 4vh;font-size: 2vh;}
+
+
+
+
+    .glownainfo{display: none;}
+    .cennik{display: none;}
+    footer{display: none;}
+}
+/*#endregion MOBILE - VERTICAL*/
+
+/*#region MOBILE - HORIZONTAL*/
+@media screen and (orientation:landscape) and (max-device-height:600px){
+
+}
+/*#endregion MOBILE - HORIZONTAL*/
+
+/*#region ANIMATIONS*/
+@keyframes rotateRight {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);
+    }
+}
+@keyframes rotateLeft {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(-360deg);
+    }
+}
+/*#endregion ANIMATIONS*/

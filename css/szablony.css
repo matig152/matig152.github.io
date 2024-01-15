@@ -44,8 +44,8 @@ body{
     height: 90vh;
     display: grid;
     grid-template:
-    'desktoplbl mobilelbl'
-    'desktopfr mobilefr'/ 10fr 3fr;
+    'desktoplbl '
+    'desktopfr';
     grid-template-rows: 1fr 14fr;
     gap: 0 10px;
 }
@@ -54,6 +54,7 @@ iframe{
     height: 100%;
     border: 1px solid var(--onsecondary);
     border-radius: 10px;
+    background-color: white;
 }
 #desktop{
     grid-area: desktopfr;

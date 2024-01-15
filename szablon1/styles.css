@@ -1,0 +1,588 @@
+@import url(https://fonts.googleapis.com/css?family=Saira+Condensed);
+
+*{box-sizing: border-box;}
+body{font-family: 'Saira Condensed', sans-serif;font-size:2rem;margin:0;padding:0;color:white;}
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #8f8c8c;}
+::-webkit-scrollbar-thumb {background: black;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+/*#region DESKTOP*/
+#loader{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    width:100%;
+    height:100vh;
+    background: #000;
+    transition: opacity .6s;
+}
+#load1{
+    position: absolute;
+    top: 35vh;
+    left: calc(50vw - 15vh);
+    height:30vh;
+    animation: rotateRight .8s infinite linear;
+}
+#load2{
+    position: absolute;
+    top: 35vh;
+    left: calc(50vw - 15vh);
+    height:30vh;
+    animation: rotateLeft .8s infinite linear;
+}
+
+
+
+
+nav{
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    transition: background-color .5s;
+    background-color: transparent;
+    z-index: 1;
+}
+nav ul{
+    /*animation: fadeIn 1s;*/
+    margin:0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+.navlink{
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin: 1rem 2rem;
+    padding-bottom: .1rem;
+    color: white;
+    display: block;
+    background-image: linear-gradient(transparent,transparent), linear-gradient(to right,white, blue);
+    background-size: 100% 0;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s;
+}
+.navlink:hover{ 
+    background-size: 100% 1px;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: 110vh;
+    color: black;
+    width:90vw;
+}
+
+
+
+.topphoto{
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: -1;
+    object-fit: cover;
+    width:100%;
+    height: 75vh;
+    filter: brightness(0.7)
+}
+.mainw{
+    position: absolute;
+    top:7vh;
+    left: 5vw;
+    display: grid;
+    place-content: left center;
+    height: 60vh;
+    width: 70vw;
+    display:none;
+}
+
+.mainbuttons{
+    width: 80vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: left center;
+}
+.mainwtext{
+    font-size: 3.5vh;
+}
+.mainbuttons button{
+    font-family: 'Saira Condensed';
+    font-size: 3vh;
+    height: 8vh;
+    width: 36vh;
+    border: 1px solid white;
+    color: white;
+    background-color: #0044ff69;
+    box-shadow: 10px 10px 0px black;
+    transition: all .5s;
+}
+.mainbuttons button:hover{
+    background-color: blue;
+    box-shadow: 20px 20px 0px black;
+}
+
+.info1{
+    background-color: black;    
+    position: absolute;
+    left:0;
+    top:75vh;
+    z-index: -1;
+    object-fit: cover;
+    width:100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1vw;
+    padding: 0 3vw; 
+}
+.about{
+    flex-basis: 25vw;
+	flex-grow: 0;
+	flex-shrink: 0;
+    display: grid;
+    place-items: left center;
+    font-size: 1.5rem;
+    margin:auto auto;
+    padding: 0;
+    text-align: left;
+    color:#2e2d2d;
+    transition: color .3s;
+    animation:  fadeIn 1s;
+}
+
+.bar{
+    width:1px;
+    background-color: #0044ff69;
+    height:80%;
+    margin: auto;
+}
+.barfoot{
+    width:1px;
+    background-color: #0044ff69;
+    height:80%;
+    margin: auto;
+}
+.info1 h1{font-size: 4vh;margin:0;}
+.info1 p{font-size: 3vh;}
+
+.products{
+    display: grid;
+    grid-template-columns:  40vw 40vw;
+    place-content: center center;
+    gap: 10vh;
+    
+    padding-bottom:100px;
+}
+.productstext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: left;
+    height:100%;
+    transition: all .6s;
+    transform: translateY(200px);
+    opacity:0;
+}
+.productstext.show{
+    opacity:1;
+    transform: translateY(0);
+}
+.nagl{
+    margin: 5px;
+    font-size:3rem;
+    background-image: linear-gradient(white, white),linear-gradient(to right, blue, black);
+    background-size: 100% 4px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s;
+}
+.nagl.show{
+    transition-delay: .8s;
+    background-size: 0 4px, 100% 4px;
+}
+
+.products p{margin: 5px;font-size:2rem;}
+
+.productspic{
+    width:40vw;
+    padding: 4px;
+    transform: translateY(200px);
+    opacity:0;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 0px black;
+    transition: opacity .6s, border .6s, box-shadow 1s ease .6s, transform .2s;
+    background-color: #1944ffa2;
+}
+.productspic.show{
+    transform: translateX(0);
+    opacity:1;
+    border: 2px solid black;
+}
+.productspic.show.shadow{
+    box-shadow: 20px 20px 0px black;
+}
+
+/*KONTAKT*/
+.contactshead{
+    margin:auto;
+    margin-top: 2vh;
+    margin-bottom: 30px;
+    font-size: 8vh;
+    width:50%;
+    text-align: center;
+    background-image: linear-gradient(white, white),linear-gradient(to right, blue, black);
+    background-size: 50% 4px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s;
+}
+.contactshead.show{
+    transition-delay: .4s;
+    background-size: 0 4px, 100% 4px;
+}
+.contacts{
+    display:flex;
+    justify-content: space-between;
+    color:black;
+    width: 100%;
+    padding: 30px;
+    height: 65vh;
+    opacity:0;
+    transition: opacity 1s ease .4s;
+}
+.contacts.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+.contacts div{
+    display:grid;   
+    place-items: left center;
+    border: 2px solid black;
+    box-shadow: 20px 20px 0px black;
+    flex-grow: 0;
+	flex-shrink: 0;
+    transition: all .4s;
+    font-size: 3.2vh;
+}
+.contacts div:hover{
+    color:white;
+    background-color: #1944ffa2;
+    box-shadow: 0px 0px 0px black;
+}
+.adresses{
+    padding:15px;
+    flex-basis: 30%;
+}
+
+.mapka{
+    flex-basis: 30%;
+    padding: 2px;
+    background-color: #1944ffa2;
+}
+.mapka iframe{
+    width:100%;
+    height: 100%;
+}
+/*FORMULARZ*/
+form{
+    display: grid;
+    grid-template-columns: auto;
+}
+form label{
+    display: grid;
+    place-content: top;
+    font-size: 2.5vh;
+}
+form input{
+    font-size: 2.5vh;
+    font-family: 'Saira Condensed';
+    width: 100%;
+}
+form textarea{
+    font-size: 2.5vh;
+    font-family: 'Saira Condensed';
+    width: 100%;
+    resize: none;
+    height: 12vh;
+}
+form button{
+    width:100%;
+    height: 5vh;
+    font-size: 2.5vh;
+    font-family: 'Saira Condensed';
+    border:1px solid black;
+    transition: all .2s;
+    background-color: white;
+}
+form button:hover{
+    color:white;
+    background-color: #1944ffa2;
+}
+.form{
+    padding:15px;
+    flex-basis: 30%;
+}
+
+.formgroup{
+    background: none;
+    box-shadow: none;
+}
+
+
+
+
+
+/*FOOTER*/
+footer{
+    margin-top: 100px;
+    padding:0 5vw;
+    background-color: #000;
+    width:100%;
+    height:45vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nazwy{
+    flex-basis:25vw;
+    font-size: 3.5vh;
+    display: grid;
+    place-content: center right;
+    text-align: right;
+    
+}
+.sociale{
+    flex-basis:25vw;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sociale span{
+    padding:.5vh 2vw;
+    border: 1px solid transparent;
+    transition: all .2s;
+    place-items: center left;
+    display: grid;
+    font-size: 3vh;
+    grid-template-columns: auto auto;
+}
+.sociale span:hover{
+    border: 1px solid #1944ffa2;
+    background-color: #1943ff27;
+}
+.sociale a{
+    text-decoration: none;
+    color:white;
+}
+.sociale img{
+    height: 6vh;
+}
+.footerinfo{
+    
+    display: grid;
+    place-content: center left;
+    font-size: 4vh;
+}
+/*Copyright*/
+.copyright{
+    width: 100%;
+    height: 60px;
+    background-color: #0f0f0f;
+    
+}
+.copyright p{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    font-size: 18px;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+
+/*#endregion*/
+
+/*#region LAPTOP*/
+@media screen and (max-width: 1366px){
+    .productstext h1{font-size: 8vh;}
+    .productstext p{font-size: 4vh;}
+}
+/*#endregion*/
+
+/*#region TABLETS*/
+@media screen and (max-width: 992px){
+    .topphoto{height:100vh;}
+    nav{height: 8vh;}
+    .navlink{font-size: 2.5vh;}
+    .mainwtext{font-size: 3rem;margin-top: 5vh;}
+    .mainbuttons{
+        width:100%;
+        grid-template-columns: auto;
+        gap:30px;
+    }
+    .mainbuttons button{
+        font-size: 3.2vh;
+        height:8vh;
+        width: 80vw;
+    }
+    .info1{
+        top: 100vh;
+        flex-direction: column;
+        height:70vh;
+        justify-content: center;
+    }
+    #about1{padding-top: 4vh;}
+    #about3{padding-bottom : 4vh;}
+    .about{width: 100%;}
+    .about h1{font-size:4vh;text-align: center;}
+    .about p{font-size: 2.5vh;text-align:center;}
+    .bar{transform: rotate(90deg);width:3px;}
+
+    .wrapper{width:90%;}
+    .productspic{width:80%;margin: auto;}
+    .productstext h1{font-size: 4rem;}
+    .productstext p{font-size: 3rem;}
+    .products{
+        grid-template-columns: auto;
+        margin-top: 175vh;
+    }
+
+    .contactshead{
+        width:80%;
+        font-size: 5rem;
+    }
+    .contacts{
+        flex-direction: column;
+        gap:100px;
+    }
+    .adresses{flex-basis: 20vh;}
+    .adresses h2{font-size: 4rem;}
+    .adresses p{font-size: 2.6rem;}
+    .mapka{flex-basis: 30vh;}
+    
+    footer{
+        margin-top: 1200px;
+        flex-direction: column;
+        width:100%;
+        height:40vh;
+    }
+    .barfoot{
+        display: none;
+    }
+    .nazwy{display: none;}
+    .nazwy h1{margin:0;}
+    .nazwy h2{margin:0;}
+    .sociale{width:70%; margin: auto;}
+    .sociale span{gap:40px;}
+    .footerinfo{margin-bottom:60px;display: none;}
+
+    .copyright{height:3vh;};
+    .copyright p{font-size:20px;}
+}
+/*#endregion*/
+
+/*#region PHONES*/
+@media screen and (max-width: 688px){
+    
+}
+/*#endregion*/
+
+/*#region PHONES LANDSCAPE*/
+@media screen and (orientation:landscape) and (max-device-height:600px){
+    nav{ height:16vh;}
+    .navlink{font-size: 6vh;}
+    .mainwtext h1{font-size: 8vh;margin-top: 10vh;}
+    .mainwtext p{font-size: 6vh;margin-top: 0;}
+
+    .mainbuttons{grid-template-columns: auto auto;}
+    .mainbuttons button{width: 40vw;height:14vh;font-size: 6vh;}
+
+    .info1{
+        height: 50vh;
+        flex-direction: row;
+    }
+    .info1 h1{font-size: 8vh;}
+    .info1 p{font-size: 3.5vh;}
+    .bar{width: 1px;transform: rotate(0);height: 40vh;}
+
+    .products{
+        margin-top: 160vh;
+        grid-template-columns: auto auto;
+    }
+    .productstext h1{font-size: 2rem;}
+    .productstext p{font-size: 1.3rem;}
+    .productspic{width:100%;}
+
+    .contactshead{font-size: 3rem;width: 50%}
+    .contacts div{
+        height: 60vh;
+    }
+    #grid1{grid-area: grid1;}
+    #grid1 h2{font-size: 2rem;margin:0}
+    #grid1 span p{font-size: 1.5rem;margin:0;}
+    #grid2{grid-area: grid2;}
+    #grid3{grid-area: grid3;height:120vh;}
+    .contacts{
+        display: grid;
+        grid-template:
+        'grid1 grid2'
+        'grid3 grid3'/1fr 1fr;
+        gap:30px;
+    }
+
+    form label{font-size: 1.7rem;}
+    form input{font-size: 1.7rem;}
+    form button{font-size: 2rem;height:4rem;}
+
+    footer{margin-top: 600px;height:40vh;flex-direction: row;justify-content: space-between;padding:10vh 10vw;}
+    
+    .sociale{width:100%; margin: auto;flex-direction: row; justify-content: space-between}
+    .sociale span{gap:10px;}
+    .sociale img{height: 16vh;}
+    .sociale p{font-size: 4vh;}
+    .footerinfo{margin-bottom:60px;}
+    
+    .copyright{height:10vh;};
+
+
+
+}
+/*#endregion*/
+
+
+/*#region ANIMATIONS*/
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes leftSlide{
+    0%{opacity:0;transform: translateX(-300px);}
+    100%{opacity:1;transform: translateX(0);}
+}
+@keyframes mainFade{
+    0%{color:#8f8c8c;}
+    50%{color:white}
+    100%{color:#8f8c8c;}
+}
+@keyframes rotateLeft{
+    0%{transform: rotate(360deg);}
+    100%{transform: rotate(0);}
+}
+@keyframes rotateRight{
+    0%{transform: rotate(-360deg);}
+    100%{transform: rotate(0);}
+}
+
+/*#endregion*/

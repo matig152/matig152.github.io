@@ -1,10 +1,19 @@
 async function hidePreloader(){
     let preloader = document.querySelector('.preloader')
     //await new Promise(r => setTimeout(r, 2000)) 
-    preloader.style.top = "-100%"
+    preloader.style.top = "-100vh"
     pokazSzablon(szablonIndex);
 }
 
+//MOBILE MENU
+function closeMenu(){
+    let menu = document.getElementById("mobile-nav")
+    menu.style.left = "-50%"
+}
+function openMenu(){
+    let menu = document.getElementById("mobile-nav")
+    menu.style.left = "0"
+}
 
 
 //OPEN MATURA
@@ -34,7 +43,7 @@ function pokazSzablon(n) {
     let dalej = document.getElementById("szablony-przycisk-prawo");
     let wstecz = document.getElementById("szablony-przycisk-lewo");
     let zobacz = document.getElementById("szablony-info-przycisk");
-    img.src = `/imgs/szablon${n}.png`
+    img.src = `/szablon${n}/szablon${n}img.png`
     title.innerHTML = `&gt; Szablon #${n}`
     zobacz.onclick = function() {location.href = `szablon${n}.html`}
 
@@ -61,16 +70,16 @@ function pokazSzablon(n) {
 
     switch (n){
         case 1:
-            desc.innerHTML = "To jest przykładowy opis szablonu 1.";
+            desc.innerHTML = "Strona typu OnePage - bez zakładek. Dynamiczna grafika oraz animacje.";
             break;
         case 2:
-            desc.innerHTML = "To jest przykładowy opis szablonu 2.";
+            desc.innerHTML = "Strona całkowicie w oparciu o grafiki, również typu OnePage.";
             break;
         case 3:
-            desc.innerHTML = "To jest przykładowy opis szablonu 3.";
+            desc.innerHTML = "Klasyczna strona z przykładowymi zakładkami.";
             break;
         case 4:
-            desc.innerHTML = "To jest przykładowy opis szablonu 4.";
+            desc.innerHTML = "Strona z zakładkami, połączona z dużymi grafikami i prostym interfejsem.";
             break;
     }
 }
@@ -95,6 +104,7 @@ function sendMail(){
         return;
     }
     emailjs.send("service_8cdqnsf", "template_hz1sklm", params).then(openMail())
+    
 }
 
 function openMail(){

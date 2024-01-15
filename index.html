@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebDev Portfol</title>
+    <title>Portfolio - Mateusz Grzelik</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
     <script type="text/javascript"
@@ -14,7 +14,7 @@
         emailjs.init("4Ki_3h_jxYJQ7dN-J");
     })();
     </script>
-
+    <link rel="icon" type="image/x-icon" href="/imgs/ikonaPortfolio.png">
 </head>
 <body onload="hidePreloader()">
     <div class="preloader">
@@ -29,6 +29,19 @@
     </div>
 
     <nav>
+        <a onclick="mojeProjekty()">MOJE PROJEKTY</a>
+        <a onclick="mojeSzablony()">MOJE SZABLONY</a>
+        <a onclick="kontakt()">KONTAKT</a>
+        <a onclick="oMnie()">O MNIE</a>
+    </nav>
+
+    <div onclick="openMenu()" id="mobile-menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="mobile-nav">
+        <span onclick="closeMenu()">&#10005;</span>
         <a onclick="mojeProjekty()">MOJE PROJEKTY</a>
         <a onclick="mojeSzablony()">MOJE SZABLONY</a>
         <a onclick="kontakt()">KONTAKT</a>
@@ -50,13 +63,7 @@
 
 
 
-    <div class="scroll-container">
-        <section class="scroll-section"></section>
-        <section class="scroll-section"></section>
-        <section class="scroll-section"></section>
-        <section class="scroll-section"></section>
-        <section class="scroll-section" id="section-last"></section>
-    </div>
+ 
 
     <div class="landing-page">
         <div class="landing-page-info">
@@ -110,7 +117,7 @@
         </div>
         <div class="main-grid-area" id="moje-szablony">
             <div class="szablony-screen">
-                <img id="szablony-screen-img" src="imgs/szablon1.png">
+                <img id="szablony-screen-img" src="szablon1/szablon1img.png">
                 <div class="szablony-screen-buttons">
                     <button class="szablony-przycisk" id="szablony-przycisk-lewo" onclick="plusDivs(-1)">&lt; Wstecz</button>
                     <button class="szablony-przycisk" id="szablony-przycisk-prawo" onclick="plusDivs(+1)">Dalej &gt;</button>

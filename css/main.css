@@ -115,11 +115,9 @@ nav a:hover{
     color: white;
     background-size: 80% 5%;
 }
-
+#mobile-nav{display: none;}
+#mobile-menu-icon{display: none;}
 /*SCROLL SECTIONS*/
-html{
-    scroll-snap-type: y mandatory;
-}
 .scroll-container{
     position: absolute;
     display: flex;
@@ -130,7 +128,7 @@ html{
 }
 .scroll-section{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     scroll-snap-align: start;
     scroll-margin-block-start: 100px;
 }
@@ -566,7 +564,159 @@ footer p{
 
 /*#region MOBILE - VERTICAL*/
 @media only screen and (max-width: 992px) {
+    /*NAVBAR*/
+    #mobile-menu-icon{
+        padding: 10px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        top: 20px;
+        right: 4%;
+        width: 40px;
+        height:30px;
+        border: 1px solid var(--onsecondary);
+        backdrop-filter: blur(100px) brightness(0.4);
+        z-index: 100;
+    }
+    #mobile-menu-icon span{
+        width: 100%;
+        height: 4px;
+        background-color: var(--onsecondary);
+        border-radius: 3px;
+    }
+    nav{display: none;}
+    #mobile-nav{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-right: 1px solid var(--onsecondary);
+        width: 40%;
+        height: 100vh;
+        border-radius: 0;
+        left:-50%;
+        top:0;
+        transition: all .3s;
+        z-index: 101;
+    }
+    #mobile-nav a{
+        text-align: center;
+    }
+    #mobile-nav span{
+        text-align: left;
+        margin-left: 10px;
+        padding-bottom: 30px;
+    }
+    /*LANDING PAGE*/
+    .landing-page{
+        grid-template-columns: 1fr;
+        height: calc(80vh - 90px);
+        width: 90%;
+        margin: auto;
+        margin-top: 120px;
+    }
+
+    .landing-page-info{
+        text-align: center;
+    }
+    .landing-page-info button{display: none;}
+    .landing-page-info h1{
+        font-size: 2rem;
+    }
+    .landing-page-info p{
+       font-size: 1rem;
+    }
+
+
     
+
+    /*MAINGRID*/
+    .main-grid{
+        margin-top: 150px;
+        display: grid;
+        width: 95%;
+        grid-template-columns: 1fr 10fr;
+        gap:0;
+    }
+    .main-grid-area{
+        margin-top: 100px;
+        width: 90%;
+        height: 85vh;
+        margin-left: 0;
+    }
+    #linia{
+        left: 7vw;
+        top: calc(80vh + 200px);
+        height: calc(255vh + 480px);
+    }
+    .dot{ left: calc(7vw - 10.5px); }
+    #dot1{top: calc(80vh + 200px);}
+    #dot2{top: calc(165vh + 360px);}
+    #dot3{top: calc(250vh + 520px);}
+    #dot4{top: calc(335vh + 680px);}
+    
+    .side-line-text{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        left: calc(7vw + 32px);
+    }
+    #side-line-text1{top:calc(80vh + 190px)}
+    #side-line-text2{top:calc(165vh + 350px)}
+    #side-line-text3{top:calc(250vh + 510px)}
+    #side-line-text4{top:calc(335vh + 670px)}
+    
+    .side-line-desc{display: none;}
+    #side-line-desc1{top: 110vh;}
+    #side-line-desc2{top: 210vh;}
+    #side-line-desc3{top: 305vh;}
+    #side-line-desc4{top: 405vh;}
+    
+    
+    /*PROJEKTY*/
+    #moje-projekty{
+        height:85vh;
+    }
+    #matura365{
+        grid-template:
+        'tytul'
+        'img'
+        'opis'
+        'przycisk';
+    }
+    #matura365 img{
+        width: 95%;
+        padding: 5px;
+    }
+    #matura365 h1{font-size: 2.2rem;}
+    #matura365 button{width: 80%;}
+    #matura365 p{font-size: 1.5rem; }
+    
+    /*SZABLONY*/
+    #moje-szablony{
+        grid-template-columns: 1fr;
+    }
+
+    #szablony-screen-img{
+        width:94%;
+        height: auto;
+        padding: 5px;
+    }
+    .szablony-przycisk{width: 120px;}
+
+
+    /*KONTAKT*/
+    .kontakt-info{display: none;}
+    #kontakt form{display: none;}
+    /*O MNIE*/
+    #o-mnie img{display: none;}
+
+    /*FOOTER*/
+    footer{display: none;}
+
+
 }
 /*#endregion MOBILE - VERTICAL*/
 
