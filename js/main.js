@@ -63,11 +63,6 @@ function pokazSzablon(n) {
         dalej.style.opacity="0%";
         dalej.disabled=true;
     }
-    
-    
-    
-    
-
     switch (n){
         case 1:
             desc.innerHTML = "Strona typu OnePage - bez zakładek. Dynamiczna grafika oraz animacje.";
@@ -104,6 +99,7 @@ function sendMail(){
         return;
     }
     emailjs.send("service_8cdqnsf", "template_hz1sklm", params).then(openMail())
+    
     
 }
 
