@@ -3,6 +3,10 @@ async function hidePreloader(){
     //await new Promise(r => setTimeout(r, 2000)) 
     preloader.style.top = "-100%"
     pokazSzablon(szablonIndex);
+    let x = window.matchMedia("(max-width:966px)");
+    if(x.matches){
+        darkenNavbar();
+    }
 }
 
 
@@ -54,11 +58,6 @@ function pokazSzablon(n) {
         dalej.style.opacity="0%";
         dalej.disabled=true;
     }
-    
-    
-    
-    
-
     switch (n){
         case 1:
             desc.innerHTML = "To jest przykładowy opis szablonu 1.";
@@ -75,7 +74,19 @@ function pokazSzablon(n) {
     }
 }
 
+//ON SCROLL MOBILE
+function darkenNavbar() {
+    let navbar = document.getElementsByTagName('nav')[0]
+    addEventListener("scroll", (event)=> {
+        if(document.documentElement.scrollTop == 0){navbar.style.background = 'none'}
+        else{navbar.style.background = 'var(--primary)'}
+    })
+}
 
+
+
+
+//MAIL
 function sendMail(){
     let params = {
         imie: document.getElementById("imie").value,
