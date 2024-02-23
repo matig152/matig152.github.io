@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Template2</title>
+</head>
+<body onload="lighten()">
+    <div id="loader">
+        <img id="load1"src="pictures/1.png">
+        <img id="load2"src="pictures/2.png">
+    </div>
+    <nav>
+        <ul>
+            <li onclick="glowna()"><a style="cursor:pointer" class="navlink" >GŁÓWNA</a></li>
+            <li onclick="poznaj()"><a style="cursor:pointer" class="navlink">POZNAJ NAS</a></li>
+            <li onclick="kontakt()"><a style="cursor:pointer" class="navlink">KONTAKT</a></li>
+        </ul>
+    </nav>
+    <div class="mainw" id="mainw">
+        <span class="mainwtext"><h1>NAZWA FIRMY</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ante, eleifend eu venenatis ac, varius vel elit. Sed in nunc at metus convallis euismod. Sed placerat molestie posuere. Sed nec lorem sed tortor lacinia faucibus.</p></span>
+        <span class="mainbuttons">
+            <button>UMÓW WIZYTĘ</button>
+            <button>NAPISZ DO NAS</button>
+        </span>
+    </div>
+    <img class="topphoto" src="pictures/tlo.png">
+    <div class="info1">
+        <span class="about" id="about1"><h1>Lorem Ipsum</h1><p>Mauris ante lorem, ultricies nec dictum vel, varius consectetur leo.</p></span>
+        <span class="bar"></span>
+        <span class="about" id="about2"><h1>Dolor sit amet</h1><p>Phasellus tincidunt facilisis turpis, hendrerit cursus mauris pretium at.</p></span>
+        <span class="bar"></span>
+        <span class="about" id="about3"><h1>Consectetur adipiscing</h1><p>Aenean vitae consequat orci. Nulla sed lobortis nunc. Donec a nibh a quam hendrerit auctor.</p></span>
+    </div>
+    <div class="wrapper">
+        <div class="products">
+            
+            <span class="productstext"><h1 class="nagl">Lorem Ipsum</h1><p>Vivamus neque ligula, condimentum dictum urna iaculis, hendrerit efficitur tortor. Proin in egestas justo. In maximus erat in tortor cursus euismod. Quisque cursus posuere sapien at tincidunt. Etiam in congue quam. Nam cursus egestas ipsum sed rutrum. Nulla vitae metus eu nisl lobortis congue. Praesent ex orci, vulputate vel porttitor non, efficitur vitae leo.</p></span>
+            <img class="productspic" src="pictures/product1.jpg">
+            
+            <span class="productstext"><h1 class="nagl">Dolor sit amet</h1><p>Vivamus neque ligula, condimentum dictum urna iaculis, hendrerit efficitur tortor. Proin in egestas justo. In maximus erat in tortor cursus euismod. Quisque cursus posuere sapien at tincidunt. Etiam in congue quam. Nam cursus egestas ipsum sed rutrum. Nulla vitae metus eu nisl lobortis congue. Praesent ex orci, vulputate vel porttitor non, efficitur vitae leo.</p></span>
+            <img class="productspic" src="pictures/product2.jpg">
+            <span class="productstext"><h1 class="nagl">Consectetur adipiscing</h1><p>Vivamus neque ligula, condimentum dictum urna iaculis, hendrerit efficitur tortor. Proin in egestas justo. In maximus erat in tortor cursus euismod. Quisque cursus posuere sapien at tincidunt. Etiam in congue quam. Nam cursus egestas ipsum sed rutrum. Nulla vitae metus eu nisl lobortis congue. Praesent ex orci, vulputate vel porttitor non, efficitur vitae leo..</p></span>
+            <img class="productspic" src="pictures/product1.jpg">
+        </div>
+    
+        <h1 class="contactshead">Jak nas znaleźć?</h1>
+        <div class="contacts">
+            <div class="adresses" id="grid1">
+                <h2>Dane kontaktowe</h2>
+                <span><p><b>Telefon:</b> +48 123456789</p>
+                <p><b>Email:</b> example@example.com</p>
+                <p><b>Adres:</b> Al. Jerozolimskie 1, Warszawa</p></span>
+            </div>
+            <div class="mapka" id="grid2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.771468958075!2d21.008331376963746!3d52.229369657705945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd0f6bc5740b%3A0x6f49f3b05782a163!2sal.%20Jerozolimskie%201%2C%2000-001%20Warszawa!5e0!3m2!1spl!2spl!4v1697379699968!5m2!1spl!2spl"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form" id="grid3">
+                <h1 style="font-size: 4vh;margin:0;">Wyślij nam wiadomość</h1>
+                <form>
+                    <span class="formgroup">
+                        <label for="Name" class="formlabel">Imię i Nazwisko:</label>
+                        <span class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </span>
+                    </span>
+                    <span class="formgroup">
+                        <label for="Email" class="formlabel">Adres email:</label>
+                        <span class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </span>
+                    </span>
+                    <span class="formgroup">
+                        <label for="Message" class="formlabel">Wiadomość:</label>
+                        <span class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </span>
+                    </span>
+                    <button type="submit">Wyślij</button>
+                </form> 
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        
+        <div class="nazwy">
+            <h1>NAZWA FIRMY</h1>
+            <h2>Slogan Firmy</h2>
+        </div>
+        <span class="barfoot"></span>
+        <div class="sociale">
+            <a href="https://www.facebook.com"><span><img src="pictures/fblogo.png"><p>FirmowyFacebook</p></span></a>
+            <a href="https://www.instagram.com"><span><img src="pictures/iglogo.png"><p>@firmowyInstagram</p></span></a>
+            <a href="https://www.tiktok.com"><span><img src="pictures/tiktoklogo.png"><p>@firmowyTikTok</p></span></a>
+        </div>
+        <span class="barfoot"></span>
+        <div class="footerinfo">
+            Firma ABABAB<br>al. Jerozolimskie 1, Warszawa<br>KRS: 0000000000000
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Zaprojektował Mateusz Grzelik.<a>www.example.com</a></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template3</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="hidepreload()">
+    <div class="preloader">
+        <span class="loaderbar" id="bar1"></span>
+        <span class="loaderbar" id="bar2"></span>
+        <span class="loaderbar" id="bar3"></span>
+        <span class="loaderbar" id="bar4"></span>
+        <p>LOREM IPSUM</p>
+    </div>
+
+    <img class="logomain" src="pictures/logo1.png">
+    <nav>
+        <div onclick="mobilemenu()" class="mobileicon">
+            <span class="togglebar"></span>
+            <span class="togglebar"></span>
+            <span class="togglebar"></span>
+        </div>
+        <a onclick="glowna()">G Ł Ó W N A</a>
+        <a onclick="onas()">O  &nbsp;N A S</a>
+        <a onclick="uslugi()">U S Ł U G I</a>
+        <a onclick="kontakt()">K O N T A K T</a>
+    </nav>
+    
+    <img id="p1" class="photomain" src="pictures/bg2.jpg">
+    <img id="p2" class="photomain" src="pictures/bgmain.jpg">
+    <img id="p3" class="photomain" src="pictures/bg3.jpg">
+    <img id="p4" class="photomain" src="pictures/bg4.jpg">
+
+    <div class="mobilemen">
+        <a onclick="glownamobile()">GŁÓWNA</a>
+        <a onclick="onasmobile()">O NAS</a>
+        <a onclick="uslugimobile()">USŁUGI</a>
+        <a onclick="kontaktmobile()">KONTAKT</a>
+    </div>
+    <span class="mask" onclick="hidemenu()"></span>
+
+    <div class="maingrid">
+        <h1 class="maintext">Lorem ipsum</h1>
+        <p class="maintextp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non
+        </p>
+        <div class="mainbuttons">
+            <button class="mainbutton">LOREM IPSUM</button>
+            <button class="mainbutton" id="mainbut1">DOLOR SIT</button>
+        </div>
+    </div>
+
+    <div class="aboutus">
+        <div class="aboutusd">
+            <h1 class="aboutush1">Lorem ipsum</h1>
+            <img class="aboutusimg" src="pictures/product1.jpg">
+            <p class="aboutusp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+        </div>
+        <div class="aboutusd">
+            <h1 class="aboutush1">Lorem ipsum</h1>
+            <img class="aboutusimg" src="pictures/product2.jpg">
+            <p class="aboutusp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+        </div>
+        <div class="aboutusd">
+            <h1 class="aboutush1">Lorem ipsum</h1>
+            <img class="aboutusimg" src="pictures/product1.jpg">
+            <p class="aboutusp" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+        </div>
+    </div>
+
+
+    <div class="services">
+        <div class="servdiv">
+            <img src="pictures/usluga1.png">
+            <span>
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+            </span>
+        </div>
+        <div class="servdiv">
+            <img src="pictures/usluga1.png">
+            <span>
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+            </span>
+        </div>
+        <div class="servdiv">
+            <img src="pictures/usluga1.png">
+            <span>
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+            </span>
+        </div>
+        <div class="servdiv">
+            <img src="pictures/usluga1.png">
+            <span>
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tempus nisl. Sed non sodales risus. Maecenas gravida nisi lectus, vel faucibus mauris dignissim non</p>
+            </span>
+        </div>
+    </div>
+
+
+    <div class="contacts">
+        <div id="contactinfo" class="contactsdiv">
+            <p><b>Email:</b> example@example.com</p>
+            <p><b>Telefon:</b> +48 123456789</p>
+            <p><b>Adres:</b> Al. Jerozolimskie 1, 00-000 Warszawa</p>
+            <p><b>Strona internetowa:</b> www.example.com</p>
+        </div>
+        <div id="contactmap" class="contactsdiv">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.771468958075!2d21.008331376963746!3d52.229369657705945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd0f6bc5740b%3A0x6f49f3b05782a163!2sal.%20Jerozolimskie%201%2C%2000-001%20Warszawa!5e0!3m2!1spl!2spl!4v1697927928661!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="contactform" class="contactsdiv">
+            <h1 style="font-size: 3.5vh;margin:0;">Wyślij nam wiadomość</h1>
+                <form>
+                    <span class="formgroup">
+                        <label for="Name" class="formlabel">Imię i Nazwisko:</label>
+                        <span class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </span>
+                    </span>
+                    <span class="formgroup">
+                        <label for="Email" class="formlabel">Adres email:</label>
+                        <span class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </span>
+                    </span>
+                    <span class="formgroup">
+                        <label for="Message" class="formlabel">Wiadomość:</label>
+                        <span class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </span>
+                    </span>
+                    <button type="submit">WYŚLIJ</button>
+                </form> 
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footeradres"><p>Firma ABABA<br>al. Jerozolimskie 1, Warszawa<br>KRS: 00000000000</p></div>
+        <span class="footerbar"></span>
+        <div class="sociale">
+            <span><img src="pictures/fblogo.png"><p>Firm</p></span>
+            <span><img src="pictures/tiktoklogo.png"><p>@tiktok</p></span>
+            <span><img src="pictures/iglogo.png"><p>@instagram</p></span>
+            <span><img src="pictures/mail.png"><p>Mail</p></span>
+        </div>
+    </footer>
+</body>
+</html>

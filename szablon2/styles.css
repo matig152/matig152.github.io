@@ -1,0 +1,594 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*{box-sizing: border-box;}
+body{font-family: 'Raleway', sans-serif;font-size:2rem;margin:0;padding:0;color:white;}
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #8f8c8c;}
+::-webkit-scrollbar-thumb {background: black;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+
+/*#region PRELOADER*/
+.preloader{
+    position: fixed;
+    width:100%;
+    height:100vh;
+    z-index: 3;
+    background: black;
+    transition: opacity .3s;
+}
+.preloader p{
+    font-size: 30px;
+    position: fixed;
+    top: 80vh;
+    left: calc(50vw - 110px);
+    color:#604823;
+}
+.loaderbar{
+    border-radius: 2px;
+    background-color: #604823;
+    width:20px;
+    height: 100px;
+    position: fixed;
+    top: calc(50vh - 50px);
+    animation: .8s ease 0s infinite loader;
+}
+#bar1{left: calc(50vw - 55px);animation-delay: 0s;}
+#bar2{left: calc(50vw - 25px);animation-delay: .1s;}
+#bar3{left: calc(50vw + 5px);animation-delay: .2s;}
+#bar4{left: calc(50vw + 35px);animation-delay: .3s;}
+/*#endregion*/
+
+
+.photomain{
+    position: absolute;
+    left:0;
+    z-index: -1;
+    object-fit: cover;
+    width:100%;
+    height:100vh;
+    filter: brightness(0.4);
+}
+#p1{top:0}
+#p2{top:100vh}
+#p3{top:200vh}
+#p4{top:300vh}
+
+.logomain{
+    position: fixed;
+    height: 32vh;
+    top: 36vh;
+    left: 68vw;
+    margin:0;
+    padding: 0;
+    transition: all .6s;
+    z-index: 2;
+    border-radius: 40vh;
+    background-color: #60482354;
+}
+.mobileicon{display: none;}
+.mobilemen{display: none;}
+nav{
+    font-size: 3vh;
+    display: flex;
+    position: fixed;
+    padding: 6vh 10vw;
+    width:100%;
+    justify-content: space-between;
+    background-color: transparent;
+    transition: all .4s;
+    z-index: 1;
+}
+nav a{
+    padding-bottom: 1vh;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(transparent, transparent),linear-gradient(#604823, #604823);
+    background-repeat: no-repeat;
+    background-size: 100% 1px, 0% 1px;
+    background-position: 100% 100%, 0% 100%;
+    transition: all .3s;
+}
+nav a:hover{
+    background-size: 100% 1px, 100% 2px;
+    cursor: pointer;
+}
+
+
+
+/*GLOWNA*/
+.maingrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top:20vh;
+    left:8%;
+    height: 60vh;
+    width: 50%;
+}
+.maintext{
+    font-size: 8vh;
+    padding: 0;
+    margin: 0;
+}
+.maintextp{
+    font-size: 4vh;
+}
+.mainbuttons{
+    display: flex;
+    gap: 20px;
+}
+.mainbutton{
+    width: 20vw;
+    height: 8vh;
+    font-size: 3vh;
+    font-family: Raleway;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #6048237e;
+    color: white;
+    transition: all .2s;
+}
+
+.mainbutton:hover{
+    background-color: #604823;
+}
+
+/*O NAS*/
+.aboutus{
+    position: absolute;
+    top: 115vh;
+    left:5%;
+    width:90%;
+    height:82vh;
+    
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutusd{
+    border: 2px solid #604823;
+    width:30%;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    display: grid;
+    place-items: center;
+    transform: scaleY(0);
+    transition: transform .6s;
+    transition-delay: .6s;
+}
+.aboutusd.show{
+    transform: scaleY(1);
+}
+.aboutusimg{
+    width: 80%;
+    border-radius: 30px;
+}
+.aboutusp{
+    text-align: center;
+    margin: 10px;
+    font-size: 3vh;
+}
+.aboutush1{
+    font-size: 6vh;
+    margin:0;
+    padding-bottom: 1vh;
+    background: linear-gradient(transparent, transparent),linear-gradient(#604823, #604823);
+    background-repeat: no-repeat;
+    background-size: 100% 1px, 100% 0px;
+    background-position: 100% 100%, 0% 100%;
+    transition: opacity 1s ease-in 1.4s, background-position 1s ease-in 2s;
+}
+
+/*USLUGI*/
+.services{
+    width:90%;
+    height:82vh;
+    position: absolute;
+    top: 215vh;
+    left:5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+.servdiv{
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 2px solid #604823;
+    padding: 20px;
+    display: grid;
+    gap:40px;
+    grid-template-columns: 1fr 2fr;
+    place-content: center;
+    transform: scaleX(0);
+    transition: all .3s ease .8s;
+}
+.servdiv.show{
+    transform: scaleX(1);
+}
+.servdiv img{
+   height:30vh;
+}
+.servdiv h1{
+    font-size: 4vh;
+}
+.servdiv p{
+    font-size: 2.5vh;
+}
+
+
+/*KONTAKT*/
+#contactinfo{
+    grid-area: info;
+    padding: 20px;
+    font-size: 3vh;
+}
+#contactmap{grid-area: map;}
+#contactform{grid-area: form;padding:20px 40px}
+
+.contacts{
+    position: absolute;
+    top: 315vh;
+    left:5%;
+    width:90%;
+    height:82vh;
+    display: grid;
+    gap: 20px;
+    grid-template:
+    'info form'
+    'map form'/2fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+.contactsdiv{
+    height:100%;
+    border: 2px solid #604823;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    transform: scale(0);
+    transition: transform .4s;
+    transition-delay: 0.6s;
+}
+.contactsdiv.show{
+    transform: scale(1);
+}
+.contacts iframe{
+    height:100%;
+    width:100%;
+    border-radius: 30px;
+}
+form{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+form input{
+    border-radius: 10px;
+    border:1px solid #604823;
+    background-color: #60482365;
+    color: white;
+    width:100%;
+    font-size: 3vh;
+    font-family: Raleway;
+}
+form textarea{
+    border-radius: 10px;
+    border:1px solid #604823;
+    background-color: #60482365;
+    color: white;
+    width:100%;
+    height:20vh;
+    font-size: 3vh;
+    font-family: Raleway;
+    resize: none;
+
+}
+.contacts h1{
+    font-size: 4vh;
+    padding-bottom: 1vh;
+}
+.formlabel{
+     font-size: 3vh;
+}
+form button{
+    font-size: 3vh;
+    font-family: Raleway;
+    background-color: #604823bb;
+    border-radius: 10px;
+    border:1px solid black;
+    width:100%;
+    height: 7vh;
+    color:white;
+    transition: all .4s;
+}
+form button:hover{
+    background-color: #806133;
+}
+
+/*FOOTER*/
+footer{
+    width:100%;
+    height: 30vh;
+    background-color: black;
+    position: absolute;
+    top:400vh;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footerbar{
+    width:1px;
+    background-color: #241a0a;
+    height: 100%;
+}
+footer div{
+    text-align: left;
+    font-size: 4vh;
+    flex-basis:30%;
+    flex-shrink: none;
+    flex-grow: none;
+    display: grid;
+    place-content: center;
+}
+.sociale{
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-content: center;
+    gap: 40px;
+}
+.sociale span{
+    display: grid;
+    place-content: center center;
+    padding:10px 40px;
+    transition: all .2s;
+    border-radius: 30px;
+}
+.sociale span:hover{
+    background-color: #60482334;
+}
+footer img{
+    height: 14vh;
+    border:4px solid #604823;
+    background-color: white;
+    padding:4px;
+    border-radius: 100px;
+}
+.sociale p{font-size: 2vh;text-align: center;}
+
+/**/
+
+/*#region TABLETS*/
+@media screen and (max-width: 992px){
+    .photomain{height:200vh;}
+    #p1{top:0;height:100vh;}
+    #p2{top:100vh}
+    #p3{top:300vh}
+    #p4{top:500vh}
+    nav{justify-content: right;}
+    nav a{display: none;}
+
+    /*MENU*/
+    .mobileicon{
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        gap: 2vh;
+    }
+    .togglebar{
+        height: .1vh;
+        width:16vw;
+        background-color: white;
+    }
+    .mobilemen{
+        display: flex;
+        flex-direction: column;
+        gap:3vh;
+        padding-top:20%;
+        position: fixed;
+        top:0;
+        left:0;
+        background: #604823;
+        width: 0;
+        overflow:hidden;
+        height:100%;
+        z-index: 2;
+        transition: width .6s ease, padding .5s ease;
+        box-shadow: 2px 2px 0px black;
+    }
+    .mobilemen a{
+        font-size: 4vh;
+        text-wrap: nowrap;
+    }
+    .mask{
+        display: none;
+        opacity: 0;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 1;
+        width:100%;
+        height:100vh;
+        background-color: #000000a4;
+        transition: all .5s ease;
+    }
+
+    .maingrid{
+        display: grid;
+        width:85%;
+        top: 20vh;
+        height: 60vh;
+    }
+    .maintext{font-size: 6vh;}
+    .maintextp{font-size: 3vh;}
+    .mainbuttons{flex-direction: column;}
+    .mainbutton{width:60vw;}
+    .logomain{
+        display: block;
+        opacity: 0;
+        top: 2.5vh;
+        left: calc(10vw - 50px);
+        height: 8vh;
+        border: 1px solid white;
+        transition: all .2s;
+    }
+    
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        height: 184vh;
+    }
+    .aboutusd{
+        height: 60vh;
+        width:100%;
+        border: 4px solid #604823;
+        gap: 30px;
+    }
+    .aboutush1{font-size: 4vh;}
+    .aboutusp{font-size: 2.5vh;}
+    .aboutusimg{height:20vh;width: auto;}
+
+
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        top: 314vh;
+        height: 184vh;
+        gap:2vh;
+    }
+    .servdiv{
+        grid-template-columns: auto;
+        place-items: center;
+        height: 44.5vh;
+    }
+    .servdiv img{
+        height: 20vh;
+        width: auto;
+    }
+    .servdiv span h1{font-size: 3vh;text-align: center;}
+    .servdiv span p{font-size: 2vh;text-align: center;}
+
+
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        justify-content: space-between;
+        top: 514vh;
+        height:184vh;
+    }
+    #contactinfo{height:auto;}
+    #contactmap{height:50vh;}
+    #contactform{height: 100vh;}
+    .contactsdiv p{font-size: 3vh;}
+    #contactform textarea{height:50vh;}
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        top: 700vh;
+        height: 60vh;
+    }
+    .footerbar{display: none;}
+    .sociale{
+        grid-template-columns: 1fr 1fr;
+    }
+    .sociale img{
+        height: 10vh;
+    }
+    .sociale p{
+        font-size: 2vh;
+    }
+    .footeradres{
+        text-align: center;
+        font-size: 2.5vh;
+    }
+}
+/*#endregion TABLETS*/
+
+
+/*#region PHONE HORIZONTAL*/
+@media screen and (orientation:landscape) and (max-device-height:600px){
+    .photomain{height:100vh;}
+    #p1{top:0;height:100vh;}
+    #p2{top:100vh}
+    #p3{top:200vh}
+    #p4{top:300vh;height:200vh;}
+
+    .mobileicon{width:10vh;}
+    .togglebar{width:10vh;height:2px;}
+    .logomain{left:8vw;height:10vh;top:2vh;}
+    .mobilemen{padding-top:20vh;}
+    .mobilemen a{font-size: 10vh;}
+
+    .maingrid{width:70%;}
+    .maintext{font-size: 10vh;}
+    .maintextp{font-size: 5vh;}
+    .mainbuttons{flex-direction: row;}
+    .mainbutton{width:30vw;height:12vh;font-size: 5vh;}
+
+
+    .aboutus{flex-direction: row;top:118vh;height: 80vh;gap:1vw;}
+    .aboutusd{height: 100%;border-width: 1px;}
+    .aboutush1{font-size: 6vh;}
+    .aboutusp{font-size: 3vh;}
+    .aboutusimg{height:30vh;}
+
+    .services{
+        top:216vh;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        height:83vh;
+    }
+    .servdiv{
+        height: 40vh;
+        grid-template-columns: auto auto;
+    }
+    .servdiv img{height:35vh;}
+    .servdiv span h1{font-size: 5vh;text-align: left;}
+    .servdiv span p{font-size: 3vh;text-align: left;}
+
+    .contacts{
+        top: 316vh;
+        display: grid;
+        height: 180vh;
+    }
+
+    #contactinfo p{font-size: 4.5vh;}
+    #contactinfo{height:70vh;}
+    #contactmap{height:100vh;}
+    #contactform{height:100%;}
+
+    .formlabel{font-size: 5vh;}
+    .fcf-form-control{font-size: 5vh;}
+
+
+    footer{
+        top:500vh;
+        height:50vh;
+        flex-direction: row;
+    }
+    .footeradres{font-size: 4vh;}
+    .sociale{grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .sociale img{height:24vh;}
+    .sociale span{padding: 0;}
+    .sociale span p{font-size: 4vh;}
+
+
+
+}
+
+
+
+/*#endregion*/
+
+
+
+/*ANIMATIONS*/
+@keyframes loader {
+    0%{}
+    50%{height: 160px;top: calc(50vh - 80px);}
+    100%{}
+}

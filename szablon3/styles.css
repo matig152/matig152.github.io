@@ -1,0 +1,795 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+
+/*COLORS*/
+:root{
+    /*--primary:#ee780a;
+    --primaryvar1: #f7b06e;
+    --secondary: white;
+    --bg: #f3d1b2;
+    --shadowcol: #888888;
+    --onPrimary: black;*/
+
+    --primary:#0471A6;
+    --primaryvar1: #3685B5;
+    --secondary: #89AAE6;
+    --bg: #87dbdb;
+    --shadowcol: #888888;
+    --onPrimary: black;
+
+    /*--primary:#7b8096;
+    --primaryvar1: #3c5377;
+    --secondary: #406E8E;
+    --bg: #CBF7ED;
+    --shadowcol: #888888;
+    --onPrimary: black;*/
+}
+
+
+*{box-sizing: border-box;}
+body{margin:0;padding: 0;font-family: 'Rajdhani';background-color: var(--bg)}
+
+/*#region DESKTOP*/
+.navbar{
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #736b73;
+    font-weight: 500;
+    background: linear-gradient(90deg, var(--secondary), var(--primary));
+    box-shadow: #888 0 1px 4px;
+    z-index: 1;
+}
+.brandlogo{margin-top: 7px;}
+#logologo{height:55px;}
+.navbarlinks ul{
+    animation: fadeIn .5s;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbarlinks li{
+    list-style: none;
+}
+.navbarlinks li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1rem 1.2rem;
+    color: var(--onPrimary);
+    display: block;
+    
+}
+.navbarlinks li a:hover{
+    font-weight: 800;
+}
+.toggle-button{display: none;}
+.mobilemenu{display: none;}
+
+/*SOCIALE*/
+.socialside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: linear-gradient(to top, var(--primaryvar1), var(--primary));
+    border-radius: 20px;
+    margin-top: 5rem;
+    width: 4rem;
+    animation: rollSide .6s;
+    justify-content: space-between;
+    right: -1rem;
+    padding: .2rem 0;
+    box-shadow: #888 0 2px 6px;
+    transition: width .4s ease-out;
+}
+.socialside a{
+    list-style: none;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: .6rem;
+}
+.socialside:hover{
+    width: 5rem;
+}
+/*WRAPPER*/
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 5rem;
+    background-color: white;
+    border: 3px ridge var(--primary);
+    border-radius: 30px;
+    box-shadow: 6px 0 10px -4px #888888, -5px 0 10px -4px #888888,6px 4px 10px -4px #888888;
+}
+
+.welcomebar{
+    width:1194px;
+    height:15rem;
+    padding:0;
+    margin:0;
+    margin-top: 1rem;
+    margin-left: -16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    background-color: var(--primary);
+    color:var(--onPrimary);
+    font-size: 2rem;
+    place-items: center;
+    animation: fadeIn .5s;
+}
+.welcomebar h1{
+    text-align: right;
+}
+.welcomebar img{height: 12rem}
+
+
+.mainf{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    column-gap: 40px;
+    padding: 2rem;
+    animation: fadeIn .5s;
+}
+.mainfpicture{
+    padding: 30px 30px 24px 30px;
+    border: 4px solid var(--primary);
+    border-radius: 180px;
+    transition: padding .2s ease;
+    box-shadow: 6px 0 20px -4px #888888, -5px 0 10px -4px #888888,6px 4px 10px -4px #888888;
+}
+.mainfpicture:hover{
+    padding: 10px 10px 4px 10px;
+}
+.picturef{
+    height: 250px;
+    animation: fadeIn 1s;
+}
+.mainf h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.mainf p{
+    padding-top: 1.6rem;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.about h1{
+    grid-area: nagloweka;
+    text-align: center;
+    font-size: 4rem;
+    transition: border-bottom 1s;
+    background-image: linear-gradient(white, white),linear-gradient(var(--primary), var(--primary));
+    background-size: 100% 4px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s;
+}
+
+.underline.show{
+    transition-delay: .2s;
+    background-size: 0 4px, 100% 4px;
+}
+
+.picturea{
+    grid-area: obraza;
+    height: 38rem;
+    padding: 1rem;
+    border: 4px solid var(--primary);
+    border-radius: 90px;
+    box-shadow: 6px 0 20px -4px #888888, -5px 0 10px -4px #888888,6px 4px 10px -4px #888888;
+    opacity:0;
+    transform: translateX(-100px);
+    transition: .4s;   
+}
+
+.picturea:hover{
+    padding:0;
+}
+
+.picturea.show{
+    opacity: 1;
+    transform:translateX(0);
+}
+
+
+.about p{
+    font-size: 1.8rem;
+    grid-area: teksta;
+    opacity:0;
+}
+.aboutp.show{
+    opacity:1;
+    transition: .4s;
+}
+.about{
+    display: grid;
+    grid-template:
+    'nagloweka nagloweka'
+    'obraza teksta'/1fr 1fr;
+    
+    margin: 1rem 4rem;
+    margin-top: 0;
+    column-gap: 3rem;
+    place-items: center;
+}
+#about1{
+    grid-template:
+    'nagloweka nagloweka'
+    'teksta obraza'/1fr 1fr;
+}
+
+/*O NAS*/
+.onas{
+    display: grid;
+    margin: 20px 100px 20px 100px;
+    padding: 40px;
+    gap: 80px;
+    grid-template-columns: auto auto;
+    place-items: center center;
+}
+.onaspicture{
+    height: 24rem;
+    padding: 0;
+    border: 2px solid var(--primary);
+    border-radius: 400px;
+    box-shadow: 20 0 0 #888;
+    transition: all .7s;
+    opacity:1;}
+.onaspicture.show{opacity:1;box-shadow: 10px 20px 20px var(--primaryvar1);}
+.onaspicture:hover{transform: scale(1.05);}
+.onasnaglowek{
+    margin-top: 0;
+    margin:auto;
+    padding-bottom: 6px;
+    width: 500px;
+    animation: fadeIn 2s;
+    font-size: 4rem; 
+    text-align: center;
+    background-image: linear-gradient(white, white),linear-gradient(var(--primary), var(--primary));
+    background-size: 100% 4px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s;
+}
+.onasnaglowek.show{
+    transition-delay: 0s;
+    background-size: 0 4px, 100% 4px;
+}
+.onas p{font-size: 1.2rem;}
+.onas h2{font-size: 2.5rem;}
+.onastext{opacity:0; transform: translateX(100px);transition: all .7s;}
+.onastext.show{opacity:1; transform: translateX(0);}
+
+
+/*KONAKT*/
+.kontaktnaglowek{
+    text-align: center;
+    font-size: 4rem;
+    animation: fadeIn .5s;
+}
+iframe{
+    width: 500px;
+    margin: auto;
+    height: 500px;
+    border: 4px solid var(--primary);
+    border-radius: 30px;
+    animation: fadeIn .5s;
+    background-image: url(pictures/wczyt.png);
+    background-size: cover;
+}
+.adresy p{
+    font-size: 1.6rem;
+    text-align: left;
+}
+.kontaktgrid img{
+    height:2.7rem;
+}
+.adresy{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+    place-items: center left;
+    animation: fadeIn .5s;
+}
+#adresy{grid-area: adr}
+#mapka{grid-area: map;}
+#adresysocial{
+    grid-area: soc;
+    width:80%;
+    place-content: center;
+}
+#adresysocial h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.socialikony{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 40px;
+    width: 100%;
+}
+.socialikony img{
+    height: 6rem;
+    text-align: center;
+    margin: auto;
+    
+}
+.socialikony p{
+    text-align: center;
+    font-size: 2rem;
+}
+.socialikony span{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: auto;
+    height: 1fr;
+    border: 2px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-radius: 30px;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    justify-items: center center;
+    
+}
+
+.socialikony span:hover{
+    border: 2px solid var(--primary)   ;
+    border-bottom: 6px solid var(--primary);
+    box-shadow: 6px 0 20px -4px #888888, -5px 0 10px -4px #888888,6px 4px 10px -4px #888888;
+}
+
+.kontaktgrid{
+    width:100%;
+    padding: 30px;
+    gap: 40px;
+    display: grid;
+    place-items: center;
+    grid-template:
+    'adr map'
+    'soc soc';
+    grid-template-columns: auto 600px;
+}
+
+
+
+/*FOOTER*/
+.footer{
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    background: linear-gradient(to top, white, var(--bg));
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    padding: 0 4rem;
+    margin: auto;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+    height: 14rem;
+}
+.footericon{
+    height: 3rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.footer p{
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--onPrimary)
+}
+.contacts{
+    border: 2px solid var(--primary);
+    border-radius: 5rem;
+    background: linear-gradient(2deg, var(--primary), var(--primaryvar1));
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 1fr;
+    transition: transform .1s;
+    box-shadow: 6px 10px 10px -4px #888888;
+}
+.contacts:hover{
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+
+/*#endregion*/
+
+/*#region LAPTOP*/
+@media screen and (max-width: 1366px){
+
+    /*WRAPPER*/
+    .wrapper{
+        width: 860px;
+        margin: auto;
+    }
+    .welcomebar{width:855px;}
+    .welcomebar h1{font-size: 3.5rem;}
+    .mainf{padding: 1rem;}
+    .mainfpicture{padding: 20px 20px 15px 20px;}
+    .mainfpicture:hover{padding: 10px 10px 5px 10px;}
+    .picturef{height: 168px;}
+    .mainf h1{font-size: 1.6rem;}
+    .mainf p{font-size: 1rem;}
+
+    .about h1{font-size: 2.8rem;}
+    .about img{height: 30rem;}
+    .about p{font-size: 1.2rem;}
+    .about{margin: 1rem 1rem;}
+
+    /*KONTAKT*/
+    .kontaktnaglowek{font-size: 3rem;}
+    .kontaktgrid{
+        place-items: center;
+        width: 800px;
+        
+        margin: auto;
+        grid-template-columns: auto 450px;
+        gap: 10px;
+        padding: 10px;
+    }
+    #mapka{
+        width:380px;
+        height:400px;
+    }
+    .adresy{padding: 0;}
+    .adresy img{height: 2rem;}
+    .adresy p{ font-size: 1.2rem;}
+    #adresysocial{width: 800px;margin: auto;}
+    .socialikony span{width:200px;height:200px;}
+    .socialikony img{height: 4rem;}
+    .socialikony p{font-size: 1.6rem;}
+    .socialikony{width:700px;gap:40px;margin:auto;justify-content: center;}
+    
+    /*O NAS*/
+    .onas{margin:0;padding: 30px 40px 30px 50px;column-gap:30px;}
+    .onaspicture{height: 20rem;}
+    .onastext p{font-size: 1rem;}
+    
+}
+/*#endregion*/
+
+/*#region TABLETS*/
+@media screen and (max-width: 992px){
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height:8vh;
+    }
+    .navbarlinks{display: none;}
+    .toggle-button{
+        position: absolute;
+        top: 2vh;
+        right: 2vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 5vh;
+        height: 4vh;
+    }
+    #logologo{height:5vh;width:auto;}
+    .brandlogo{
+        margin-top: 1.5vh;
+        margin-left: 0;
+    }
+    .toggle-button .bar{
+        height: 6px;
+        width: 100%;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .mobilemenu{
+        display: flex;
+        justify-items: space-around;
+        align-items: center;
+        overflow: hidden;
+        position: fixed;
+        top:8vh;
+        height: 0rem;
+        width:100%;
+        background-color: var(--primaryvar1);
+        transition: height .3s;
+        z-index: 1;
+    }
+    .mobilemenu li{
+        list-style: none;
+        text-align: left;
+    }
+    .mobilemenu li a{
+        text-decoration: none;
+        font-size: 70px;
+        color: black;
+    }
+    
+    /*WRAPPER*/
+    
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 200px;
+        padding-top: 1rem;
+        background: none;
+        border:none;
+        box-shadow: none;
+    }
+    .socialside{display: none;}
+
+    .welcomebar{width: 100vw;margin-left:-6.8vw;padding:0;height:16vh;place-items: center;padding:0;}
+    .welcomebar h1{font-size: 4vh;}
+    .welcomebar img{height: 12vh;}
+    
+    #nagl1{grid-area: nagl1;}
+    #nagl2{grid-area: nagl2;}
+    #nagl3{grid-area: nagl3;}
+    #obr1{grid-area: obr1;}
+    #obr2{grid-area: obr2;}
+    #obr3{grid-area: obr3;}
+    #opis1{grid-area: opis1;}
+    #opis2{grid-area: opis2;}
+    #opis3{grid-area: opis3;}
+    .mainf{
+        padding: 1rem;
+        grid-template:
+        'nagl1'
+        'obr1'
+        'opis1'
+        'nagl2'
+        'obr2'
+        'opis2'
+        'nagl3'
+        'obr3'
+        'opis3';
+    }
+
+
+    .mainfpicture{padding: 30px 30px 24px 30px;border-radius: 320px;background-color: var(--primaryvar1);}
+    .mainfpicture:hover{padding: 30px 30px 24px 30px;}
+    .picturef{height: 26rem;}
+    .mainf h1{font-size: 4rem;}
+    .mainf p{font-size: 2.2rem;}
+
+    .about{
+        margin: 0 0;
+        column-gap: 2rem;
+        grid-template:
+        'nagloweka'
+        'obraza'
+        'teksta';
+    }
+    #about1{
+        grid-template:
+        'nagloweka'
+        'obraza'
+        'teksta';
+        
+    }
+    .about h1{text-wrap:nowrap; background-image: linear-gradient(#f3d1b2, #f3d1b2), linear-gradient(var(--primary), var(--primary));font-size: 5rem;}
+    .about img{
+        height: 700px;
+    }
+    .about p{
+        font-size: 2.5rem;
+    }
+
+    /*KONTAKT*/
+    .kontaktgrid{
+        padding: 0;
+        margin:auto;
+        gap: 20px;
+        place-content: left;
+        grid-template:
+        'adr'
+        'map'
+        'soc'
+        'soc';
+        grid-template-columns: auto;
+    }
+    .kontaktnaglowek{font-size: 5rem;margin-top: 0}
+    #mapka{ width: 100%;height:700px;}
+    .adresy{padding: 2rem;place-items:left center;width:100%;grid-template-columns: 1fr 7fr;border: 4px solid var(--primary);border-radius: 30px;background-color: white;}
+    .adresy img{height: 6rem;}
+    .adresy p{ font-size: 2.8rem;padding:1rem;}
+    #adresysocial{padding:2rem;width: 100%;margin: auto;border: 4px solid var(--primary);border-radius: 30px;background-color: white;}
+    .socialikony span{width:200px;height:auto;}
+    .socialikony img{height: 9rem;}
+    .socialikony p{font-size: 1.5rem;}
+    .socialikony{width:100%;gap:5px;margin:auto;justify-content: space-between;}
+
+    /*O NAS*/
+    .onas{width:100%;padding:0;margin:0;margin-top: 40px;margin-bottom: 100px;}
+    .onasnaglowek{
+        font-size: 4rem;
+        margin-bottom: 20px; 
+        text-align: center;
+        background-image: linear-gradient(#f3d1b2, #f3d1b2),linear-gradient(var(--primary), var(--primary));
+    }
+    .onaspicture{width:70%;height:auto;}
+    .onastext h2{font-size: 1.2rem;}
+    .onastext p{font-size: 0.7rem;}
+
+    
+    /*FOOTER*/
+    .contacts{
+        height: 14rem;   
+        width: 90%;
+    }
+    .footericon{
+        height: 8rem;
+        margin: .6rem;
+    }
+    .footer{
+        background: none;
+        grid-template-columns: 1fr;
+        margin-bottom: 100px;
+    }
+    .footer p{
+        font-size: 2rem;
+        margin-top:1rem;
+    }
+    #onasobr1{grid-area: o1;}
+    #onastext1{grid-area: t1;}
+    #onasobr2{grid-area: o2;}
+    #onastext2{grid-area: t2;}
+    #onasobr3{grid-area: o3;}
+    #onastext3{grid-area: t3;}
+    #onasobr4{grid-area: o4;}
+    #onastext4{grid-area: t4;}
+    .onas{
+        grid-template:
+        'o1'
+        't1'
+        'o2'
+        't2'
+        'o3'
+        't3'
+        'o4'
+        't4';
+        grid-template-columns: auto;
+    }
+    .onas img{height:30vh;width:30vh;}
+    .onastext h2{font-size: 3.5rem;}
+    .onastext p{font-size: 2rem;}
+}
+/*#endregion*/
+
+/*#region PHONE*/
+@media screen and (max-width: 688px){
+    
+}
+/*#endregion PHONE*/
+
+
+/*#region PHONE HORIZONTAL*/
+@media screen and (orientation:landscape) and (max-device-height:600px){
+    /*NAVBAR*/
+    .navbar{height: 16vh;}
+    #logologo{height: 10vh;}
+    .brandlogo{margin-top:3vh;}
+    .toggle-button{height:8vh;width: 10vh;top:4vh;right:3vh;}
+    .toggle-button .bar{height: 4px;}
+    .mobilemenu{top: 16vh;}
+    .mobilemenu li a{font-size: 6vh;}
+
+    .wrapper{margin-top:24vh;}
+    /*GLOWNA*/
+    .welcomebar{height:30vh;place-content: center right;}
+    .welcomebar h1{font-size: 2.8rem;}
+    .welcomebar img{height:40vh;border: 4px solid var(--primaryvar1);border-radius: 20vh;}
+
+    .mainf{
+        padding-top:20vh;
+        grid-template:
+        'nagl1 nagl2 nagl3'
+        'obr1 obr2 obr3'
+        'opis1 opis2 opis3'/1fr 1fr 1fr;
+    }
+    .mainfpicture{width:46vh;height:46vh;display:grid;place-items: center center;}
+    .mainf h1{font-size: 1.5rem;}
+    .mainf p{font-size: 1rem;}
+    .picturef{height:30vh;margin-bottom:8px;}
+
+    .about{
+        grid-template:
+            'nagloweka nagloweka'
+            'obraza teksta'/1fr 3fr;
+    }
+    .about h1{font-size: 3rem;}
+    .about img{height:80vh;}
+    .about p{font-size: 1.3rem;}
+    #about1{
+        grid-template:
+            'nagloweka nagloweka'
+            'teksta obraza'/3fr 1fr;
+    }
+    /*O NAS*/
+    .onastext p{font-size: 1rem;}
+    .onastext h2{font-size: 2rem;}
+    .onas{
+        width:100%;
+        padding:0;
+        margin:0;
+        grid-template-columns: 40vw 40vw;
+    }
+    .onaspicture{
+        height:300px;
+        width:300px;
+    }
+
+    /*KONTAKT*/
+    .kontaktnaglowek{font-size: 2rem;}
+    .kontaktgrid{
+        grid-template:
+        'adr map'
+        'soc soc'/1fr 1fr;
+    }
+    .adresy{
+        width:100%;
+        gap:0;
+        padding:1rem;
+    }
+    .adresy p{font-size: 1.3rem;}
+    .adresy img{height:2rem;}
+    #mapka{height:100%;}
+    .adresysocial{height:150px;}
+    .socialikony img{height:4rem;}
+
+    /*FOOTER*/
+    .footer{
+        grid-template-columns:  1fr 1fr 1fr;
+        gap:10px;
+        padding:0;
+        margin:0;
+        margin-top:20px;
+        background: linear-gradient(to top, var(--secondary), var(--bg));
+    }
+    .footer p{font-size: 1rem;}
+    .footer img{height:3rem;}
+    .contacts{height: 8rem;}
+
+}
+
+/*#endregion*/
+
+/*#region ANIMATIONS*/
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes enroll {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@keyframes rollImg {
+    0% { margin-left: -5rem; opacity: 0;}
+    100% { margin-left: 0; opacity: 1;}
+}
+@keyframes rollSide {
+    0% { margin-right: -5rem; }
+    100% { margin-right: 0; }
+}
+@keyframes shadow {
+    0% {opacity:0;box-shadow: 0px 0px 0px #888;}
+    100% {opacity:1;box-shadow: 10px 20px 30px #888;}
+}
+
+
+
