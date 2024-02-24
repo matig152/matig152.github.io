@@ -98,6 +98,7 @@ nav{
     gap: 30px;
     backdrop-filter: blur(4px) brightness(60%);
     z-index: 2;
+    height: 25px;
 }
 nav a{
     text-decoration: none;
@@ -115,15 +116,8 @@ nav a:hover{
     color: white;
     background-size: 80% 5%;
 }
-<<<<<<< HEAD
-.mobile-menu{
-    display: none;
-}
-
-=======
 #mobile-nav{display: none;}
 #mobile-menu-icon{display: none;}
->>>>>>> b7eb6fa080105db68517f26a1176f6caff949d99
 /*SCROLL SECTIONS*/
 .scroll-container{
     position: absolute;
@@ -356,10 +350,18 @@ nav a:hover{
 
 
 /*PROJEKTY*/
+#moje-projekty{
+    display: flex;
+    
+}
+
+
+
+
 .projekt{
     width:95%;
 }
-#matura365{
+.projekt{
     height: auto;
     display: grid;
     grid-template:
@@ -368,7 +370,7 @@ nav a:hover{
     'img przycisk'/3fr 2fr;
     place-content: center center;
 }
-#matura365 img{
+.projekt img{
     grid-area: img;
     width: 90%;
     padding: 10px;
@@ -376,16 +378,16 @@ nav a:hover{
     box-shadow: 0px 0px 6px var(--onsecondary);
     background-color: black;
 }
-#matura365 h1{
+.projekt h1{
     text-align: left;
     grid-area: tytul;
     color: var(--onsecondary)
 }
-#matura365 button{
+.projekt button{
     grid-area: przycisk;
     width: 50%;
 }
-#matura365 p{
+.projekt p{
     grid-area: opis;
     font-size: 22px;
     color: var(--onsecondary);
@@ -571,70 +573,6 @@ footer p{
 /*#region MOBILE - VERTICAL*/
 @media only screen and (max-width: 992px) {
     /*NAVBAR*/
-<<<<<<< HEAD
-    nav{
-        backdrop-filter: none;
-        font-size: 14px;
-        width: 100%;
-        height: 30px;
-        top:0;
-        left:0;
-        border-radius: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
-        transition: all .2s;
-        border: none;
-        display: grid;
-    }
-    nav a{
-        display: none;
-    }
-    .mobile-menu{
-        height: 25px;
-        width: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .mobile-menu-bar{
-        border-radius: 2px;
-        width:100%;
-        height: 5px;
-        background-color: var(--onsecondary);
-    }
-
-
-    .landing-page{
-        margin: auto;
-        margin-top: 80px;
-        width: 95%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: calc(90vh - 100px);
-    }
-    .landing-page-info{
-        text-align: center;
-    }
-    .landing-page-info h1{
-        font-size: 30px;
-    }
-    .landing-page-info p{
-        font-size: 16px;
-    }
-    .landing-page-info button{display: none;}
-    .face{font-size: 22px;margin:2px}
-
-
-
-
-    .main-grid{display: none;}
-
-
-    footer{display: none;}
-
-
-=======
     #mobile-menu-icon{
         padding: 10px;
         border-radius: 6px;
@@ -862,7 +800,6 @@ footer p{
     }
     .email-sent-text h1{font-size: 28px;margin-top:40px}
     .email-sent-text p{font-size: 18px;margin-top: 0;}
->>>>>>> b7eb6fa080105db68517f26a1176f6caff949d99
 
 }
 /*#endregion MOBILE - VERTICAL*/
