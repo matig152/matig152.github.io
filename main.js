@@ -7,8 +7,8 @@ async function hidePreloader(){
     let slider2 = document.querySelectorAll('.content-slider')[1];
     let slides = Array.from(slider.children);
     let slides2 = Array.from(slider2.children);
-    slider.scrollTo(slides[0].offsetLeft, 0)
-    slider2.scrollTo(slides[0].offsetLeft, 0)
+    slider.scrollTo(slides[-1].offsetLeft, 0)
+    slider2.scrollTo(slides2[-1].offsetLeft, 0)
 }
 
 //MOBILE MENU
