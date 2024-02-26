@@ -25,7 +25,6 @@ function openMenu(){
 let slider = document.querySelectorAll('.content-slider')[0];
 let slides = Array.from(slider.children);
 let index = 0;
-slider.scrollTo(slides[index].offsetLeft, 0)
 let buttonLeft = document.querySelectorAll('.content-button')[0];
 let buttonRight = document.querySelectorAll('.content-button')[1];
 function moveRight(){
@@ -47,7 +46,6 @@ function moveLeft(){
 let slider2 = document.querySelectorAll('.content-slider')[1];
 let slides2 = Array.from(slider2.children);
 let index2 = 0;
-slider2.scrollTo(slides2[index2].offsetLeft, 0)
 let buttonLeft2 = document.querySelectorAll('.content-button')[2];
 let buttonRight2 = document.querySelectorAll('.content-button')[3];
 function moveRight2(){
