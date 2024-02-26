@@ -7,8 +7,6 @@ async function hidePreloader(){
     let slider2 = document.querySelectorAll('.content-slider')[1];
     let slides = Array.from(slider.children);
     let slides2 = Array.from(slider2.children);
-    slides[0].scrollIntoView({block: 'nearest', inline: 'center' });
-    slides2[0].scrollIntoView({block: 'nearest', inline: 'center' });
 }
 
 //MOBILE MENU
