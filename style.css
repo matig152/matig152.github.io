@@ -254,6 +254,7 @@ nav a:hover{
     margin: auto;
     margin-top: 5vh;
     height: 400vh;
+    max-width: 1400px;
     display: grid;
     grid-template-columns: 50px 1fr;
     gap: 10px;
@@ -314,6 +315,7 @@ nav a:hover{
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 /*#endregion*/
 
@@ -812,6 +814,34 @@ footer p{
     .email-sent-text p{font-size: 18px;margin-top: 0;}
 
 }
+
+/*#endregion*/
+
+/*#region DESKTOP*/
+@media only screen and (min-width: 1900px) {
+    .projekt-container{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .projekt-photo{
+        margin: 0;
+        place-content: center start;
+    }
+    .projekt-photo img{
+        height: 330px;
+    }
+    .projekt-desc{
+        display:inline-block;
+        margin: 0 20px;
+
+    }
+    .projekt-desc button{
+        margin: 0;
+        margin-right: 20px;
+        width: 300px;
+    }
+}
+/*#endregion*/
 
 /*#region ANIMATIONS*/
 @keyframes preloader {

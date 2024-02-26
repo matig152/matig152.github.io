@@ -7,8 +7,8 @@ async function hidePreloader(){
     let slider2 = document.querySelectorAll('.content-slider')[1];
     let slides = Array.from(slider.children);
     let slides2 = Array.from(slider2.children);
-    slider.scrollTo(slides[0].offsetLeft, 0)
-    slider2.scrollTo(slides2[0].offsetLeft, 0)
+    slides[0].scrollIntoView({block: 'nearest', inline: 'center' });
+    slides2[0].scrollIntoView({block: 'nearest', inline: 'center' });
 }
 
 //MOBILE MENU
@@ -32,14 +32,14 @@ function moveRight(){
     if(index == slides.length - 1){return;}
     index += 1;
     if(index == slides.length - 1){ buttonRight.style.opacity = "0";}
-    slider.scrollTo(slides[index].offsetLeft, 0);
+    slides[index].scrollIntoView({block: 'nearest', inline: 'center' });
 }
 function moveLeft(){
     if(index == 0) {return;}
     if(index == slides.length - 1){buttonRight.style.opacity = "1";}
     index = index - 1;
     if(index == 0){ buttonLeft.style.opacity = "0";}
-    slider.scrollTo(slides[index].offsetLeft, 0);
+    slides[index].scrollIntoView({block: 'nearest', inline: 'center' });
 }
 
 // SZABLONY
@@ -53,14 +53,14 @@ function moveRight2(){
     if(index2 == slides2.length - 1){return;}
     index2 += 1;
     if(index2 == slides2.length - 1){ buttonRight2.style.opacity = "0";}
-    slider2.scrollTo(slides2[index2].offsetLeft, 0);
+    slides2[index2].scrollIntoView({block: 'nearest', inline: 'center' });
 }
 function moveLeft2(){
     if(index2 == 0) {return;}
     if(index2 == slides2.length - 1){buttonRight2.style.opacity = "1";}
     index2 = index2 - 1;
     if(index2 == 0){ buttonLeft2.style.opacity = "0";}
-    slider2.scrollTo(slides2[index2].offsetLeft, 0);
+    slides2[index2].scrollIntoView({block: 'nearest', inline: 'center' });
 }
 
 
