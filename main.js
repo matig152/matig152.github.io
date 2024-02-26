@@ -3,9 +3,12 @@ async function hidePreloader(){
     //await new Promise(r => setTimeout(r, 2000)) 
     preloader.style.top = "-100vh";
     
-    let slider = document.querySelector('.content-slider');
+    let slider = document.querySelectorAll('.content-slider')[0];
+    let slider2 = document.querySelectorAll('.content-slider')[1];
     let slides = Array.from(slider.children);
+    let slides2 = Array.from(slider2.children);
     slider.scrollTo(slides[0].offsetLeft, 0)
+    slider2.scrollTo(slides[0].offsetLeft, 0)
 }
 
 //MOBILE MENU
@@ -19,7 +22,7 @@ function openMenu(){
 }
 
 // PROJEKTY
-let slider = document.querySelector('.content-slider');
+let slider = document.querySelectorAll('.content-slider')[0];
 let slides = Array.from(slider.children);
 let index = 0;
 slider.scrollTo(slides[index].offsetLeft, 0)
