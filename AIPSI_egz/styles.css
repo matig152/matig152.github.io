@@ -52,3 +52,27 @@
   max-width: 700px;
   max-height: 400px;
  }
+
+
+ @media only screen and (max-width: 600px) {
+  .question_img img{
+    max-width: 80vw;
+    max-height: 400px;
+   }
+   .test_check{
+     padding: 0;
+      width:100vw;
+      height: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: white;
+      display: grid;
+      box-shadow: 1px 2px 2px black;
+   }
+   .wrapper{margin-top: 100px;}
+   .test_check button{
+      margin: 10px;
+      width: 20vw;
+   }
+}
