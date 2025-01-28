@@ -187,7 +187,7 @@
                 {
                     "id": 9,
                     "questionText": "Które z poniższych stwierdzeń są prawdziwe w odniesieniu do związku pomiędzy aktorami z poniższego diagramu?",
-                    "image": null,
+                    "image": "imgs/pytanie9.png",
                     "answers": [
                       {
                         "text": "Z diagramu wynika, że aktor Y jest specjalizowaną wersją aktora X",
