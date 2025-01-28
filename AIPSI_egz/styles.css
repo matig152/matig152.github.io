@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ body{
+    background-color: beige;
+    font-family: 'Roboto';
+ }
+
+ .wrapper{
+   max-width: 800px;
+   padding: 10px;
+   margin: auto;
+
+ }
+.test_check{
+  padding: 20px 5px;
+   height: auto;
+   width: calc(50vw - 450px);
+   position: fixed;
+   background-color: white;
+   display: grid;
+}
+.test_check button{
+   margin: auto;
+   height: 40px;
+   width: calc(50vw - 500px);
+   margin-bottom: 20px;
+}
+.test_check{
+  font-size: 20px;
+}
+
+.answers{
+   display: inline;
+}
+
+
+ .question{
+   background-color: white;
+   padding: 10px 20px;
+   margin: 20px 0;
+ }
+ .question h1{
+   font-size: 20px;
+ }
+ .question_img{
+   margin: auto;
+   padding-bottom: 30px;
+   display: grid;
+   place-items: center;
+ }
+ .question_img img{
+  max-width: 700px;
+  max-height: 400px;
+ }

@@ -1,0 +1,73 @@
+{
+    "questions": [
+      {
+        
+      "id": 1,
+      "questionText": "Związek pomiędzy aktorami na poniższym diagramie przypadków użycia oznacza, że",
+      "image": "imgs/pytanie1.png",
+      "answers": [
+        {
+          "text": "Aktor Y może wykonywać tylko przypadki A i B",
+          "isCorrect": true
+        },
+        {
+          "text": "Aktor Y może wykonywać przypadki A, B i C",
+          "isCorrect": false
+        },
+        {
+          "text": "Aktor Y może wykonywać tylko przypadek B",
+          "isCorrect": false
+        },
+        {
+          "text": "Aktor Y może wykonywać tylko przypadki B i C",
+          "isCorrect": false
+        }
+      ]
+    },{
+      "id": 2,
+      "questionText": "Dla poniższego modelu wybierz możliwe scenariusze, tj. kolejność wykonywanych zadań",
+      "image": "imgs/pytanie2.png",
+      "answers": [
+        {
+          "text": "abce",
+          "isCorrect": true
+        },
+        {
+          "text": "ace",
+          "isCorrect": true
+        },
+        {
+          "text": "ade",
+          "isCorrect": true
+        },
+        {
+          "text": "adce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+        "id": 3,
+        "questionText": "Planowanie w metodykach zwinnych wytwarzania systemów informatycznych jest",
+        "image": null,
+        "answers": [
+          {
+            "text": "nie zależy od metodyki",
+            "isCorrect": false
+          },
+          {
+            "text": "tak samo łatwe w obu metodykach",
+            "isCorrect": false
+          },
+          {
+            "text": "trudniejsze niż w metodykach opartych na dokumentach",
+            "isCorrect": true
+          },
+          {
+            "text": "łatwiejsze niż w metodykach opartych na dokumentach",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
