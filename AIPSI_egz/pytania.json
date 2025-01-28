@@ -68,6 +68,462 @@
             "isCorrect": false
           }
         ]
-      }
+      },
+      {
+          "id": 4,
+          "questionText": "Które z poniższych stwierdzeń nie jest prawdziwe?",
+          "image": null,
+          "answers": [
+            {
+              "text": "Klasa jest nazwanym opisem obiektów mających identyczną strukturę i zachowanie",
+              "isCorrect": false
+            },
+            {
+              "text": "Klasa jest zbiorem obiektów o identycznej strukturze i zachowaniu",
+              "isCorrect": true
+            },
+            {
+              "text": "Obiekt jest instancją/egzemplarzem klasy",
+              "isCorrect": false
+            },
+            {
+              "text": "Klasa może posiadać wiele instancji/egzemplarzy",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+            "id": 5,
+            "questionText": "Związek pomiędzy przypadkami użycia z poniższego diagramu oznacza, że",
+            "image": "imgs/pytanie5.png",
+            "answers": [
+              {
+                "text": "przypadek użycia B pod pewnymi warunkami może być rozszerzony przez zachowanie reprezentowane przez przypadek użycia A",
+                "isCorrect": false
+              },
+              {
+                "text": "przypadek użycia B jawnie, w miejscu przez siebie określonym, wlącza zachowanie przypadku użycia A",
+                "isCorrect": false
+              },
+              {
+                "text": "przypadek użycia A jawnie, w miejscu przez siebie określonym, włącza zachowanie przypadku użycia B",
+                "isCorrect": false
+              },
+              {
+                "text": "przypadek A pod pewnymi warunkami może być rozszerzony przez zachowanie reprezentowane przez przypadek użycia B",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+              "id": 6,
+              "questionText": "Związki z poniższego rysunku oznaczają kolejno:",
+              "image": "imgs/pytanie6.png",
+              "answers": [
+                {
+                  "text": "zależność, asocjację, agregację, kompozycję",
+                  "isCorrect": true
+                },
+                {
+                  "text": "generalizację, zależność, kompozycję, agregację",
+                  "isCorrect": false
+                },
+                {
+                  "text": "generalizację, zależność, agregację, kompozycję",
+                  "isCorrect": false
+                },
+                {
+                  "text": "zależność, asjocjację, kompozycję, agregację",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+                "id": 7,
+                "questionText": "Jakie związki pomiędzy elementami występują w podanym fragmencie kodu?",
+                "image": "imgs/pytanie7.png",
+                "answers": [
+                  {
+                    "text": "zależność",
+                    "isCorrect": true
+                  },
+                  {
+                    "text": "kompozycja",
+                    "isCorrect": false
+                  },
+                  {
+                    "text": "agregacja",
+                    "isCorrect": false
+                  },
+                  {
+                    "text": "realizacja",
+                    "isCorrect": true
+                  }
+                ]
+              },
+              {
+                  "id": 8,
+                  "questionText": "Które z poniższych stwierdzeń jest prawdziwe w odniesieniu do poniższych przypadków użycia?",
+                  "image": "imgs/pytanie8.png",
+                  "answers": [
+                    {
+                      "text": "przypadek użycia A jest specjalizowaną wersją przypadków użycia B i C",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "żadne z powyższych",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "przypadki użycia B i C są specjalizowaną wersją przypadku użycia A",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "przypadek użycia A jawnie, w miejscu przez siebie określonym, włącza zachowanie przypadków użycia B i C",
+                      "isCorrect": false
+                    }
+                  ]
+                },
+                {
+                    "id": 9,
+                    "questionText": "Które z poniższych stwierdzeń są prawdziwe w odniesieniu do związku pomiędzy aktorami z poniższego diagramu?",
+                    "image": null,
+                    "answers": [
+                      {
+                        "text": "Z diagramu wynika, że aktor Y jest specjalizowaną wersją aktora X",
+                        "isCorrect": true
+                      },
+                      {
+                        "text": "Z diagramu wynika, że następuje przepływ komunikatu od aktora Y do aktora X",
+                        "isCorrect": false
+                      },
+                      {
+                        "text": "Z diagramu wynika, że aktor X jest specjalizowaną wersją aktora Y",
+                        "isCorrect": false
+                      },
+                      {
+                        "text": "Z diagramu wynika, że następuje przepływ komunikatu od aktora X do aktora Y",
+                        "isCorrect": false
+                      }
+                    ]
+                  },
+                  {
+                      "id": 10,
+                      "questionText": "Która technika nie jest stosowana w inżynierii wymagań",
+                      "image": null,
+                      "answers": [
+                        {
+                          "text": "Diagram operacji systemowych",
+                          "isCorrect": true
+                        },
+                        {
+                          "text": "burza mózgów",
+                          "isCorrect": false
+                        },
+                        {
+                          "text": "definiowanie przypadków uzycia",
+                          "isCorrect": false
+                        },
+                        {
+                          "text": "prototypowanie",
+                          "isCorrect": false
+                        }
+                      ]
+                    },
+                    {
+                        "id": 11,
+                        "questionText": "Do modelowania procesów biznesowych można stosować następujące metody:",
+                        "image": null,
+                        "answers": [
+                          {
+                            "text": "DFD",
+                            "isCorrect": true
+                          },
+                          {
+                            "text": "Diagram sekwencji UML",
+                            "isCorrect": false
+                          },
+                          {
+                            "text": "BPMN",
+                            "isCorrect": true
+                          },
+                          {
+                            "text": "Diagram czynności UML",
+                            "isCorrect": true
+                          }
+                        ]
+                      },
+                      {
+                          "id": 12,
+                          "questionText": "System e-przychodnia prosi użytkownika o potwierdzenie mailem terminu wizyty. Użytkownik ma na to 24 godziny. Wcześniej może zrezygnować lub prosić o przeniesienie terminu. Ten fragment można opisać w BPMN za pomocą następującego rozwiązania:",
+                          "image": null,
+                          "answers": [
+                            {
+                              "text": "bramka zdarzeniowa",
+                              "isCorrect": true
+                            },
+                            {
+                              "text": "podproces ze zdarzeniami krawędziowymi",
+                              "isCorrect": false
+                            },
+                            {
+                              "text": "sekwencja bramek i zdarzeń pośrednich",
+                              "isCorrect": false
+                            },
+                            {
+                              "text": "bramka XOR i zdarzenia pośrednie",
+                              "isCorrect": false
+                            }
+                          ]
+                        },
+                        {
+                            "id": 13,
+                            "questionText": "Który z modeli cyklu życia systemu jest obarczony największym ryzykiem przekroczenia budżetu, niespełnienia wymagań, rezygnacji ",
+                            "image": null,
+                            "answers": [
+                              {
+                                "text": "odkrywczy",
+                                "isCorrect": true
+                              },
+                              {
+                                "text": "budowania prototypów",
+                                "isCorrect": false
+                              },
+                              {
+                                "text": "kaskadowy",
+                                "isCorrect": false
+                              },
+                              {
+                                "text": "spiralny",
+                                "isCorrect": false
+                              }
+                            ]
+                          },
+                          {
+                              "id": 14,
+                              "questionText": "Poziom ryzyka w wytwarzaniu systemów informatycznych można ograniczać poprzez:",
+                              "image": null,
+                              "answers": [
+                                {
+                                  "text": "programowanie parami w projektowaniu zwinnym",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "text": "przestrzeganie wartości w projektowaniu zwinnym",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "text": "stosowanie obiektowych języków programowania",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "text": "przestrzeganie zasad wynikających z modelu cyklu wytwarzania i prowadzenie dokumentacji",
+                                  "isCorrect": true
+                                }
+                              ]
+                            },
+                            {
+                                "id": 15,
+                                "questionText": "W węźle sygnału nadawczego na diagramie czynności następuje",
+                                "image": null,
+                                "answers": [
+                                  {
+                                    "text": "żadne z powyższych",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "text": "oczekiwanie na ściśle określony komunikat",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "text": "wysłanie komunikatu i oczekiwanie na odpowiedź",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "text": "wysłanie komunikatu bez oczekiwania na odpowiedź",
+                                    "isCorrect": true
+                                  }
+                                ]
+                              },
+                              {
+                                  "id": 16,
+                                  "questionText": "Który z diagramów obiektów jest zgodny z poniższym diagramem klas?",
+                                  "image": "imgs/pytanie16.png",
+                                  "answers": [
+                                    {
+                                      "text": "A",
+                                      "isCorrect": false
+                                    },
+                                    {
+                                      "text": "B",
+                                      "isCorrect": true
+                                    },
+                                    {
+                                      "text": "C",
+                                      "isCorrect": false
+                                    },
+                                    {
+                                      "text": "D",
+                                      "isCorrect": true
+                                    }
+                                  ]
+                                },
+                                {
+                                    "id": 17,
+                                    "questionText": "Zaznacz niepoprawne konstrukcje:",
+                                    "image": "imgs/pytanie17.png",
+                                    "answers": [
+                                      {
+                                        "text": "A",
+                                        "isCorrect": true
+                                      },
+                                      {
+                                        "text": "B",
+                                        "isCorrect": false
+                                      },
+                                      {
+                                        "text": "C",
+                                        "isCorrect": true
+                                      }
+                                    ]
+                                  },
+                                  {
+                                      "id": 18,
+                                      "questionText": "Z poniższego diagramu wynika, że <i>KlasaB</i> powinna posiadać następujące metody:",
+                                      "image": "imgs/pytanie18.png",
+                                      "answers": [
+                                        {
+                                          "text": "OperationY(), OperationZ()",
+                                          "isCorrect": false
+                                        },
+                                        {
+                                          "text": "OperationX(), OperationY()",
+                                          "isCorrect": false
+                                        },
+                                        {
+                                          "text": "OperationX(), OperationZ()",
+                                          "isCorrect": true
+                                        },
+                                        {
+                                          "text": "OperationY()",
+                                          "isCorrect": false
+                                        }
+                                      ]
+                                    },
+                                    {
+                                        "id": 19,
+                                        "questionText": "W węźle sygnału odbiorczego na diagramie czynności następuje:",
+                                        "image": null,
+                                        "answers": [
+                                          {
+                                            "text": "wysłanie komunikatu i oczekiwanie na odpowiedź",
+                                            "isCorrect": false
+                                          },
+                                          {
+                                            "text": "oczekiwanie na ściśle określony komunikat",
+                                            "isCorrect": true
+                                          },
+                                          {
+                                            "text": "żadne z powyższych",
+                                            "isCorrect": false
+                                          },
+                                          {
+                                            "text": "wysłanie komunikatu bez oczekiwania na odpowiedź",
+                                            "isCorrect": false
+                                          }
+                                        ]
+                                      },
+                                      {
+                                          "id": 20,
+                                          "questionText": "Które z poniższych stwierdzeń nie oznacza zależności klasy A od klasy B?",
+                                          "image": null,
+                                          "answers": [
+                                            {
+                                              "text": "obiekt klasy A wywołuje metodę na obiekcie klasy B",
+                                              "isCorrect": false
+                                            },
+                                            {
+                                              "text": "klasa A posiada atrybut będąc referencją do klasy B",
+                                              "isCorrect": false
+                                            },
+                                            {
+                                              "text": "klasa B jest używana jako typ parametru przez jedną z metod klasy A",
+                                              "isCorrect": false
+                                            },
+                                            {
+                                              "text": "obiekt klasy B wywołuje metodę na obiekcie klasy A",
+                                              "isCorrect": true
+                                            }
+                                          ]
+                                        },
+                                        {
+                                            "id": 21,
+                                            "questionText": "Które z poniższych zapisów są poprawne:",
+                                            "image": "imgs/pytanie21.png",
+                                            "answers": [
+                                              {
+                                                "text": "A",
+                                                "isCorrect": true
+                                              },
+                                              {
+                                                "text": "B",
+                                                "isCorrect": false
+                                              },
+                                              {
+                                                "text": "C",
+                                                "isCorrect": false
+                                              },
+                                              {
+                                                "text": "D",
+                                                "isCorrect": false
+                                              }
+                                            ]
+                                          },
+                                          {
+                                              "id": 22,
+                                              "questionText": "Poniższy fragment schematu może być wykorzystany do:",
+                                              "image": "imgs/pytanie22.png",
+                                              "answers": [
+                                                {
+                                                  "text": "potwierdzenie terminu wizyty",
+                                                  "isCorrect": true
+                                                },
+                                                {
+                                                  "text": "autoryzacji w systemie bankowym",
+                                                  "isCorrect": true
+                                                },
+                                                {
+                                                  "text": "dopisanie towaru do koszyka w sklepie internetowym",
+                                                  "isCorrect": false
+                                                },
+                                                {
+                                                  "text": "wybór usługi w internetowym salonie fryzjerskim",
+                                                  "isCorrect": false
+                                                }
+                                              ]
+                                            },
+                                            {
+                                                "id": 23,
+                                                "questionText": "Które z poniższych stwierdzeń jest prawdziwe:",
+                                                "image": "imgs/pytanie23.png",
+                                                "answers": [
+                                                  {
+                                                    "text": "Metoda ZrobTo() musi być zaimplementowana przez Element2, Element3, Element4 i Element5",
+                                                    "isCorrect": false
+                                                  },
+                                                  {
+                                                    "text": "Metoda ZrobTo() musi być zaimplementowana przez Element3 i może przez Element4",
+                                                    "isCorrect": true
+                                                  },
+                                                  {
+                                                    "text": "Nie ma potrzeby implementowania metody ZrobTo(), bo jest już zaimplementowana w Element1",
+                                                    "isCorrect": false
+                                                  },
+                                                  {
+                                                    "text": "Metoda ZrobTo() musi być zaimplementowana przez Element3, Element4 i Element5",
+                                                    "isCorrect": false
+                                                  }
+                                                ]
+                                              }
     ]
   }
