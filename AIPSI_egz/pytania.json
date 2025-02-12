@@ -467,11 +467,11 @@
                                               },
                                               {
                                                 "text": "B",
-                                                "isCorrect": false
+                                                "isCorrect": true
                                               },
                                               {
                                                 "text": "C",
-                                                "isCorrect": false
+                                                "isCorrect": true
                                               },
                                               {
                                                 "text": "D",
