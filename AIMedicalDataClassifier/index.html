@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI medical diagnosing</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg"> 
+        <img id="bg" src="bg.webp">
+    </div>
+
+    <header>
+        <a href="./" id="main_tab"><div>
+            <h1>AI Medical data classifier</h1>
+            <p>The use of convolutional neural networks in medicine</p>
+        </div></a>
+        <div id="tabs">
+            <a href='./brain-mri'>Brain MRI Classification</a>
+            <a href='./phonocardiograms'>Phonocardiogram abnormalities detection</a>
+            <!-- <a href='./more-info'>More information</a> -->
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <h1>AI Medical data classifier</h1>
+        <hr>
+        <section class="description">
+        <p>This website allows users to incorporate convolutional neural networks into medical data classification and diagnosing. There are two available classifiers. The first one detects the type of brain tumor (pituitary, glioma, meningioma or healthy) based on provided brain MRI in the form of an image. The second is designed to identify abnormalities in phonocardiograms based on a .wav sound file.  
+        </p>
+    
+        <div class="call-to-action" >
+            <a href="./brain-mri/">
+                <div id="brain-call">
+                Brain MRI classifier
+                </div>
+            </a>
+            <a href="./phonocardiograms/">
+                <div id="heart-call">
+                Heartbeat classifier
+                </div>
+            </a>
+        </div>
+        <p>
+            Both classifiers were trained on publicly available datasets from <a class="link" href="https://www.kaggle.com/">kaggle.com <img src="./link.png"></a>, containing respectively 7100 and 3240 data points. The brain MRI model achieved an accuracy of 96% on the validation set, and the heartbeat model - 82%.
+        </p>
+        </section>
+    </div>
+
+
+    <footer>
+        <a href="https://matig152.github.io/"><p>matig152.github.io</p></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

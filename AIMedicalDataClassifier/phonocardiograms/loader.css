@@ -1,0 +1,54 @@
+#loader{
+    margin: auto;
+    height: 600px;
+    width: 400px;
+    display: none;
+    place-content: center;
+
+}
+
+#circle1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(transparent, rgb(148, 148, 148));
+    display: grid;
+    place-content: center;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+#circle2{
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    background-color: rgb(44, 44, 44);
+
+}
+
+
+.spectrogram{
+    display: grid;
+    place-content: center;
+}
+.spectrogram canvas{
+    border: 2px solid black;
+}
+.spectrogram p{
+    padding: 10px 0px;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin-top: -52px;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

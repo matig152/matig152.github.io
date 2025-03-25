@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI medical diagnosing - Brain MRI</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="loader.css">
+</head>
+<body>
+    <div class="bg"> 
+        <img id="bg" src="../bg.webp">
+    </div>
+
+    <header>
+        <a href="../" id="main_tab"><div>
+            <h1>AI Medical data classifier</h1>
+            <p>The use of convolutional neural networks in medicine</p>
+        </div></a>
+        <div id="tabs">
+            <a href='../brain-mri'>Brain MRI Classification</a>
+            <a href='../phonocardiograms'>Phonocardiogram abnormalities detection</a>
+            <!-- <a href='../more-info'>More information</a> -->
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <h1>Brain MRI classification</h1>
+        <hr>
+
+        <section id="classifier">   
+            <div>
+                <input type="file" id="imageInput" accept="image/*" class="file-input">
+            </div>
+            <div>
+                <button onclick="runModel()">Run Model</button>
+            </div>
+        </section>
+
+        <section id="loader">
+            <div id="circle1"> 
+                <div id="circle2"></div>
+            </div>
+        </section>
+
+
+        <section id="results">   
+            <div id="classification_res">
+                <div id="class">
+                    <h3>Classification result:</h3><p id="output"></p>
+                </div>
+                <div>
+                    <p>Details:</p>
+                    <table>
+                        <tr>
+                          <th>Class</th>
+                          <th>Network Output</th>
+                          <th>Rounded softmax value</th>
+                        </tr>
+                        <tr>
+                          <td>Glioma</td>
+                          <td id="glioma_val"></td>
+                          <td id="glioma_round"></td>
+                        </tr>
+                        <tr>
+                          <td>Meningioma</td>
+                          <td id="meningioma_val"></td>
+                          <td id="meningioma_round"></td>
+                        </tr>
+                        <tr>
+                          <td>Pituitary</td>
+                          <td id="pituitary_val"></td>
+                          <td id="pituitary_round"></td>
+                        </tr>
+                        <tr>
+                          <td>Healthy</td>
+                          <td id="healthy_val"></td>
+                          <td id="healthy_round"></td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+            <div id="images">
+                <div>
+                    <img id="original_img_preview" src="">
+                    <p class="img-desc">Your Image</p>
+                </div>
+                <div>
+                    <canvas id="canvasPreview"></canvas>
+                    <p class="img-desc">After preprocessing</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <hr>
+        <section class="description">
+            <p>This app passes provided image through a pre-trained convolutional neural network, and then classifies it into one of the following classes:</p>
+
+            <div id="example_classes">
+                <div><img src="glioma_example.jpg"><p>Glioma</p></div>
+                <div><img src="meningioma_example.jpg"><p>Meningioma</p></div>
+                <div><img src="pituitary_example.jpg"><p>Pituitary</p></div>
+                <div><img src="healthy_example.jpg"><p>Healthy</p></div>
+            </div>
+
+            <p>The above example images come from the <a class="link" href="https://www.kaggle.com/datasets/tombackert/brain-tumor-mri-data">dataset<img src="../link.png"></a> that was used to train the model. The dataset contains over 7100 MRIs, which were randomly split into the training set (80%) and the validation set (20%). The neural network used in this classifier achieved accuracy of 100% on the training set, and 96.23% on the validation set.</p>
+            <p>The script scales the provided image to the resolution of 256x256, and converts it into grayscale (1 color channel). Then the image is represented as a tensor and passed through the network layers.</p>
+        </section>
+        
+
+
+        <!-- <p>The network classifies images into one of the following classes:</p> -->
+    </div>
+    <footer>
+        <a href="https://matig152.github.io/"><p>matig152.github.io</p></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI medical diagnosing - Phonocardiograms</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fft-js@0.0.12/"></script><script src="
+    https://cdn.jsdelivr.net/npm/latex@0.0.1/texwrapper.min.js
+    "></script>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="loader.css">
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+</head>
+<body>
+    <div class="bg"> 
+        <img id="bg" src="../bg.webp">
+    </div>
+
+    <header>
+        <a href="../" id="main_tab"><div>
+            <h1>AI Medical data classifier</h1>
+            <p>The use of convolutional neural networks in medicine</p>
+        </div></a>
+        <div id="tabs">
+            <a href='../brain-mri'>Brain MRI Classification</a>
+            <a href='../phonocardiograms'>Phonocardiogram abnormalities detection</a>
+            <!-- <a href='../more-info'>More information</a> -->
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <h1>Phonocardiogram abnormalities detection</h1>
+        <hr>
+
+        <section id="classifier">   
+            <div>
+                <input type="file" id="fileInput" accept=".wav" class="file-input" />
+            </div>
+            <div>
+                <button onclick="runModel()">Run model</button>
+            </div>
+        </section>
+
+        <section id="loader">
+            <div id="circle1"> 
+                <div id="circle2"></div>
+            </div>
+        </section>
+
+        <section id="results">   
+            <div id="classification_res">
+                <div id="class">
+                    <h3>Classification result:</h3><p id="output"></p>
+                </div>
+                <div>
+                    <p>Details:</p>
+                    <table>
+                        <tr>
+                            <th>Class</th>
+                            <th>Network output</th>
+                            <th>Softmax probability</th>
+                        </tr>
+                        <tr>
+                            <td>Normal</td>
+                            <td id="normal_val"></td>
+                            <td id="normal_round"></td>
+                          </tr>
+                          <tr>
+                            <td>Abnormal</td>
+                            <td id="abnormal_val"></td>
+                            <td id="abnormal_round"></td>
+                          </tr>
+                      </table>
+                </div>
+            </div>
+            <div class="spectrogram">
+                  <canvas id="melSpectrogramCanvas" width="800" height="400"></canvas>
+                  <p>Extracted mel spectrogram</p>
+            </div>
+        </section>
+        
+        <hr>
+        <section class="description">
+                <p>
+                    Based on the provided .wav file, a mel spectrogram is generated (the image is displayed after inference). The spectrogram is then passed through a 10-layer pre-trained convolutional sound classifier. The model was trained on this <a class="link" href="https://www.kaggle.com/datasets/swapnilpanda/heart-sound-database">dataset<img src="../link.png"></a> contatining 3240 sounds. Audio augmentation was used to improve model's ability to generalize on unseen data.
+                </p>
+
+                <div class="spectrograms-wrapper">
+                    <div>
+                        <img src="spectrogram1.png">
+                        <p>Normal heartbeat mel spectrogram</p>
+                    </div>
+                    <div>
+                        <img src="spectrogram2.png">
+                        <p>Abnormal heartbeat mel spectrogram</p>
+                    </div>
+                </div>
+
+                <p>
+                    The model achieved 82.05% accuracy on the training set, and 82.71% on the validation set. The validation set confusion matrix:
+                    
+                </p>
+                
+                <table border="1" style="border-collapse: collapse; margin: 0 auto;text-align: center;">
+                    <tr>
+                        <td></td>
+                        <td><i>Actually abnormal</i></td>
+                        <td><i>Actually normal</i></td>
+                      </tr>
+                    <tr>
+                        <td><i>Predicted abnormal</i></td>
+                        <td>115</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td><i>Predicted normal</i></td>
+                        <td>17</td>
+                         <td>105</td>
+                    </tr>
+                </table>
+                <p>
+                    Based on which we estimate model's sensitivity to be 87%.
+                </p>
+        </section>
+        
+
+
+    </div>
+    <footer>
+        <a href="https://matig152.github.io/"><p>matig152.github.io</p></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
