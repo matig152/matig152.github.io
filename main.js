@@ -75,8 +75,8 @@ function sendMail(){
         let h1 = document.getElementById('email-sent-h1')
         let p = document.getElementById('email-sent-p')
         sign.innerHTML = "&#10005";
-        h1.innerHTML = "Wiadomość nie została wysłana."
-        p.innerHTML = "Wprowadź wszystkie dane."
+        h1.innerHTML = "The message was not sent."
+        p.innerHTML = "Please enter all the data."
         let message = document.querySelectorAll('.email-sent')[0];
         message.style.display = 'block';
         message.style.opacity = 1
@@ -89,8 +89,8 @@ function openMail(){
     let h1 = document.getElementById('email-sent-h1')
     let p = document.getElementById('email-sent-p')
     sign.innerHTML = "&#10003;";
-    h1.innerHTML = "Wiadomość została wysłana"
-    p.innerHTML = "Odezwę się jak najszybciej."
+    h1.innerHTML = "Message sent."
+    p.innerHTML = "I will reply as soon as possible."
     let message = document.querySelectorAll('.email-sent')[0]; 
     message.style.opacity = 1;
     message.style.display = 'block';

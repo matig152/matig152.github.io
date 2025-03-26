@@ -351,3 +351,16 @@ footer a p{
     place-content: center;
     display: block;
 }
+header a{
+    display: grid;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    header a{
+        display: grid;
+    }
+    header {
+        font-size: 14px;
+    }
+  }

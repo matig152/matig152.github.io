@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <title>Portfolio - Mateusz Grzelik</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="cQDoPvBdC1xQcULP5tezL04_HlzmfGksTUzcVSyDAys" />
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <link rel="icon" type="image/x-icon" href="/imgs/ikonaPortfolio.ico">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR6TSTN678"></script>
     <script>
@@ -35,10 +36,9 @@
     </div>
 
     <nav>
-        <a onclick="document.getElementById('projekty').scrollIntoView()">MOJE PROJEKTY</a>
-        <a onclick="document.getElementById('szablony').scrollIntoView()">MOJE SZABLONY</a>
-        <a onclick="document.getElementById('kontakt').scrollIntoView()">KONTAKT</a>
-        <a onclick="document.getElementById('omnie').scrollIntoView()">O MNIE</a>
+        <a onclick="document.getElementById('projekty').scrollIntoView()">MY PROJECTS</a>
+        <a onclick="document.getElementById('kontakt').scrollIntoView()">CONTACT</a>
+        <a onclick="document.getElementById('omnie').scrollIntoView()">ABOUT</a>
         <div class="mobile-menu">
             <span class="mobile-menu-bar"></span>
             <span class="mobile-menu-bar"></span>
@@ -53,10 +53,9 @@
     </div>
     <nav id="mobile-nav">
         <span onclick="closeMenu()">&#10005;</span>
-        <a onclick="document.getElementById('projekty').scrollIntoView();closeMenu()">MOJE PROJEKTY</a>
-        <a onclick="document.getElementById('szablony').scrollIntoView();closeMenu()">MOJE SZABLONY</a>
-        <a onclick="document.getElementById('kontakt').scrollIntoView();closeMenu()">KONTAKT</a>
-        <a onclick="document.getElementById('omnie').scrollIntoView();closeMenu()">O MNIE</a>
+        <a onclick="document.getElementById('projekty').scrollIntoView();closeMenu()">MY PROJECTS</a>
+        <a onclick="document.getElementById('kontakt').scrollIntoView();closeMenu()">CONTACT</a>
+        <a onclick="document.getElementById('omnie').scrollIntoView();closeMenu()">ABOUT</a>
     </nav>
 
     <div class="email-sent">
@@ -65,31 +64,23 @@
             <div class="email-sent-close"><button onclick="closeEmail()">&#10005;</button></div>
             <div class="email-sent-text">
                 <span id="email-sent-sign">&#10003;</span>
-                <h1 id="email-sent-h1">Wiadomość została wysłana</h1>
-                <p id="email-sent-p">Odezwę się jak najszybciej.</p>
+                <h1 id="email-sent-h1">Message sent.</h1>
+                <p id="email-sent-p">I will reply as soon as possible.</p>
             </div>
         </div>
     </div>
 
     <div class="landing-page">
         <div class="landing-page-info">
-            <h1>Witaj w moim portfolio!</h1>
-            <p>Porzebujesz strony internetowej? Przewiń w dół aby zobaczyć moje projekty, a także
-                sprawdzić czy wśród moich szablonów znajdziesz coś dla siebie i swojego biznesu.
+            <h1>Welcome to my portfolio!</h1>
+            <p> 
+                I am a computer science and math entusiast. Scroll down to get familiar with my projects.  
             </p>
-            <button onclick="document.getElementById('kontakt').scrollIntoView()">Kontakt ></button>
+            <button onclick="document.getElementById('kontakt').scrollIntoView()">Contact ></button>
         </div>
-        <div class="landing-page-logo">
-            <div class="cube-container">
-                <div class="cube">
-                    <div class="face top">HTML/CSS/JS</div>
-                    <div class="face bottom">Strony OnePage</div>
-                    <div class="face left">SEO</div>
-                    <div class="face right">Wordpress</div>
-                    <div class="face front">FrontEnd</div>
-                    <div class="face back">BackEnd</div>
-                </div>
-            </div>
+        <div id="landing-page-graph">
+            
+
         </div>
     </div>
 
@@ -100,16 +91,41 @@
             <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
-            <div class="dot"></div>
         </div>
         <div class="content">
             <div class="content-container" id="projekty">
                 <div class="title">
-                    <h1>Moje projekty</h1>
-                    <p>Aplikacje oraz strony mojego autorstwa</p>
+                    <h1>My projects</h1>
+                    <p>Apps, websites and more</p>
                 </div>
                 <div class="content-container-single">
                     <div class="content-slider">
+                        <div class="projekt">
+                            <h2> &gt; AI medical data classifier</h2>
+                            <div class="projekt-container">
+                                <div class="projekt-photo">
+                                    <img src="imgs/projects/ai_medical.png">
+                                </div>
+                                <div class="projekt-desc">
+                                    <p>This is a web application which indentifies defects in brain MRIs and phonocardiograms using pre-trained convolutional neural networks.</p>
+                                    <button onclick="window.open('/AIMedicalDataClassifier')">Try it out &gt; </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="projekt">
+                            <h2> &gt; Javascript double pendulum simulator</h2>
+                            <div class="projekt-container">
+                                <div class="projekt-photo">
+                                    <img src="imgs/projects/pendulum.png">
+                                </div>
+                                <div class="projekt-desc">
+                                    <p>This application simulates the behaviour of a double pendulum based on provided initial conditions. It determines the evolution of the system thorugh differential equations and a numeric method of solving them (Runge-Kutta algorithm).</p>
+                                    <button onclick="window.open('/doublePendulumJS')">Try it out  &gt; </button>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="projekt">
                             <h2> &gt; Matura 365</h2>
                             <div class="projekt-container">
@@ -117,90 +133,25 @@
                                     <img src="imgs/projects/matura365.png">
                                 </div>
                                 <div class="projekt-desc">
-                                    <p>Matura365 to aplikacja w formie strony internetowej oraz mobilnej, służąca do generowania testów oraz próbnych arkuszy maturalnych.</p>
-                                    <button onclick="window.open('https://www.matura365.pl/')">Sprawdź &gt; </button>
-                                    <button onclick="window.open('https://play.google.com/store/apps/details?id=com.grzelik.matura365.free&hl=gsw&gl=US&pli=1')">Wersja mobilna &gt;</button>
+                                    <p>Matura365 is a mobile application designed to help students prepare for the polish matura exam, available on android. It generates exemplary tests based on a database of exercises.</p>
+                                    <button onclick="window.open('https://play.google.com/store/apps/details?id=com.grzelik.matura365.free&hl=gsw&gl=US&pli=1')">Google Play Store &gt;</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="projekt">
-                            <h2> &gt; Parafia w Dobroniu</h2>
-                            <div class="projekt-container">
-                                <div class="projekt-photo">
-                                    <img src="imgs/projects/parafiaDobron.png">
-                                </div>
-                                <div class="projekt-desc">
-                                    <p>Strona zbudowana w oparciu o Wordpress, korzystająca z napisanego przeze mnie motywu.</p>
-                                    <button onclick="window.open('https://www.parafiadobron.pl/')">Sprawdź &gt; </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="projekt">
-                            <h2> &gt; Portfolio i blog - Aleksandra Grzelik</h2>
-                            <div class="projekt-container">
-                                <div class="projekt-photo">
-                                    <img src="imgs/projects/aleksandra.png">
-                                </div>
-                                <div class="projekt-desc">
-                                    <p>Portfolio akademickie oparte o autorski generator stron statycznych napisany w języku Python z użyciem biblioteki Airium. Generator pobiera dane z pilków json w celu tworzenia dokumentów html zawierających posty i projekty. Strona dostępna w trzech językach.</p>
-                                    <button onclick="window.open('https://agrzelik.github.io/')">Sprawdź &gt; </button>
-                                    <button onclick="window.open('https://github.com/agrzelik/agrzelik.github.io')">Kod generatora &gt;</button>
-                                </div>
-                            </div>
-                        </div>
+
+                       
                     </div>
                     <div class="content-buttons">
-                        <button onclick="moveLeft()" class="content-button" style="opacity:0;"> &lt; Poprzedni </button>
-                        <button onclick="moveRight()" class="content-button"> Następny &gt;</button>
+                        <button onclick="moveLeft()" class="content-button" style="opacity:0;"> &lt; Previous </button>
+                        <button onclick="moveRight()" class="content-button"> Next &gt;</button>
                     </div>
                 </div>
             </div>
-            <div class="content-container" id="szablony">
-                <div class="title">
-                    <h1>Moje szablony</h1>
-                    <p>Przygotowane przeze mnie szablony stron internetowych</p>
-                </div>
-                <div class="content-container-single" id="szablony-content-container">
-                    <div class="content-slider">
-                        <div class="szablon">
-                            <div class="szablon-img"><img src="imgs/szablony/szablon1img.png"></div>
-                            <div class="szablon-button">
-                                <p>Kliknij, aby zobaczyć szablon na żywo:</p>
-                                <button onclick="location.href='/szablon1.html'">Zobacz &gt;</button>
-                            </div>
-                        </div>
-                        <div class="szablon">
-                            <div class="szablon-img"><img src="imgs/szablony/szablon2img.png"></div>
-                            <div class="szablon-button">
-                                <p>Kliknij, aby zobaczyć szablon na żywo:</p>
-                                <button onclick="location.href='/szablon2.html'">Zobacz &gt;</button>
-                            </div>
-                        </div>
-                        <div class="szablon">
-                            <div class="szablon-img"><img src="imgs/szablony/szablon3img.png"></div>
-                            <div class="szablon-button">
-                                <p>Kliknij, aby zobaczyć szablon na żywo:</p>
-                                <button onclick="location.href='/szablon3.html'">Zobacz &gt;</button>
-                            </div>
-                        </div>
-                        <div class="szablon">
-                            <div class="szablon-img"><img src="imgs/szablony/szablon4img.png"></div>
-                            <div class="szablon-button">
-                                <p>Kliknij, aby zobaczyć szablon na żywo:</p>
-                                <button onclick="location.href='/szablon4.html'">Zobacz &gt;</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-buttons">
-                        <button onclick="moveLeft2()" class="content-button" style="opacity:0;"> &lt; Poprzedni </button>
-                        <button onclick="moveRight2()" class="content-button"> Następny &gt;</button>
-                    </div>
-                </div>
-            </div>
+            
             <div class="content-container" id="kontakt">
                 <div class="title">
-                    <h1>Kontakt</h1>
-                    <p>Skontaktuj się ze mną mailowo lub telefonicznie</p>
+                    <h1>Contact</h1>
+                    <p>Contact me via email</p>
                 </div>
                 <div class="content-container-single" id="container-kontakt">
                     <div class="kontakt-info">
@@ -208,40 +159,35 @@
                             <img src="imgs/icons/mailAt1.png">
                             <p>m.grzelik.cover@gmail.com</p>
                         </div>
-                        <div class="kontakt-info-div" id="kontakt-info-mail">
-                            <img src="imgs/icons/phone.png">
-                            <p>692 769 215</p>
-                        </div>
                         <div class="kontakt-info-div" id="kontakt-info-web">
                             <img src="imgs/icons/web.png">
                             <p>matig152.github.io</p>
                         </div>
                     </div>
                     <form>
-                        <h1 style="text-align: center;">Wyślij wiadomość</h1>
-                        <label for="imie">Twoje imię:</label>
+                        <h1 style="text-align: center;">Send a message</h1>
+                        <label for="imie">Your name:</label>
                         <input type="text" id="imie" name="imie">
-                        <label for="mail">Twój email:</label>
+                        <label for="mail">Your email:</label>
                         <input type="text" id="mail" name="mail">
-                        <label for="tresc">Wiadomość:</label>
+                        <label for="tresc">Message:</label>
                         <textarea id="tresc"></textarea>
-                        <input id="submit" onclick="sendMail()" value="Wyślij &gt;">
+                        <input id="submit" onclick="sendMail()" value="Send &gt;">
                     </form>
                 </div>
             </div>
             <div class="content-container" id="omnie">
                 <div class="title">
-                    <h1>O mnie</h1>
-                    <p>Doświadczenie oraz umiejętności</p>
+                    <h1>About</h1>
+                    <p>My experience and abilities</p>
                 </div>
                 <div class="content-container-single" id="content-omnie">
-                    <p>Nazywam się Mateusz Grzelik i jestem studentem Informatyki i Ekonometrii na Akademii 
-                        Górniczo-Hutniczej w Krakowie.<br><br>
-                        Interesuję się tworzeniem stron statycznych. Są one lekkie, szybkie oraz tanie w utrzymaniu.<br><br>
-                        Buduję również motywy dla systemu Wordpress. Takie rozwiązanie pozwala przygotować unikatową
-                        szatę graficzną oraz układ strony, dając jednocześnie właścicielowi możliwość łatwej edycji 
-                        treści zawartych na stronie.<br><br>
-                        Posiadam również doświadczenie w pythonowym frameworku Django.
+                    <p>
+                        My name is Mateusz. I am currently studing at AGH Universtity of Science and Technology in Krakow, Poland. I am pursing two degrees, the first one is Computer Science and Econonometrics and the second one is Mathematics.
+                        <br><br>
+                        I am deeply interested in all things related to Computer Science and Mathematics, particularly data science and machine learning.
+                        <br><br>
+                        I have a few years of experience as a math and physics tutor, as well as a freelance web developer.
                     </p>
                     <div><img src="imgs/myPhoto.png"></div>
                 </div>
@@ -259,5 +205,6 @@
         <p>&#169; 2024 Mateusz Grzelik, wszelkie prawa zastrzeżone</p>
     </footer>
 
+    <script src="surface.js"></script>
 </body>
 </html>
