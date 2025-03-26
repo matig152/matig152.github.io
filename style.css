@@ -176,14 +176,14 @@ nav a:hover{
 
 /*#region LANDING PAGE*/
 .landing-page{
-    height: calc(95vh - 100px);
+    height: 100vh;
     display: grid;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 0px;
+    padding: 0;
     width: 80%;
-    gap: 40px;
-    grid-template-columns: 3fr 2fr;
-    max-width: 1200px;
+    gap: 0px;
+    grid-template-columns: 1fr;
 }
 .landing-page-info{
     width: 100%;
@@ -193,26 +193,45 @@ nav a:hover{
     justify-content: center;
 }
 .landing-page-info h1{
-    font-size: 10vh;
+    padding-top: 16vh;
+    text-align: center;
+    font-size: 8vh;
     margin-top: 0;
+    margin: 0;
 }
 .landing-page-info p{
-    font-size: 3vh;
-    padding-bottom: 6vh;
+    text-align: center;
+    font-size: 2.5vh;
+    padding-bottom: 1vh;
 }
 .landing-page button{
-    width: 50%;
+    margin: 20px auto;
+    margin-bottom: 10vh;
+    width: 20%;
 }
 #landing-page-graph{
-    height: 400px;  
-    width: 400px;
+    width: 500px;
+    margin: 0 auto;
     display: grid;
     place-content: center;
 }
 #landing-page-graph canvas{
-    height: 400px;
-    width: 200px;
+
 }
+.graph_msg{
+    border: 1px solid #2f76a9;
+    border-radius: 10px;
+    padding: 10px 5px;
+    position: absolute;
+    top : 55vh;
+    text-align: center;
+    left: 55vw;
+    width: 220px;
+    background-color: #200E3A;
+    opacity: 0;
+    transition: all .2s;
+}
+
 /*#endregion*/
 
 /*#region MAIN GRID*/
@@ -544,7 +563,7 @@ footer p{
     /*LANDING PAGE*/
     .landing-page{
         grid-template-columns: 1fr;
-        height: calc(80vh - 90px);
+        height: calc(90vh - 90px);
         width: 90%;
         margin: auto;
         margin-top: 120px;
@@ -553,6 +572,34 @@ footer p{
     .landing-page-info button{display: none;}
     .landing-page-info h1{font-size: 2rem;}
     .landing-page-info p{font-size: 1rem;}
+    .landing-page{
+        width: 80%;
+        gap: 0px;
+        grid-template-columns: 1fr;
+    }
+    .landing-page-info{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .landing-page-info h1{
+        padding-top: 4vh;
+    }
+    .landing-page-info p{
+        text-align: center;
+        font-size: 2.5vh;
+        padding-bottom: 1vh;
+    }
+    #landing-page-graph{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        place-content: center;
+    }
+    .graph_msg{
+        display: none;
+    }
 
     /*MAINGRID*/
     .maingrid{

@@ -22,6 +22,7 @@
         emailjs.init("4Ki_3h_jxYJQ7dN-J");
     })();
     </script>
+    
 </head>
 <body onload="hidePreloader()">
     <div class="preloader">
@@ -73,17 +74,22 @@
     <div class="landing-page">
         <div class="landing-page-info">
             <h1>Welcome to my portfolio!</h1>
+        </div>
+        
+        <div id="landing-page-graph" onmouseenter="show_msg()" onmouseleave="show_msg()">
+        
+        </div>
+        <div class="landing-page-info">
             <p> 
-                I am a computer science and math entusiast. Scroll down to get familiar with my projects.  
+                I am a computer science and math enthusiast. Scroll down to get familiar with my projects.  
             </p>
             <button onclick="document.getElementById('kontakt').scrollIntoView()">Contact ></button>
         </div>
-        <div id="landing-page-graph">
-            
-
-        </div>
     </div>
 
+    <div class="graph_msg" id="msg_graph">
+        A hyperbolic paraboloid :)
+    </div>
 
 
     <div class="maingrid">
@@ -185,7 +191,7 @@
                     <p>
                         My name is Mateusz. I am currently studing at AGH Universtity of Science and Technology in Krakow, Poland. I am pursing two degrees, the first one is Computer Science and Econonometrics and the second one is Mathematics.
                         <br><br>
-                        I am deeply interested in all things related to Computer Science and Mathematics, particularly data science and machine learning.
+                        I am interested in all things related to Computer Science and Mathematics, particularly data science and machine learning.
                         <br><br>
                         I have a few years of experience as a math and physics tutor, as well as a freelance web developer.
                     </p>
@@ -202,7 +208,7 @@
             <a href="https://www.linkedin.com/in/mateusz-grzelik-7923b2256/"><img src="imgs/icons/linkedin.png"></a>
             <a href="https://github.com/matig152"><img src="imgs/icons/github.png"></a>
         </div>
-        <p>&#169; 2024 Mateusz Grzelik, wszelkie prawa zastrzeżone</p>
+        <p>&#169; 2025 Mateusz Grzelik, all rights reserved.</p>
     </footer>
 
     <script src="surface.js"></script>
