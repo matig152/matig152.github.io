@@ -221,12 +221,12 @@ nav a:hover{
 .graph_msg{
     border: 1px solid #2f76a9;
     border-radius: 10px;
-    padding: 10px 5px;
+    padding: 5px 8px;
     position: absolute;
     top : 55vh;
     text-align: center;
-    left: 55vw;
-    width: 220px;
+    font-size: 12px;
+    left: 60vw;
     background-color: #200E3A;
     opacity: 0;
     transition: all .2s;

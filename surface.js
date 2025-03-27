@@ -8,6 +8,9 @@ console.log(window.matchMedia("(max-width: 600px)").matches)
 if(window.matchMedia("(max-width: 600px)").matches){
     renderer.setSize(350, 175)
 }
+else if(window.matchMedia("(max-width: 1400px)").matches){
+    renderer.setSize(600, 300)
+}
 else{
     renderer.setSize(800, 400);
 }
