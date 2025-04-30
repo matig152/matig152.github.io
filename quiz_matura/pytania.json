@@ -12,42 +12,292 @@
     },
     {
       "id": 2,
-      "questionText": "Który wzór opisuje funkcję kwadratową w postaci kanonicznej?",
+      "questionText": "Jaką wartość ma wyrażenie $ |\\sqrt{5} - 3| $?",
       "answers": [
-        { "text": "$f(x) = ax + b$", "isCorrect": false },
-        { "text": "$f(x) = a(x - p)^2 + q$", "isCorrect": true },
-        { "text": "$f(x) = a(x - x_1)(x - x_2)$", "isCorrect": false },
-        { "text": "$f(x) = \\frac{1}{x}$", "isCorrect": false }
+        { "text": "$\\sqrt{5} - 3$", "isCorrect": false },
+        { "text": "$3 - \\sqrt{5}$", "isCorrect": true },
+        { "text": "$\\sqrt{5} + 3$", "isCorrect": false },
+        { "text": "$-\\sqrt{5} - 3$", "isCorrect": false }
       ]
     },
     {
       "id": 3,
-      "questionText": "Jak oblicza się długość odcinka o końcach w punktach $ A = (x_A, y_A) $ i $ B = (x_B, y_B) $?",
+      "questionText": "Jakie są rozwiązania równania $ |x + 1| = 5 $?",
       "answers": [
-        { "text": "$|AB| = x_A + x_B + y_A + y_B$", "isCorrect": false },
-        { "text": "$|AB| = \\sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}$", "isCorrect": true },
-        { "text": "$|AB| = (x_A - x_B) \\cdot (y_A - y_B)$", "isCorrect": false },
-        { "text": "$|AB| = \\frac{x_A + x_B}{2} + \\frac{y_A + y_B}{2}$", "isCorrect": false }
+        { "text": "$x = 4$ i $x = -6$", "isCorrect": true },
+        { "text": "$x = 4$ i $x = 6$", "isCorrect": false },
+        { "text": "$x = -4$ i $x = -6$", "isCorrect": false },
+        { "text": "$x = -4$ i $x = 6$", "isCorrect": false }
       ]
     },
     {
       "id": 4,
-      "questionText": "Która z poniższych liczb jest rozwiązaniem równania $ x^2 - 9 = 0 $?",
+      "questionText": "Jakie jest rozwiązanie nierówności $ |x - 3| < 5 $?",
       "answers": [
-        { "text": "$x = 1$", "isCorrect": false },
-        { "text": "$x = 2$", "isCorrect": false },
-        { "text": "$x = 3$", "isCorrect": true },
-        { "text": "$x = 4$", "isCorrect": false }
+        { "text": "$x \\in (-2, 8)$", "isCorrect": true },
+        { "text": "$x \\in (-8, 2)$", "isCorrect": false },
+        { "text": "$x \\in (-\\infty, -2) \\cup (8, \\infty)$", "isCorrect": false },
+        { "text": "$x \\in (-\\infty, -8) \\cup (2, \\infty)$", "isCorrect": false }
       ]
     },
     {
       "id": 5,
-      "questionText": "Jakie jest pole trójkąta równobocznego o boku długości $ a $?",
+      "questionText": "Jak uprościć wyrażenie $ \\frac{1}{\\sqrt{2}} $ usuwając niewymierność z mianownika?",
       "answers": [
-        { "text": "$P = a^2$", "isCorrect": false },
-        { "text": "$P = \\frac{a^2 \\sqrt{3}}{4}$", "isCorrect": true },
-        { "text": "$P = \\frac{a \\sqrt{3}}{2}$", "isCorrect": false },
-        { "text": "$P = 2a$", "isCorrect": false }
+        { "text": "$\\frac{\\sqrt{2}}{2}$", "isCorrect": true },
+        { "text": "$\\frac{1}{2}$", "isCorrect": false },
+        { "text": "$\\sqrt{2}$", "isCorrect": false },
+        { "text": "$\\frac{2}{\\sqrt{2}}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "questionText": "Jakie jest rozwinięcie wyrażenia $ (1 + \\sqrt{3})^2 $?",
+      "answers": [
+        { "text": "$1 + 2\\sqrt{3} + 3$", "isCorrect": true },
+        { "text": "$1 + \\sqrt{3} + 3$", "isCorrect": false },
+        { "text": "$1 + 3$", "isCorrect": false },
+        { "text": "$4 + \\sqrt{3}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "questionText": "Ile wynosi $ \\log_2 32 + \\log_2 4 $?",
+      "answers": [
+        { "text": "$7$", "isCorrect": true },
+        { "text": "$5$", "isCorrect": false },
+        { "text": "$6$", "isCorrect": false },
+        { "text": "$8$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "questionText": "Jakie jest rozwiązanie równania $ 2^x = 64 $?",
+      "answers": [
+        { "text": "$x = 6$", "isCorrect": true },
+        { "text": "$x = 5$", "isCorrect": false },
+        { "text": "$x = 7$", "isCorrect": false },
+        { "text": "$x = 8$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "questionText": "Jak obliczyć 40% liczby 20?",
+      "answers": [
+        { "text": "$0.4 \\cdot 20 = 8$", "isCorrect": true },
+        { "text": "$40 \\cdot 20 = 800$", "isCorrect": false },
+        { "text": "$20 / 0.4 = 50$", "isCorrect": false },
+        { "text": "$20 + 40 = 60$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "questionText": "Jak obliczyć końcowy kapitał po 4 latach na lokacie z kapitalizacją roczną, jeśli kapitał początkowy wynosi 10000 zł, a oprocentowanie to 5%?",
+      "answers": [
+        { "text": "$10000 \\cdot (1 + 0.05)^4 \\approx 12155.06$ zł", "isCorrect": true },
+        { "text": "$10000 \\cdot 0.05 \\cdot 4 = 2000$ zł", "isCorrect": false },
+        { "text": "$10000 + (10000 \\cdot 0.05 \\cdot 4) = 12000$ zł", "isCorrect": false },
+        { "text": "$10000 \\cdot 1.05 = 10500$ zł", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "questionText": "Jakie jest rozwiązanie równania $ \\frac{x + 3}{x - 2} = 0 $?",
+      "answers": [
+        { "text": "$x = -3$", "isCorrect": true },
+        { "text": "$x = 2$", "isCorrect": false },
+        { "text": "$x = 3$", "isCorrect": false },
+        { "text": "$x = -2$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "questionText": "Jakie są rozwiązania równania $ x^2 - 9 = 0 $?",
+      "answers": [
+        { "text": "$x = 3$ i $x = -3$", "isCorrect": true },
+        { "text": "$x = 9$ i $x = -9$", "isCorrect": false },
+        { "text": "$x = 3$", "isCorrect": false },
+        { "text": "$x = -3$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "questionText": "Jakie jest rozwiązanie nierówności $ x^2 - x > 2 $?",
+      "answers": [
+        { "text": "$x \\in (-\\infty, -1) \\cup (2, \\infty)$", "isCorrect": true },
+        { "text": "$x \\in (-1, 2)$", "isCorrect": false },
+        { "text": "$x \\in (-2, 1)$", "isCorrect": false },
+        { "text": "$x \\in (-\\infty, -2) \\cup (1, \\infty)$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 14,
+      "questionText": "Jakie jest miejsce zerowe funkcji liniowej przechodzącej przez punkty $ A = (1, 3) $ i $ B = (4, 6) $?",
+      "answers": [
+        { "text": "$x = 0$", "isCorrect": true },
+        { "text": "$x = 1$", "isCorrect": false },
+        { "text": "$x = -1$", "isCorrect": false },
+        { "text": "$x = 2$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 15,
+      "questionText": "Jak obliczyć długość odcinka o końcach w punktach $ A = (3, 1) $ i $ B = (7, 2) $?",
+      "answers": [
+        { "text": "$\\sqrt{(7-3)^2 + (2-1)^2} = \\sqrt{17}$", "isCorrect": true },
+        { "text": "$\\sqrt{3^2 + 1^2} = \\sqrt{10}$", "isCorrect": false },
+        { "text": "$\\sqrt{7^2 + 2^2} = \\sqrt{53}$", "isCorrect": false },
+        { "text": "$\\sqrt{(3+7)^2 + (1+2)^2} = \\sqrt{109}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 16,
+      "questionText": "Jakie są współrzędne środka odcinka o końcach w punktach $ A = (-2, 3) $ i $ B = (8, 11) $?",
+      "answers": [
+        { "text": "$(3, 7)$", "isCorrect": true },
+        { "text": "$(6, 14)$", "isCorrect": false },
+        { "text": "$(-5, -4)$", "isCorrect": false },
+        { "text": "$(5, 7)$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 17,
+      "questionText": "Jak obliczyć pole trójkąta równobocznego o boku długości 6?",
+      "answers": [
+        { "text": "$\\frac{6^2\\sqrt{3}}{4} = 9\\sqrt{3}$", "isCorrect": true },
+        { "text": "$6^2 = 36$", "isCorrect": false },
+        { "text": "$\\frac{6 \\cdot 6}{2} = 18$", "isCorrect": false },
+        { "text": "$\\frac{6^3\\sqrt{3}}{4} = 54\\sqrt{3}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "questionText": "Jak obliczyć pole trapezu o podstawach 10 i 16 oraz wysokości 5?",
+      "answers": [
+        { "text": "$\\frac{(10 + 16) \\cdot 5}{2} = 65$", "isCorrect": true },
+        { "text": "$10 \\cdot 16 \\cdot 5 = 800$", "isCorrect": false },
+        { "text": "$\\frac{10 + 16}{2} \\cdot 5^2 = 325$", "isCorrect": false },
+        { "text": "$(10 + 16) \\cdot 5 = 130$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "questionText": "Jak obliczyć objętość sześcianu o polu powierzchni całkowitej 150?",
+      "answers": [
+        { "text": "$\\sqrt{\\frac{150}{6}}^3 = 125$", "isCorrect": true },
+        { "text": "$150^{3/2} = 1837.1$", "isCorrect": false },
+        { "text": "$\\frac{150}{6}^3 = 15625$", "isCorrect": false },
+        { "text": "$150 \\cdot 6 = 900$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 20,
+      "questionText": "Jak obliczyć objętość walca o promieniu podstawy 3 i wysokości 5?",
+      "answers": [
+        { "text": "$\\pi \\cdot 3^2 \\cdot 5 = 45\\pi$", "isCorrect": true },
+        { "text": "$2\\pi \\cdot 3 \\cdot 5 = 30\\pi$", "isCorrect": false },
+        { "text": "$\\frac{4}{3}\\pi \\cdot 3^3 = 36\\pi$", "isCorrect": false },
+        { "text": "$\\pi \\cdot 3 \\cdot 5 = 15\\pi$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 21,
+      "questionText": "Jak obliczyć długość łuku okręgu o promieniu 4 i kącie środkowym 20°?",
+      "answers": [
+        { "text": "$\\frac{20}{360} \\cdot 2\\pi \\cdot 4 = \\frac{4}{9}\\pi$", "isCorrect": true },
+        { "text": "$20 \\cdot 4 = 80$", "isCorrect": false },
+        { "text": "$\\frac{360}{20} \\cdot 2\\pi \\cdot 4 = 144\\pi$", "isCorrect": false },
+        { "text": "$\\frac{20}{360} \\cdot \\pi \\cdot 4^2 = \\frac{8}{9}\\pi$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 22,
+      "questionText": "Jak obliczyć sinus kąta α w trójkącie prostokątnym, jeśli przyprostokątna naprzeciwko α ma długość 3, a przeciwprostokątna 5?",
+      "answers": [
+        { "text": "$\\frac{3}{5}$", "isCorrect": true },
+        { "text": "$\\frac{4}{5}$", "isCorrect": false },
+        { "text": "$\\frac{3}{4}$", "isCorrect": false },
+        { "text": "$\\frac{4}{3}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "questionText": "Jakie jest zastosowanie twierdzenia cosinusów w trójkącie?",
+      "answers": [
+        { "text": "Obliczenie długości boku, gdy znamy dwa pozostałe boki i kąt między nimi", "isCorrect": true },
+        { "text": "Obliczenie pola trójkąta", "isCorrect": false },
+        { "text": "Obliczenie wysokości trójkąta", "isCorrect": false },
+        { "text": "Obliczenie promienia okręgu wpisanego", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "questionText": "Jak obliczyć n-ty wyraz ciągu arytmetycznego o pierwszym wyrazie 5 i różnicy 3?",
+      "answers": [
+        { "text": "$a_n = 5 + (n-1) \\cdot 3$", "isCorrect": true },
+        { "text": "$a_n = 5 \\cdot 3^{n-1}$", "isCorrect": false },
+        { "text": "$a_n = 5 + n \\cdot 3$", "isCorrect": false },
+        { "text": "$a_n = (5 + 3)^n$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 25,
+      "questionText": "Jak obliczyć sumę 10 początkowych wyrazów ciągu geometrycznego o pierwszym wyrazie 2 i ilorazie 3?",
+      "answers": [
+        { "text": "$2 \\cdot \\frac{1 - 3^{10}}{1 - 3} = 3^{10} - 1$", "isCorrect": true },
+        { "text": "$10 \\cdot 2 = 20$", "isCorrect": false },
+        { "text": "$\\frac{2 + 2 \\cdot 3^9}{2} \\cdot 10$", "isCorrect": false },
+        { "text": "$2 \\cdot 3^{10}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "questionText": "Jakie jest rozwiązanie układu równań: $\\begin{cases} x + y = 5 \\\\ 2x - y = 1 \\end{cases}$?",
+      "answers": [
+        { "text": "$x = 2$, $y = 3$", "isCorrect": true },
+        { "text": "$x = 3$, $y = 2$", "isCorrect": false },
+        { "text": "$x = 1$, $y = 4$", "isCorrect": false },
+        { "text": "$x = 4$, $y = 1$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 27,
+      "questionText": "Jakie jest równanie funkcji liniowej przechodzącej przez punkty (1, 3) i (4, 6)?",
+      "answers": [
+        { "text": "$y = x + 2$", "isCorrect": true },
+        { "text": "$y = 2x + 1$", "isCorrect": false },
+        { "text": "$y = 3x$", "isCorrect": false },
+        { "text": "$y = -x + 4$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "questionText": "Jak obliczyć pole rombu o przekątnych długości 6 i 8?",
+      "answers": [
+        { "text": "$\\frac{6 \\cdot 8}{2} = 24$", "isCorrect": true },
+        { "text": "$6 \\cdot 8 = 48$", "isCorrect": false },
+        { "text": "$\\frac{6 + 8}{2} = 7$", "isCorrect": false },
+        { "text": "$6^2 + 8^2 = 100$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 29,
+      "questionText": "Jak obliczyć długość przeciwprostokątnej trójkąta prostokątnego o przyprostokątnych 3 i 4?",
+      "answers": [
+        { "text": "$\\sqrt{3^2 + 4^2} = 5$", "isCorrect": true },
+        { "text": "$3 + 4 = 7$", "isCorrect": false },
+        { "text": "$3 \\cdot 4 = 12$", "isCorrect": false },
+        { "text": "$\\frac{3 + 4}{2} = 3.5$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 30,
+      "questionText": "Jak obliczyć pole wycinka koła o promieniu 6 i kącie środkowym 30°?",
+      "answers": [
+        { "text": "$\\frac{30}{360} \\cdot \\pi \\cdot 6^2 = 3\\pi$", "isCorrect": true },
+        { "text": "$\\frac{30}{360} \\cdot 2\\pi \\cdot 6 = \\pi$", "isCorrect": false },
+        { "text": "$\\pi \\cdot 6^2 = 36\\pi$", "isCorrect": false },
+        { "text": "$30 \\cdot 6 = 180$", "isCorrect": false }
       ]
     }
   ]

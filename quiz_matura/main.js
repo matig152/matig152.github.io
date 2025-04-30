@@ -37,7 +37,7 @@ fetch('pytania.json', {
             answer_check.classList = ["answer_check"]
             answers_span.appendChild(answer_check)
             // treść
-            answers_span.innerHTML += `<p id='text_question${i+1}_answer${j+1}' style='display: inline-block'>${question.answers[j].text}</p><br>`
+            answers_span.innerHTML += `<p id='text_question${i+1}_answer${j+1}' style='margin-right:4px;display: inline-block'>  ${question.answers[j].text}</p><br>`
         }
         question_div.appendChild(answers_span);
 
