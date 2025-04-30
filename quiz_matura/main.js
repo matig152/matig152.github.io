@@ -46,10 +46,10 @@ fetch('pytania.json', {
         // napisz pytanie
         document.getElementById('wrapper').appendChild(question_div)
 
-
     }
     //console.log(document.body.innerHTML);
     questions = json.questions;
+    MathJax.typesetPromise();
 });
 
 
