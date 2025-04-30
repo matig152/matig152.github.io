@@ -45,11 +45,11 @@ fetch('pytania.json', {
 
         // napisz pytanie
         document.getElementById('wrapper').appendChild(question_div)
+        MathJax.typesetPromise();
 
     }
     //console.log(document.body.innerHTML);
     questions = json.questions;
-    MathJax.typesetPromise();
 });
 
 
