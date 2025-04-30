@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "Jakie jest miejsce zerowe funkcji $ f(x) = 2x + 4 $?",
+      "answers": [
+        { "text": "$x = 2$", "isCorrect": false },
+        { "text": "$x = -2$", "isCorrect": true },
+        { "text": "$x = 4$", "isCorrect": false },
+        { "text": "$x = -4$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "questionText": "Który wzór opisuje funkcję kwadratową w postaci kanonicznej?",
+      "answers": [
+        { "text": "$f(x) = ax + b$", "isCorrect": false },
+        { "text": "$f(x) = a(x - p)^2 + q$", "isCorrect": true },
+        { "text": "$f(x) = a(x - x_1)(x - x_2)$", "isCorrect": false },
+        { "text": "$f(x) = \\frac{1}{x}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "questionText": "Jak oblicza się długość odcinka o końcach w punktach $ A = (x_A, y_A) $ i $ B = (x_B, y_B) $?",
+      "answers": [
+        { "text": "$|AB| = x_A + x_B + y_A + y_B$", "isCorrect": false },
+        { "text": "$|AB| = \\sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}$", "isCorrect": true },
+        { "text": "$|AB| = (x_A - x_B) \\cdot (y_A - y_B)$", "isCorrect": false },
+        { "text": "$|AB| = \\frac{x_A + x_B}{2} + \\frac{y_A + y_B}{2}$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "questionText": "Która z poniższych liczb jest rozwiązaniem równania $ x^2 - 9 = 0 $?",
+      "answers": [
+        { "text": "$x = 1$", "isCorrect": false },
+        { "text": "$x = 2$", "isCorrect": false },
+        { "text": "$x = 3$", "isCorrect": true },
+        { "text": "$x = 4$", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "questionText": "Jakie jest pole trójkąta równobocznego o boku długości $ a $?",
+      "answers": [
+        { "text": "$P = a^2$", "isCorrect": false },
+        { "text": "$P = \\frac{a^2 \\sqrt{3}}{4}$", "isCorrect": true },
+        { "text": "$P = \\frac{a \\sqrt{3}}{2}$", "isCorrect": false },
+        { "text": "$P = 2a$", "isCorrect": false }
+      ]
+    }
+  ]
+}
