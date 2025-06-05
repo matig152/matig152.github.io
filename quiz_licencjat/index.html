@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Quiz - Licencjat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+
+  </header>
+
+  <section class="initial">
+      <span>Liczba pytań: 
+      <select id="n_questions">
+        <option value="10">10</option>
+        <option value="25">25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="600">600</option>
+      </select></span>
+      <button class="initial_button" onclick="begin_test(document.getElementById('n_questions').value)">Rozpocznij</button>
+  </section>
+
+
+  <section class="questions">
+
+  </section>
+
+  <section class="check_test">
+    <button class="check_button" onclick="check_test()">Sprawdź</button>
+  </section>
+
+  <section class="results">
+     Wynik: <br><span id="test_results"></span>
+  </section>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
