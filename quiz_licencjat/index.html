@@ -6,11 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Quiz - Licencjat</title>
   <link rel="stylesheet" href="style.css" />
+  <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
 </head>
 <body>
 
   <header>
-
   </header>
 
   <section class="initial">
@@ -41,5 +51,12 @@
 
 
   <script src="main.js"></script>
+  <script>
+    MathJax.typesetPromise()
+    .then(() => {
+      console.log('MathJax: wzory wyrenderowane');
+    })
+    .catch((err) => console.error(err));
+  </script>
 </body>
 </html>

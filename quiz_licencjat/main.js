@@ -5,6 +5,8 @@ function begin_test(n_questions){
         return response.json();
     }).then(data => {
         questions = data.questions
+        questions = questions.filter(item => item.correctIndex != null)
+        
         const shuffled_questions = shuffleArray(questions.slice());
 
         questions = shuffled_questions.slice(0, n_questions)
@@ -33,7 +35,7 @@ function begin_test(n_questions){
         }
         questions_div.style.display = "block"
         document.getElementsByClassName("check_test")[0].style.display = "grid"
-
+        
         document.querySelectorAll('.answers').forEach(group => {
             const checkboxes = group.querySelectorAll('.answer_check');
             
@@ -47,6 +49,7 @@ function begin_test(n_questions){
             });
             });
         });
+        MathJax.typesetPromise();
 
         }
     )
@@ -83,7 +86,7 @@ function check_test(){
             if(document.getElementById(`check_2_${i}`).checked){user_response = 2}
             if(document.getElementById(`check_3_${i}`).checked){user_response = 3}
             if(document.getElementById(`check_4_${i}`).checked){user_response = 4}
-            correct_answer = questionsGlobal[i].correctIndex
+            correct_answer = questionsGlobal[i].correctIndex + 1
             if(user_response != 0){
                 if(correct_answer == user_response){
                     score += 1
