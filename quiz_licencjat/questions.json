@@ -654,7 +654,7 @@
     {
       "id": "94",
       "question": "Warunkiem koniecznym zbieżności szeregu liczbowego $ \\sum_{n=1}^{\\infty} a_n $ jest, aby:",
-      "options": ["$ a_n < 100 $", "$ \\lim_{n \\rightarrow +\\infty}a_n = 0$", "\\sum_{n=1}^{\\infty} a_n = 2", " \\sum_{n=1}^{\\infty} a_n = 0"],
+      "options": ["$ a_n < 100 $", "$ \\lim_{n \\rightarrow +\\infty}a_n = 0$", "$\\sum_{n=1}^{\\infty} a_n = 2$", "$ \\sum_{n=1}^{\\infty} a_n = 0 $"],
       "correctIndex": 2,
       "explanation": "Warunkiem koniecznym zbieżności szeregu liczbowego jest aby jego wyrazy zmierzały do zera w nieskończoności."
     },
@@ -689,7 +689,7 @@
     {
       "id": "99",
       "question": "Ciąg jest silnie rosnący, gdy:",
-      "options": ["Różnica między kolejnymi wyrazami ciągu jest równa zero", "$ \forall_{n \\in \\mathbb{N}}: a_{n+1} \\geqs a_n$", "Granicą ciągu jest plus nieskończność", "$ \forall_{n \\in \\mathbb{N}}: a_{n+1} > a_n$"],
+      "options": ["Różnica między kolejnymi wyrazami ciągu jest równa zero", "$ \\forall_{n \\in \\mathbb{N}}: a_{n+1} \\geq a_n$", "Granicą ciągu jest plus nieskończność", "$ \\forall_{n \\in \\mathbb{N}}: a_{n+1} > a_n$"],
       "correctIndex": 3,
       "explanation": "Między kolejnymi wyrazami musi zachodzić slina nierówność $ a_{n+1} \\geq a_n$."
     },
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "153",
-      "question": "Dany jest model (przy standardowych oznaczeniach): $ y_t = \\alpha_0 + \\alpha_1 \\cdot x_t + \\epsilion_t  $. Jest to przykład modelu:",
+      "question": "Dany jest model (przy standardowych oznaczeniach): $ y_t = \\alpha_0 + \\alpha_1 \\cdot x_t + \\epsilon_t  $. Jest to przykład modelu:",
       "options": ["Liniowego jednorównaniowego", "Z opóźnieniami", "Regresji wielorakiej", "Żadne z powyższych"],
       "correctIndex": 0,
       "explanation": ""
