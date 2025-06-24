@@ -142,451 +142,451 @@
     },
     {
       "id": "21",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Prawo, które mówi, że zadowolenie z pierwszej konsumowanej jednostki dobra jest znacznie większe niż z kolejnej, drugiej jednostki itd., nazywamy:",
+      "options": ["Prawem popytu", "Prawem podaży", "Prawem malejącej użyteczności krańcowej", "Prawem rosnących kosztów marginalnych"],
+      "correctIndex": 2,
+      "explanation": "Inaczej też: prawem nasycalności potrzeb/ pierwszym prawem Gossena"
     },
     {
       "id": "22",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Prawo, które mówi, że maksymalne zadowolenie z konsumpcji dwóch dóbr (maksymalną użyteczność) konsument osiąga wówczas, gdy stosunek użyteczności marginalnych tych dóbr zrównuje się z relacją ich cen, nazywamy:",
+      "options": ["Prawem malejącej użyteczności krańcowej", "Prawem popytu", "Prawem wyrównywania użyteczności krańcowych", "Pierwszym prawem Gossena"],
+      "correctIndex": 2,
+      "explanation": "Maksymalne zadowolenie (maksymalną użyteczność) z konsumpcji dobra A i B konsument osiąga wówczas, kiedy stosunek użyteczności krańcowych tych dóbr zrówna się z relacją ich cen. A więc użyteczności krańcowe (Uk) tych dóbr są proporcjonalne do ich cen. Zjawisko to nazywane jest także II Prawem Gossena."
     },
     {
       "id": "23",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Dobra, na które wielkość popytu rośnie wraz ze wzrostem ceny, nazywamy:",
+      "options": ["Dobra Griffena", "Dobrami zwyczajnymi", "Dobrami Velbena", "Dobrami normalnymi"],
+      "correctIndex": 2,
+      "explanation": "Dobra luksusowe (dobra Veblena - efekt snoba) lub dobra podstawowe (Giffena; np. żywność). "
     },
     {
       "id": "24",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Dobro komplementarne można zdefiniować jako:",
+      "options": ["Dobro, którego popyt rośnie, gdy cena innego dobra rośnie", "Dobro, które jest używane niezależnie od innych dóbr", "Dobro, które jest substytutem innego dobra", "Dobro, które jest konsumowane łącznie z innym dobrem"],
+      "correctIndex": 3,
+      "explanation": "Dobra komplementarne to dwa produkty, które w oczach konsumentów są ze sobą nierozerwalnie związane (wzajemnie się uzupełniają, przez co najczęściej są konsumowane razem, np. monitor i komputer, benzyna i samochód). Wzrost ceny jednego z nich powoduje spadek popytu na drugie."
     },
     {
       "id": "25",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Dobro substytucyjne można zdefiniować jako:",
+      "options": ["Dobro, którego popyt rośnie, gdy cena innego dobra rośnie", "Dobro, które jest używane niezależnie od innych dóbr", "Dobro, które jest substytutem innego dobra", "Dobro, które jest konsumowane łącznie z innym dobrem"],
+      "correctIndex": 2,
+      "explanation": "Dobra substytucyjne to dobra, które ze sobą konkurują (przez wzgląd na podobne cechy i funkcjonalność mogą być stosowane zamiennie). Wzrost ceny jednego z nich zwiększa popyt na drugie."
     },
     {
       "id": "26",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Dobra, na które wielkość popytu maleje wraz ze wzrostem ich ceny nazywamy:",
+      "options": ["Dobrami normalnymi", "Dobrami Giffena", "Dobrami komplementarnymi", "Dobrami substytucyjnymi"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "27",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Korzyści skali pojawiają się wtedy, gdy wraz ze wzrostem produkcji:",
+      "options": ["Koszty całkowite rosną", "Przychody krańcowe są stałe", "Długookresowe koszty przeciętne spadają", "Ceny dóbr rosną"],
+      "correctIndex": 2,
+      "explanation": "Długookresowe koszty przeciętne spadają, zatem koszt jednostkowy produkcji obniża się."
     },
     {
       "id": "28",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Stopa bezrobocia jest obliczana jako stosunek liczby osób bezrobotnych do:",
+      "options": ["Całkowitej liczby ludności", "Liczby osób zatrudnionych", "Liczby ludności aktywnej zawodowo", "Liczby osób w wieku emerytalnym"],
+      "correctIndex": 2,
+      "explanation": "Inaczej zasobu siły roboczej danej populacji lub liczby ludności w wieku produkcyjnym."
     },
     {
       "id": "29",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Zależność między stopą bezrobocia a stopą inflacji ilustruje:",
+      "options": ["Krzywa Laffera", "Krzywa Phillipsa", "Kzywa Engla", "Krzywa podaży"],
+      "correctIndex": 1,
+      "explanation": "Krzywa Phillipsa przedstawia odwrotną zależność między stopą bezrobocia a stopą inflacji w krótkim okresie. Oznacza to, że gdy bezrobocie jest niskie, inflacja ma tendencję do wzrostu, a gdy bezrobocie jest wysokie, inflacja zwykle spada. "
     },
     {
       "id": "30",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Stwierdzenie o tym, że dla każdego procentu wzrostu rzeczywistej stopy bezrobocia powyżej naturalnej stopy bezrobocia luka PKB powiększa się o około 3%, nazywamy:",
+      "options": ["Prawem Phillipsa", "Prawem Engla", "Prawem Okuna", "Prawem malejącej użyteczności krańcowej"],
+      "correctIndex": 2,
+      "explanation": "Prawo Okuna – makroekonomiczne prawo mówiące o tym, że wraz ze wzrostem bezrobocia przymusowego spada PKB."
     },
     {
       "id": "31",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jakie są podstawowe przesłanki wydania przez Urząd Patentowy decyzji o udzieleniu patentu na wynalazek i prawa ochronnego na wzór użytkowy:",
+      "options": ["Wynalazek musi być nowy, posiadać poziom wynalazczy i mieć zastosowanie przemysłowe", "Wynalazek musi być użyteczny, estetyczny i łatwy do wykonania", "Wzór użytkowy musi być powszechnie znany i stosowany w przemyśle", "Wzór użytkowy musi być oryginalny, estetyczny i chroniony przez prawo autorskie"],
+      "correctIndex": 0,
+      "explanation": "Patenty są udzielane – bez względu na dziedzinę techniki – na wynalazki, które są nowe, posiadają poziom wynalazczy i nadają się do przemysłowego stosowania."
     },
     {
       "id": "32",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W jaki sposób oznacza się pierwszeństwo do uzyskania patentu:",
+      "options": ["Poprzez datę złożenia pierwszego wniosku patentowego", "Poprzez datę publikacji wynalazku w mediach", "Poprzez datę rozpoczęcia produkcji wynalazku", "Poprzez datę podpisania umowy licencyjnej"],
+      "correctIndex": 0,
+      "explanation": "Pierwszeństwo do uzyskania prawa ochronnego na znak towarowy, oznacza się według daty zgłoszenia znaku towarowego w Urzędzie Patentowym RP (art. 123 ustawy pwp)."
     },
     {
       "id": "33",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jaki charakter ma prawo pierwszeństwa do uzyskania patentu:",
+      "options": ["Prawo osobiste, niezbywalne i związane z twórcą wynalazku", "Prawo majątkowe, które można sprzedać lub przenieść", "Prawo publiczne regulujące dostęp do informacji patentowej", "Prawo wynikające z umowy licencyjnej"],
+      "correctIndex": 1,
+      "explanation": "Prawo pierwszeństwa do uzyskania patentu ma charakter majątkowy, co oznacza, że przysługuje ono osobie lub podmiotowi, który pierwszy zgłosił wynalazek, i może być przenoszone, sprzedawane lub licencjonowane innym podmiotom. To prawo chroni interesy właściciela wynalazku na rynku patentowym."
     },
     {
       "id": "34",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jakie zachowanie stanowi nieuczciwą konkurencję?",
+      "options": ["Ujawnianie prawdziwych informacji o konkurencji", "Współpraca z innymi przedsiębiorstwami", "Udzielanie rabatów i promocji", "Stosowanie wprowadzających w błąd oznaczeń towarów lub usług"],
+      "correctIndex": 3,
+      "explanation": "Ustawa uznaje za czyn nieuczciwej konkurencji działanie sprzeczne z prawem lub dobrymi obyczajami, jeżeli takie zachowanie miałoby zagrażać lub naruszać interes innego przedsiębiorcy lub klienta. Aby natomiast dany czyn uznać za nieuczciwy, wskazane powyżej przesłanki powinny zostać spełnione kumulatywnie (tj. łącznie). A więc by dane zachowanie uznać za czyn nieuczciwej konkurencji: działanie to musi zostać podjęte w związku z działalnością gospodarczą, musi ono być sprzeczne z prawem lub dobrymi obyczajami i musi ono zagrażać lub naruszać interes innego przedsiębiorcy lub klienta. "
     },
     {
       "id": "35",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jakie uprawnienia uzyskiwane są poprzez udzielenie patentu przez Urząd Patentowy RP:",
+      "options": ["Wyłączne prawo do korzystania z wynalazku i zakazania innym jego używania", "Prawo do bezpłatnego korzystania z wynalazku przez wszystkich", "Prawo do sprzedaży wynalazku wyłącznie za granicą", "Obowiązek udostępniania wynalazku każdemu zainteresowanemu"],
+      "correctIndex": 0,
+      "explanation": "Patent na wynalazek to prawo wyłącznego korzystania (monopolu) z wynalazku w sposób zarobkowy lub zawodowy na całym obszarze Rzeczypospolitej Polskiej (art. 63 P.w.p.)  Korzystanie z wynalazku objętego patentem obejmuje wszelkie postacie stosowania wynalazku, czerpania korzyści z wynalazku oraz dysponowania nim.  Korzystanie z wynalazku przez inne osoby możliwe jest jedynie za zgodą uprawnionego (Uprawniony z patentu może w drodze umowy udzielić innej osobie upoważnienia (licencji) do korzystania z jego wynalazku (umowa licencyjna)). Uprawniony z patentu może zakazać osobom trzecim, nie mającym jego zgody, korzystania z wynalazku w sposób zarobkowy lub zawodowy. Posiada też prawo pierwszeństwa zgłoszenia w innych urzędach patentowych."
     },
     {
       "id": "36",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W kraju, w którym działa przedsiębiorstwo XYZ, zmieniono przepisy regulujące ochronę danych osobowych. Zmiana ta dotyczy: ",
+      "options": ["środowiska zewnętrznego, otoczenia ogólnego, wymiar ekonomiczny", "środowiska zewnętrznego, otoczenia celowego (mikrootoczenie), konkurenci", "środowiska zewnętrznego, otoczenia celowego, dostawcy", "środowiska zewnętrznego, otoczenia ogólnego, wymiar polityczno-prawny"],
+      "correctIndex": 3,
       "explanation": ""
     },
     {
       "id": "37",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W kraju, w którym działa przedsiębiorstwo XYZ, istotnie zmieniła się stopa bezrobocia. Zmiana ta dotyczy: ",
+      "options": ["środowiska zewnętrznego, otoczenia ogólnego, wymiar ekonomiczny", "środowiska zewnętrznego, otoczenia celowego (mikrootoczenie), konkurenci", "środowiska zewnętrznego, otoczenia celowego, dostawcy", "środowiska zewnętrznego, otoczenia ogólnego, wymiar polityczno-prawny"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "38",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Dwaj  główni  konkurenci  przedsiębiorstwa  ABC  właśnie  ogłosili  współpracę  strategiczną. Zmiana ta dotyczy:",
+      "options": ["środowiska zewnętrznego, otoczenia ogólnego, wymiar ekonomiczny", "środowiska zewnętrznego, otoczenia celowego (mikrootoczenie), konkurenci", "środowiska zewnętrznego, otoczenia celowego, dostawcy", "środowiska zewnętrznego, otoczenia ogólnego, wymiar polityczno-prawny"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "39",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Główny dostawca przedsiębiorstwa ABC właśnie ogłosił upadłość. Zmiana ta dotyczy:",
+      "options": ["środowiska zewnętrznego, otoczenia ogólnego, wymiar ekonomiczny", "środowiska zewnętrznego, otoczenia celowego (mikrootoczenie), konkurenci", "środowiska zewnętrznego, otoczenia celowego, dostawcy", "środowiska zewnętrznego, otoczenia ogólnego, wymiar polityczno-prawny"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "40",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W kraju, w którym działa przedsiębiorstwo XYZ zmienia się struktura  wiekowa  obywateli (następuje starzenie społeczeństwa). Zmiana ta dotyczy:",
+      "options": ["środowiska zewnętrznego, otoczenia ogólnego, wymiar ekonomiczny", "środowiska zewnętrznego, otoczenia celowego (mikrootoczenie), konkurenci", "środowiska zewnętrznego, otoczenia celowego, dostawcy", "środowiska zewnętrzne, otoczenia ogólnego, wymiar społeczno-kulturowy "],
+      "correctIndex": 3,
       "explanation": ""
     },
     {
       "id": "41",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W metodzie SWOT szanse oznaczają:",
+      "options": ["Czynniki wewnętrzne negatywnie wpływające na przedsiębiorstwo", "Czynniki zewnętrzne sprzyjające rozwojowi i wzrostowi firmy", "Czynniki wewnętrzne pozytywne dla przedsiębiorstwa", "Czynniki zewnętrzne, które mogą zagrażać działalności firmy"],
+      "correctIndex": 1,
+      "explanation": "Zewnętrzne uwarunkowania, które przy umiejętnym wykorzystaniu mogą wpływać pozytywnie na rozwój firmy."
     },
     {
       "id": "42",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W przedsiębiorstwie XYZ dotychczas handlowcy prowadzili rozmowy z klientami, posługując się własną wiedzą, umiejętnościami i doświadczeniem. Obecnie wprowadzono zasadę, iż handlowcy powinni posługiwać się ujednoliconymi scenariuszami rozmowy przygotowanymi przez kierownictwo. Której z cech struktury organizacyjnej dotyczy ta zmiana:",
+      "options": ["Centralizacji", "Specjalizacji", "Formalizacji", "Decentralizacji"],
+      "correctIndex": 0,
+      "explanation": "Także standaryzacji."
     },
     {
       "id": "43",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W przedsiębiorstwie ABC dotychczas handlowcy mogli ustalać warunki umów z klientami jedynie wtedy, gdy wcześniej zostały one zaakceptowane przez dyrektora handlowego. Obecnie wprowadzono zasadę, że handlowcy mogą samodzielnie ustalać warunki sprzedaży oferowane klientom. Której z cech struktury organizacyjnej dotyczy ta zmiana:",
+      "options": ["Centralizacji", "Specjalizacji", "Formalizacji", "Decentralizacji"],
+      "correctIndex": 3,
       "explanation": ""
     },
     {
       "id": "44",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W przedsiębiorstwie ABC dotychczas wszyscy pracownicy podlegali bezpośrednio dyrektorowi naczelnemu. Obecnie powołano dwóch zastępców dyrektora, którzy podlegają dyrektorowi, a którym z kolei podlegają pracownicy wykonawczy. Której z cech struktury organizacyjnej dotyczy ta zmiana:",
+      "options": ["Centralizacji", "Konfiguracji", "Formalizacji", "Decentralizacji"],
+      "correctIndex": 1,
+      "explanation": "Wymiar konfiguracji określa kształt struktury organizacyjnej (wyrażający sposób rozczłonkowania organizacji)"
     },
     {
       "id": "45",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Które dwie cechy struktury organizacyjnej są połączone ze sobą w ten sposób, że zwiększenie jednej zmniejsza drugą: ",
+      "options": ["Zakres kontroli i centralizacja", "Liczba szczebli i zakres kontroli", "Formalizacja i specjalizacja", "Centralizacja i decentralizacja"],
+      "correctIndex": 3,
+      "explanation": "Centralizacja oznacza koncentrację decyzji na najwyższych szczeblach zarządzania, podczas gdy decentralizacja to przenoszenie uprawnień decyzyjnych na niższe poziomy organizacji"
     },
     {
       "id": "46",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Cechą charakterystyczną stanowiska sztabowego w organizacji jest to, iż",
+      "options": ["Ma uprawnienia decyzyjne i bezpośrednią kontrolę nad podwładnymi", "Zajmuje się wyłącznie zadaniami operacyjnymi", "Ma za zadanie służyć doświadczeniem, radą i wsparciem stanowiskom liniowym.", "Odpowiada za zarządzanie całym zespołem pracowników"],
+      "correctIndex": 2,
+      "explanation": "Stanowisko sztabowe w organizacji charakteryzuje się tym, że jego zadaniem jest doradzanie i wspieranie stanowisk liniowych, ale nie posiada ono bezpośrednich uprawnień decyzyjnych ani nie sprawuje nadzoru nad podległymi pracownikami. Stanowiska sztabowe pełnią funkcje eksperckie i konsultacyjne."
     },
     {
       "id": "47",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Zgodnie z definicją struktury mechanistycznej jest ona:",
+      "options": ["Elastyczna, z małą formalizacją i szerokim zakresem kontroli", "Sztywna, z wysokim poziomem formalizacji i scentralizowanym podejmowaniem decyzji", "Oparta na współpracy między działami i decentralizacji", "Charakteryzująca się minimalną liczbą szczebli hierarchii"],
+      "correctIndex": 1,
+      "explanation": "Struktury mechanistyczne są rozwiązaniami „sztywnymi”, które charakteryzują się wysokim stopniem formalizacji i centralizacji władzy oraz „silną” hierarchią (czyli jest hierarchiczną strukturą organizacyjną; mało elastyczne). Tego typu struktury mogą być efektywne w otoczeniu stabilnym i przewidywalnym."
     },
     {
       "id": "48",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W przedsiębiorstwie ABC zasadniczy podział na działy przedstawia się następująco: dział projektowania, dział produkcji, dział handlowy, dział marketingu, dział księgowości. Jaki typ struktury organizacyjnej reprezentuje to przedsiębiorstwo: ",
+      "options": ["Struktura liniowa", "Struktura macierzowa", "Struktura amorficzna", "Struktura Funkcjonalna"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "49",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Struktura przedsiębiorstwa ABC oparta jest na dwóch nakładających się kryteriach grupowania: z jednej strony istnieje podział na dział projektowania, dział produkcji, dział handlowy, dział marketingu, dział księgowości, a z drugiej podział na zespoły projektowe. Jaki typ struktury organizacyjnej reprezentuje to przedsiębiorstwo:",
+      "options": ["Struktura liniowa", "Struktura macierzowa", "Struktura amorficzna", "Struktura Funkcjonalna"],
+      "correctIndex": 1,
+      "explanation": "Struktura macierzowa – jeden z typów struktury organizacyjnej polegający na tym, że komórki organizacyjne będące najczęściej doraźnymi zespołami roboczymi ułożone są w macierzy, która określona jest na zasadzie dwuwymiarowego grupowania."
     },
     {
       "id": "50",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Elastyczna i w bardzo niewielkim stopniu sformalizowana struktura organizacyjna przedsiębiorstwa to struktura:",
+      "options": ["Struktura liniowa", "Struktura macierzowa", "Struktura amorficzna", "Struktura Funkcjonalna"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "51",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W której ze struktur organizacyjnych pracownik ma więcej niż jednego przełożonego",
+      "options": ["Struktura liniowa", "Struktura macierzowa", "Struktura amorficzna", "Struktura Funkcjonalna"],
+      "correctIndex": 3,
+      "explanation": "Struktura funkcjonalna – jeden z typów struktury organizacyjnej charakteryzujący się występowaniem działów funkcjonalnych kierowanych przez specjalistów oraz złamaną zasadą jedności rozkazodawstwa."
     },
     {
       "id": "52",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Zmienne brane pod uwagę w metodzie BCG to:",
+      "options": ["Wielkość przedsiębiorstwa i dynamika rynku", "Względny udział w rynku oraz dynamika rynku", "Stopa oprocentowania kredytów i dynamika rozwoju rynku", "Procentowy udział w rynku i średnia stopa zwrotu z inwestycji"],
+      "correctIndex": 1,
+      "explanation": "Relatywny udział w rynku, dynamika wzrostu rynku"
     },
     {
       "id": "53",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W metodzie BCG gwiazdy od znaków zapytania różnią się:",
+      "options": ["Pozycją rynkową i zyskownością", "Tylko wielkością sprzedaży", "Relatywnym udziałem w rynku (niższy dla znaków zapytania)", "Żadne z powyższych"],
+      "correctIndex": 2,
+      "explanation": "Macierz BCG zawiera $\\begin{bmatrix}\\text{Gwiazdy } \\text{ Znaki Zapytania} \\ \\text{Dojne krowy } \\text{ Kule u nogi}\\end{bmatrix}$ "
     },
     {
       "id": "54",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Analiza pięciu sił konkurencyjnych Portera nie obejmuje:",
+      "options": ["Siły przetargowej dostawców", "Siły przetargowej nabywców", "Zagrożenia ze strony substytutów", "Analizy SWOT przedsiębiorstwa"],
+      "correctIndex": 3,
+      "explanation": "Pięć sił Portera obejmuje: siła przetargowa dostawców, siła przetargowa nabywców, rywalizacja z konkurencją, substytuty, potencjalni wchodzący"
     },
     {
       "id": "55",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W metodzie BCG gwiazdy od dojnych krów różnią się:",
+      "options": ["Względnym udziałem w rynku", "Tempem wzrostu rynku", "Poziomem inwestycji", "Zyskownością"],
+      "correctIndex": 1,
+      "explanation": "Macierz BCG zawiera $\\begin{bmatrix}\\text{Gwiazdy } \\text{ Znaki Zapytania} \\ \\text{Dojne krowy } \\text{ Kule u nogi}\\end{bmatrix}$"
     },
     {
       "id": "56",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Zgodnie z definicją dywersyfikacja pozioma zależna działalności przedsiębiorstwa to:",
+      "options": ["Połączenie dwóch przedsiębiorstw z tej samej branży w celu ograniczenia konkurencji", "Rozszerzenie działalności o produkty powiązane technologicznie lub marketingowo z dotychczasowymi produktami", "Rozszerzenie działalności o produkty niezwiązane z dotychczasowym profilem firmy", "Rozszerzenie działalności o produkty niezwiązane z dotychczasowym profilem firmy"],
+      "correctIndex": 1,
+      "explanation": "Dywersyfikacja pozioma polega na rozszerzeniu produkcji o wyroby lub też usługi nie wykraczające poza przemysł, w którym firma działa obecnie. Dywersyfikacja zależna- strategia, według której organizacja prowadzi kilka jednostek operacyjnych w jakiś sposób wzajemnie ze sobą powiązanych."
     },
     {
       "id": "57",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Zgodnie z definicją dywersyfikacja pozioma niezależna działalności przedsiębiorstwa to:",
+      "options": ["Połączenie dwóch przedsiębiorstw z tej samej branży w celu ograniczenia konkurencji", "Rozszerzenie działalności o produkty powiązane technologicznie lub marketingowo z dotychczasowymi produktami", "Rozszerzenie działalności o produkty niezwiązane z dotychczasowym profilem firmy", "Rozszerzenie działalności o produkty niezwiązane z dotychczasowym profilem firmy"],
+      "correctIndex": 3,
+      "explanation": "Dywersyfikacja pozioma niezależna to strategia rozwoju, w której przedsiębiorstwo wchodzi w nowe obszary działalności nienależące do dotychczasowego profilu, zarówno pod względem produktu, jak i rynku. Przykładem może być firma produkująca elektronikę, która zaczyna oferować odzież. Celem może być zmniejszenie ryzyka działalności przez zróżnicowanie źródeł przychodów."
     },
     {
       "id": "58",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W jaki sposób wysoka nieprzewidywalność otoczenia wpływa na poziom zapasów materiałów:",
+      "options": ["Prowadzi do zmniejszenia zapasów, by ograniczyć koszty", "Nie wpływa na poziom zapasów", "Skłania przedsiębiorstwo do utrzymywania wyższych zapasów jako zabezpieczenia przed zakłóceniami", "Powoduje całkowite wycofanie zapasów z magazynów"],
+      "correctIndex": 2,
+      "explanation": "W warunkach wysokiej nieprzewidywalności otoczenia (np. niestabilność dostaw, wahania popytu, zmiany regulacyjne) firmy często zwiększają poziom zapasów materiałów. Działa to jako bufor bezpieczeństwa, który pozwala utrzymać ciągłość produkcji i obsługi klientów mimo zakłóceń w łańcuchu dostaw. Choć wiąże się to z wyższymi kosztami magazynowania, zmniejsza ryzyko przestojów i utraty przychodów."
     },
     {
       "id": "59",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W jaki sposób wysoka złożoność i niepewność otoczenia wpływa na poziom centralizacji władzy w przedsiębiorstwie:",
+      "options": ["Prowadzi do wzrostu centralizacji, aby zachować kontrolę", "Skłania do decentralizacji, by umożliwić szybsze i bardziej elastyczne decyzje na niższych szczeblach", "Nie ma wpływu na poziom centralizacji", "Prowadzi do likwidacji stanowisk kierowniczych"],
+      "correctIndex": 2,
+      "explanation": "Wysoka złożoność i niepewność otoczenia prowadzi do decentralizacji."
     },
     {
       "id": "60",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Sytuacja, w której na danym rynku występuje tylko jeden klient i wielu dostawców, to:",
+      "options": ["Monopol", "Monopson", "Oligopol", "Oligopson"],
+      "correctIndex": 1,
+      "explanation": "Monopson to sytuacja rynkowa, w której istnieje tylko jeden nabywca (klient), natomiast po stronie podaży funkcjonuje wielu dostawców."
     },
     {
       "id": "61",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Która z konfiguracji rynkowych daje klientowi lepszą pozycję przetargową:",
+      "options": ["Monopol", "Monopson", "Oligopol", "Oligopson"],
+      "correctIndex": 1,
+      "explanation": "W monopsonie, gdzie występuje jeden nabywca i wielu dostawców, klient ma największą siłę przetargową."
     },
     {
       "id": "62",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Która z ról organizacyjnych nie jest rolą kierowniczą:",
+      "options": ["Rola interpersonalna", "Rola informacyjna", "Rola decyzyjna", "Rola wykonawcza"],
+      "correctIndex": 3,
+      "explanation": "Rolami kierowniczymi są: interpersonalne (rola reprezentanta, przywódcy, łącznika/pośrednika), informacyjne (rola rzecznika, obserwatora/specjalisty/eksperta/monitora, propagatora/upowszechniającego informacje), decyzyjne (rola przedsiębiorcy, przeciwdziałającego zakłóceniom, dysponenta/rozdzielającego zasoby, negocjatora)"
     },
     {
       "id": "63",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Która z funkcji zarządzania obejmuje tworzenie struktury organizacyjnej przedsiębiorstwa:",
+      "options": ["Planowanie", "Organizowanie", "Motywowanie", "Kontrolowanie"],
+      "correctIndex": 1,
+      "explanation": "Funkcje zarządzania to: planowanie, koordynowanie, organizowanie, kontrolowanie, przewodzenie"
     },
     {
       "id": "64",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Właściwa kolejność działań w procesie kontroli to:",
+      "options": ["Ustalenie norm, Mierzenie wyników, Porównanie wyników z normami, Ocena uzyskanych wyników", "Ustalenie norm, Porównanie wyników z normami, Ocena uzyskanych wyników, Mierzenie wyników", "Mierzenie wyników, Ustalenie norm, Porównanie wyników z normami, Ocena uzyskanych wyników", "Ustalenie norm, Mierzenie wyników,, Ocena uzyskanych wyników, Porównanie wyników z normami"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "65",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "O efekcie synergicznym mówimy, gdy",
+      "options": ["Poszczególne elementy działają niezależnie i ich efekty się sumują", "Efekt działania jednego elementu jest równy efektowi działania drugiego", "Współpraca między działami prowadzi do konfliktów i spadku efektywności", "Współdziałanie elementów powoduje, że efekt całości jest większy niż suma efektów poszczególnych części"],
+      "correctIndex": 3,
+      "explanation": "Proces współdziałania dwóch albo więcej czynników z uzyskaniem większego efektu od łącznej interakcji niż od efektu ich pojedynczego działania."
     },
     {
       "id": "66",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": " Elementem funkcji organizowania NIE jest:",
+      "options": ["Opracowanie struktury organizacyjnej", "Opracowanie procesów", "Podział pracy", "Motywowanie pracowników"],
+      "correctIndex": 3,
+      "explanation": "Organizowanie obejmuje: organizację przestrzenną, podział pracy, opracowanie struktury organizacyjnej, delegowanie uprawnień decyzyjnych i odpowiedzialności, opracowanie procesów, koordynowanie działań w czasie i przestrzeni, budowa zespołów, zapewnienie informacji."
     },
     {
       "id": "67",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Elementem funkcji planowania jest: ",
+      "options": ["Ustalanie celów", "Kontrola realizacji zadań", "Delegowanie uprawnień", "Motywowanie pracowników"],
+      "correctIndex": 0,
+      "explanation": "Do zadań planowania należy: Ustalenie zadań dla poszczególnych komórek organizacyjnych przedsiębiorstwa na krótkie okresy, Zapewnienia pełnego, terminowego i rytmicznego wykonywania zadań rocznych przedsiębiorstwa, Aktualizacja i dostosowanie zadań rocznych do nowo zaistniałych warunków w zakresie postępu technicznego, rynku zbytu."
     },
     {
       "id": "68",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Funkcje planowania i organizowania skupione są:",
+      "options": ["Wokół celów strategicznych i operacyjnych organizacji", "Wokół motywowania pracowników", "Wokół kontrolowania realizacji zadań", "Wokół rozwiązywania konfliktów w zespole"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "69",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Elementem funkcji kontroli jest: ",
+      "options": ["Ustalanie celów", "Delegowanie uprawnień", "Motywowanie pracowników", "Pomiar wyników"],
+      "correctIndex": 3,
+      "explanation": "Funkcje kontroli: sygnalizacyjna [informacyjna], korygująca [ochronna, pozwala na bieżące poprawki], inspirująca [pobudzająca, skłania do danych zachowań], profilaktyczna [prewencyjna, zniechęca do danych zachowań], instruktażowa [instruowanie osób kontrolowanych], dydaktyczno-wychowawcza."
     },
     {
       "id": "70",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Elementem funkcji organizowania jest: ",
+      "options": ["Ustalanie celów", "Podział pracy", "Motywowanie pracowników", "Pomiar wyników"],
+      "correctIndex": 1,
+      "explanation": "Organizowanie to kształtowanie struktury organizacyjnej, która zapewnia realizację opracowanego wcześniej planu i tym samym obranego wcześniej celu. To podejmowanie przez aparat rządzący czynności i decyzji organizacyjnych, które zmierzają do określenia pozycji oraz indywidualnych i zbiorowych ról członków organizacji. Poza tym mają na celu określenie kanałów informacyjnych. Konstruowanie struktury organizacyjnej to ustanawianie reguł poziomego i pionowego podziału pracy i zasobów potrzebnych do realizacji zadań, ustalanie przepływów informacji i dostępu do niej oraz zasad umiejscowienia uprawnień do podejmowania decyzji. Organizowanie jest to więc ustalanie procedur pełnienia ról organizacyjnych. Utworzona struktura tak sprzęga działania, że realizacja celów jest zapewniona. "
     },
     {
       "id": "71",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Do jakiej grupy metodyk zarządzania projektami należy metodyka PMI/PMBoK? ",
+      "options": ["Zwinnych zarządczych", "Tradycyjnych zarządczych", "Tradycyjnych wytwórczych", "Zwinnych wytwórczych"],
+      "correctIndex": 1,
+      "explanation": "Metodyka tradycyjna / klasyczna."
     },
     {
       "id": "72",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Która z metodyk obejmuje całość procesów zarządzania projektami przez wszystkie osoby związane z projektem np. zarząd?",
+      "options": ["PRINCE2", "Agile", "Scrum", "Kanban"],
+      "correctIndex": 0,
+      "explanation": "PRINCE2 - tu ważny jest zarząd."
     },
     {
       "id": "73",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Która z metodyk zarządzania projektami określa najmniej ról w projekcie? ",
+      "options": ["PRINCE2", "Agile", "Scrum", "Kanban"],
+      "correctIndex": 2,
+      "explanation": "Metodyka Scrum definiuje stosunkowo niewiele ról — głównie trzy kluczowe: Product Owner, Scrum Master, Zespół Developerski."
     },
     {
       "id": "74",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W której metodyce zarządzania projektami określona jest wprost grupa procesów dotyczących zarządzania zasobami?",
+      "options": ["PRINCE2", "Agile", "Scrum", "PMI/PMBoK"],
+      "correctIndex": 3,
+      "explanation": "Metodyka PMI/PMBoK wyróżnia w swoim standardzie wyraźną grupę procesów związanych z zarządzaniem zasobami projektu (Resource Management). Obejmuje to planowanie zasobów, ich pozyskiwanie, rozwijanie i zarządzanie zespołem projektowym oraz kontrolę wykorzystania zasobów."
     },
     {
       "id": "75",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Którą metodykę zarządzania projektami charakteryzuje ciągłe uzasadnienie biznesowe?",
+      "options": ["PRINCE2", "Agile", "Scrum", "PMI/PMBoK"],
+      "correctIndex": 0,
+      "explanation": "W metodyce PRINCE2 jednym z kluczowych zasad jest ciągłe uzasadnienie biznesowe (Continued Business Justification). Oznacza to, że projekt musi mieć jasno określony i utrzymywany przez cały czas trwania cel biznesowy, który uzasadnia jego realizację."
     },
     {
       "id": "76",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Zestaw wartości, przekonań, zachowań, obyczajów i postaw, który pomaga członkom organizacji zrozumieć, za czym organizacja się opowiada, jak działa i co uważa za ważne to:",
+      "options": ["Misja organizacji", "Kultura organizacyjna", "Strategia firmy", "Polityka prywatności"],
+      "correctIndex": 1,
+      "explanation": "Kultura organizacyjna to zbiór wspólnych wartości, norm, przekonań i zwyczajów, które kształtują zachowania pracowników i sposób funkcjonowania organizacji. Pomaga członkom organizacji zrozumieć, jakie są jej priorytety, sposób działania oraz jakie zachowania są oczekiwane i akceptowane."
     },
     {
       "id": "77",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Upełnomocnienie pracowników polega na:",
+      "options": ["Kontrolowaniu każdej czynności wykonywanej przez pracownika", "Przyznaniu pracownikom uprawnień i odpowiedzialności do podejmowania decyzji", "Ograniczeniu zakresu obowiązków pracowników", "Zwiększeniu nadzoru nad pracownikami"],
+      "correctIndex": 1,
+      "explanation": "Upełnomocnienie pracowników, po angielsku empowerment, jest procesem, podczas którego poszczególne jednostki lub zespoły pracownicze, zostają upełnomocnione. Dzięki temu mogą one same określać zakres swoich obowiązków oraz zadania, jakie muszą wykonać. Tacy pracownicy sami muszą kontrolować swoją pracę, wyznaczać sobie cele i kierunki działań w firmie. Przekłada się to na zwiększenie zaangażowania, jak i poczucia odpowiedzialności za swoje czyny u pracownika."
     },
     {
       "id": "78",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Wymiarami siatki przywódczej są:",
+      "options": ["Kontrola i motywacja", "Autorytaryzm i liberalizm", "Decyzyjność i komunikacja", "Troska o ludzi i troska o produkcję"],
+      "correctIndex": 3,
+      "explanation": "Zorientowanie/troska/nastawienie na ludzi i zorientowanie na zadania/produkcję."
     },
     {
       "id": "79",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Przywództwo charyzmatyczne polega na tym, iż: ",
+      "options": ["Lider osiąga wpływ dzięki formalnej władzy i stanowisku", "Lider inspiruje i motywuje innych swoją osobowością oraz wizją", "Lider opiera się wyłącznie na nagrodach i karach", "Lider unika podejmowania decyzji i deleguje zadania"],
+      "correctIndex": 1,
+      "explanation": "Przywódca posiada charyzmę, dzięki której może łatwo przekonać do siebie ludzi. To zdolność wpływania na innych ludzi, która bazuje na trzech komponentach, które Arystoteles 2500 lat temu nazwał logos (logika, dowody, rozumowanie), etos (wiarygodność mówcy, etyka) i patos (dostęp do emocji)."
     },
     {
       "id": "80",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Kierowanie konfliktem w organizacjach polega na:",
+      "options": ["Unikaniu wszystkich sytuacji konfliktowych", "Ignorowaniu konfliktów, aby nie zakłócać pracy zespołu", "Identyfikowaniu, analizowaniu i rozwiązywaniu konfliktów w sposób konstruktywny", "Wprowadzaniu surowych kar dla uczestników konfliktów"],
+      "correctIndex": 2,
+      "explanation": "Zarządzanie konfliktem to wszelkie działania które mają za zadanie eliminacje, redukcję i wyciszenie konfliktu lub ukierunkowanie jego skutków by maksymalnie wykorzystać jego pozytywne skutki i twórcze efekty. Konflikt z natury zbiorowości ludzkich jest stanem naturalnym. Kompletna jego eliminacja jest niemożliwa a co więcej niepożądana."
     },
     {
       "id": "81",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Ile wynosi szósta potęga liczby $ i $:",
+      "options": ["$ i $", "$ -1 $", "$ 1 $", "$ -i $"],
+      "correctIndex": 1,
+      "explanation": "$ i^6 = i^2 \\cdot i^2 \\cdot i^2 = (-1) \\cdot (-1) \\cdot (-1) = -1  $"
     },
     {
       "id": "82",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Ile rozwiązań w ciele liczb zespolonych ma równanie $ z^3 = 1+i $",
+      "options": ["1", "2", "3", "0"],
+      "correctIndex": 2,
+      "explanation": "Zasadnicze twierdzenie Algebry - wielomian zespolony n-tego stopnia ma n pierwiastków."
     },
     {
       "id": "83",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jaki jest warunek istnienia macierzy odwrotnej do $ A $:",
+      "options": ["$detA = 0$", "$$ detA \\ne 0 $$", "a_{ij} \\ne =", "a_{ij} = 0"],
+      "correctIndex": 1,
+      "explanation": "Macierz $ A $ dla której $ detA \\ne 0$ nazywamy nieosobliwą, inaczej odwracalną."
     },
     {
       "id": "84",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Wyznacznik iloczynu macierzy $A$ i $B$ spełnia ogólny warunek:",
+      "options": ["$ detA \\cdot detB = (detAB)^2 $", "Nie ma ogólnej zależności", "$detA \\cdot detB = detAB$", "$detA \\cdot detB \\ne detAB$"],
+      "correctIndex": 2,
+      "explanation": "Twierdzenie Cauchy'ego - wyznacznik iloczynu macierzy jest iloczynem wyznaczników tych macierzy."
     },
     {
       "id": "85",
@@ -618,7 +618,7 @@
     },
     {
       "id": "89",
-      "question": "",
+      "question": "Czym jest awersja do ryzyka?",
       "options": [],
       "correctIndex": null,
       "explanation": ""
