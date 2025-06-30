@@ -3495,371 +3495,371 @@
     },
     {
       "id": "500",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Przedsiębiorstwo XYZ produkuje, jako jedyne na świecie, wyrób A. Która z decyzji przedsiębiorstwa XYZ spowoduje zwiększenie barier wejścia na ten rynek? ",
+      "options": ["Zwiększenie ceny wyrobu A", "Opatentowanie technologii wytwarzania wyrobu A", "Rezygnacja z wytwarzania wyrobu", "Zmniejszenie ceny wyrobu A"],
+      "correctIndex": 1,
+      "explanation": "Objęcie ochroną patentową wytwarzanego wyrobu. zapisy w umowach z dostawcami."
     },
     {
       "id": "501",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Przedsiębiorstwo  ABC  jest  producentem  specjalistycznych  podzespołów  X.  Istnieją dwa przedsiębiorstwa (A i B), które używają tych podzespołów w swoich wyrobach. ABC jest dostawcą obu tych przedsiębiorstw. Przedsiębiorstwa A i B właśnie ogłosiły fuzję. Co to oznacza dla firmy ABC?",
+      "options": ["Możliwość zwiększenia produkcji przez ABC", "Zwiększenie liczby odbiorców podzespołów X", "Zmniejszenie siły przetargowej ABC wobec połączonego klienta", "Spadek kosztów produkcji w firmie ABC"],
+      "correctIndex": 2,
+      "explanation": "Producent (firma ABC) ma teraz tylko jednego odbiorcę, więc polega teraz tylko na nim i ma słabszą pozycję w negocjacji cen."
     },
     {
       "id": "502",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Produkt A przedsiębiorstwa XYZ jest, wg macierzy BCG, psem. Oznacza to, że przedsiębiorstwo XYZ powinno:",
+      "options": ["Zainwestować znaczne środki w rozwój produktu A", "Zwiększyć udział w rynku poprzez agresywny marketing", "Rozważyć wycofanie produktu lub ograniczenie inwestycji", "Traktować produkt jako źródło finansowania innych projektów"],
+      "correctIndex": 2,
+      "explanation": "Rozważyć możliwość wycofania się z danego sektora rynku, gdyż produkty te pochłaniają zbyt dużo środków finansowych, przynosząc w zamian znikome dochody."
     },
     {
       "id": "503",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Produkt A przedsiębiorstwa XYZ jest, wg macierzy BCG, dojną krową. Oznacza to, że przedsiębiorstwo XYZ powinno:",
+      "options": ["Nie inwestować w rozwój żadnych wyrobów i gromadzić zapasy", "Przeznaczyć zyski z niego na utrzymanie jego pozycji, a nadwyżki przeznaczyć na rozwój innych produktów", "Nie inwestować w jego rozwój, a może nawet wycofać się z jego produkcji", "Przeznaczyć zyski z innych produktów na rozwój produktu A"],
+      "correctIndex": 1,
+      "explanation": "Powinno utrzymać udział w rynku, finansować pozostałe wyroby, inwestycje, wspierać gwiazdy."
     },
     {
       "id": "504",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Produkt A przedsiębiorstwa XYZ jest, wg macierzy BCG, gwiazdą. Oznacza to, że przedsiębiorstwo XYZ powinno:",
+      "options": ["Zainwestować znaczne środki w rozwój produktu A", "Zwiększyć udział w rynku poprzez marketing", "Rozważyć wycofanie produktu lub ograniczenie inwestycji", "Traktować produkt jako źródło finansowania innych projektów"],
+      "correctIndex": 0,
+      "explanation": "Inwestować w gwiazdę, gdyż jest to bardzo opłacalne, ponieważ tempo wzrostu rynku jest wysokie a sam produkt jest konkurencyjny i rozwojowy. Gwiazdy z biegiem czasu mogą przekształcić się w dojne krowy."
     },
     {
       "id": "505",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Możliwą jednostką, w której podajemy wynik analizy ścieżki krytycznej,są: ",
+      "options": ["Jednostki monetarne", "Jednostki czasu", "Zasoby ludzkie", "Żadne z powyższych"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "506",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W analizie BCG wyrób X ma wysoki udział w dynamicznie rozwijającym się rynku. W związku z tym jest:",
+      "options": ["Gwiazdą", "Dojną krową", "Znakiem zapytania", "Psem"],
+      "correctIndex": 0,
+      "explanation": "Macierz BCG (Boston Consulting Group) dzieli produkty lub jednostki biznesowe na cztery kategorie w zależności od ich udziału w rynku i tempa wzrostu rynku. Gwiazdy to produkty znajdujące się na rynku o wysokim wzroście, przy jednoczesnym wysokim udziale w rynku – wymagają dużych inwestycji, ale mają potencjał, by stać się głównym źródłem zysków. Dojne krowy to produkty o wysokim udziale w rynku, lecz działające na rynku o niskim wzroście – generują stabilne i wysokie zyski, często finansując inne obszary działalności. Znaki zapytania to produkty z niskim udziałem w rynku, ale działające na dynamicznie rosnących rynkach – mogą wymagać dużych nakładów inwestycyjnych, a ich przyszłość jest niepewna. Psy to produkty z niskim udziałem i niskim wzrostem rynku – zazwyczaj przynoszą niewielkie zyski lub straty i są kandydatami do wycofania lub minimalizacji zaangażowania."
     },
     {
       "id": "507",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W analizie BCG wyrób X ma niski udział w dynamicznie rozwijającym się rynku. W związku z tym jest:",
+      "options": ["Gwiazdą", "Dojną krową", "Znakiem zapytania", "Psem"],
+      "correctIndex": 2,
+      "explanation": "Macierz BCG (Boston Consulting Group) dzieli produkty lub jednostki biznesowe na cztery kategorie w zależności od ich udziału w rynku i tempa wzrostu rynku. Gwiazdy to produkty znajdujące się na rynku o wysokim wzroście, przy jednoczesnym wysokim udziale w rynku – wymagają dużych inwestycji, ale mają potencjał, by stać się głównym źródłem zysków. Dojne krowy to produkty o wysokim udziale w rynku, lecz działające na rynku o niskim wzroście – generują stabilne i wysokie zyski, często finansując inne obszary działalności. Znaki zapytania to produkty z niskim udziałem w rynku, ale działające na dynamicznie rosnących rynkach – mogą wymagać dużych nakładów inwestycyjnych, a ich przyszłość jest niepewna. Psy to produkty z niskim udziałem i niskim wzrostem rynku – zazwyczaj przynoszą niewielkie zyski lub straty i są kandydatami do wycofania lub minimalizacji zaangażowania."
     },
     {
       "id": "508",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W analizie BCG wyrób X ma wysoki udział w stabilnym rynku. W związku z tym jest:",
+      "options": ["Gwiazdą", "Dojną krową", "Znakiem zapytania", "Psem"],
+      "correctIndex": 1,
+      "explanation": "Macierz BCG (Boston Consulting Group) dzieli produkty lub jednostki biznesowe na cztery kategorie w zależności od ich udziału w rynku i tempa wzrostu rynku. Gwiazdy to produkty znajdujące się na rynku o wysokim wzroście, przy jednoczesnym wysokim udziale w rynku – wymagają dużych inwestycji, ale mają potencjał, by stać się głównym źródłem zysków. Dojne krowy to produkty o wysokim udziale w rynku, lecz działające na rynku o niskim wzroście – generują stabilne i wysokie zyski, często finansując inne obszary działalności. Znaki zapytania to produkty z niskim udziałem w rynku, ale działające na dynamicznie rosnących rynkach – mogą wymagać dużych nakładów inwestycyjnych, a ich przyszłość jest niepewna. Psy to produkty z niskim udziałem i niskim wzrostem rynku – zazwyczaj przynoszą niewielkie zyski lub straty i są kandydatami do wycofania lub minimalizacji zaangażowania."
     },
     {
       "id": "509",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W analizie BCG wyrób X ma niski udział w stabilnym rynku. W związku z tym jest:",
+      "options": ["Gwiazdą", "Dojną krową", "Znakiem zapytania", "Psem"],
+      "correctIndex": 3,
+      "explanation": "Macierz BCG (Boston Consulting Group) dzieli produkty lub jednostki biznesowe na cztery kategorie w zależności od ich udziału w rynku i tempa wzrostu rynku. Gwiazdy to produkty znajdujące się na rynku o wysokim wzroście, przy jednoczesnym wysokim udziale w rynku – wymagają dużych inwestycji, ale mają potencjał, by stać się głównym źródłem zysków. Dojne krowy to produkty o wysokim udziale w rynku, lecz działające na rynku o niskim wzroście – generują stabilne i wysokie zyski, często finansując inne obszary działalności. Znaki zapytania to produkty z niskim udziałem w rynku, ale działające na dynamicznie rosnących rynkach – mogą wymagać dużych nakładów inwestycyjnych, a ich przyszłość jest niepewna. Psy to produkty z niskim udziałem i niskim wzrostem rynku – zazwyczaj przynoszą niewielkie zyski lub straty i są kandydatami do wycofania lub minimalizacji zaangażowania."
     },
     {
       "id": "510",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>r = [1, '2', 'b'*3]<br>print(r)</span>",
+      "options": ["<span class='code-inline'>[1, '2', 'b', 'b', 'b']</span>", "<span class='code-inline'>[1, '2', 'bbb']</span>", "<span class='code-inline'>[1, '2', 'b3']</span>", "<span class='code-inline'>[1, '2', 'b'*3]</span>"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "511",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>i = 11 <br>while i > 0:<br> <span class='tab'></span> print(i)<br><span class='tab'></span>  i -= 2 </span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>11, 9, 7, 5, 3, 1</span>", "<span class='code-inline'>10, 8, 6, 4, 2, 0</span>", "<span class='code-inline'>0, 8, 6, 4, 2</span>", "Pętla nieskończona"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "512",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>i = 11 <br>while i:<br> <span class='tab'></span> print(i)<br><span class='tab'></span>  i -= 2 </span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>11, 9, 7, 5, 3, 1</span>", "<span class='code-inline'>10, 8, 6, 4, 2, 0</span>", "<span class='code-inline'>0, 8, 6, 4, 2</span>", "Pętla nieskończona"],
+      "correctIndex": 0,
+      "explanation": "Pętla while i: działa dopóki i ma wartość różną od zera (w Pythonie liczba 0 to False, pozostałe liczby to True)."
     },
     {
       "id": "513",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>i = 11 <br><br>if i > 10:<br><span class='tab'></span> print('i > 10, ', i) <br>elif i > 6: <br><span class='tab'></span>print('i > 6, ', i) <br> else: print('i <= 5, ', i) </span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>i>10 , 11 i>10 , 11 i<=5 , 11</span>", "<span class='code-inline'>i>10 , 11 i > 6, 11</span>", "<span class='code-inline'>i > 6 , 11</span>", "<span class='code-inline'>i > 10 , 11</span>"],
+      "correctIndex": 3,
+      "explanation": "Python nie sprawdza już dalszych warunków (elif, else) po spełnieniu pierwszego if."
     },
     {
       "id": "514",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>i = 5<br>if i > 10:<br><span class='tab'></span>print('i > 10, ', i)<br>else:<br><span class='tab'></span> if i > 5: <br><span class='tab'></span> <span class='tab'></span> print('i > 5', i)<br><span class='tab'></span> else:<br><span class='tab'></span> <span class='tab'></span> print('i <= 5', i) </span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>i > 10, 5</span>", "<span class='code-inline'>i <= 5, 4</span>", "<span class='code-inline'>i > 5 , 5</span>", "<span class='code-inline'>i <= 5 , 5</span>"],
+      "correctIndex": 3,
       "explanation": ""
     },
     {
       "id": "515",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>a = 3; b = 4;<br>b, a = a, b<br>print(a, b, end='!')</span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>3 4!</span>", "<span class='code-inline'>4 3!</span>", "<span class='code-inline'>4 4!</span>", "<span class='code-inline'>3 3!</span>"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "516",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>a = 3; b = 4; c = 2;<br>b, a = a*b**c, a//c*b<br>print(a, b, end='!\\n')</span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>6 30!</span>", "<span class='code-inline'>3 30!</span>", "<span class='code-inline'>4 48!</span>", "<span class='code-inline'>6 36!</span>"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "517",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>x = 1;y = 0<br>try:<br><span class='tab'></span> z = x / y<br>except:<br><span class='tab'></span>print('Niepoprawne dane')<br>else:<br><span class='tab'></span>print('Wynik:', 'z') </span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["<span class='code-inline'>Niepoprawne dane</span>", "<span class='code-inline'>0</span>", "<span class='code-inline'>Niepoprawne dane Wynik: null</span>", "<span class='code-inline'>1</span>"],
+      "correctIndex": 0,
+      "explanation": "Else nie jest wykonywany."
     },
     {
       "id": "518",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>#-*-coding: ibm852 -*-</span> to jego wynikiem będzie (pomijając łamanie wiersza):",
+      "options": ["Zmiana kodowania", "Błąd", "<span class='code-inline'>0</span>", "<span class='code-inline'>1</span>"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "519",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeśli w języku Python 3.7 zdefiniujemy kod: <span class='code'>class Kwadrat:<br><span class='tab'></span>bok = 0<br><span class='tab'></span>def wyswietl(self):<br><span class='tab'></span><span class='tab'></span>print('pole=', self.pole())<br><span class='tab'></span>def pole(self):<br><span class='tab'></span><span class='tab'></span>return self.bok ** 2<br><br>class Szescian(Kwadrat):<br><span class='tab'></span>def pole(self):<br><span class='tab'></span><span class='tab'></span>return Kwadrat.pole(self)*6 </span> to powyższy kod:",
+      "options": ["Spowoduje błąd", "Jest przykładem dziedziczenia", "Jest przykładem hermetyzacji", "Żadne z powyższych"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "520",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Zdarzenie 'powstaje nowa technologia, która zapewni lepszą jakość produktów przy mniejszym koszcie' w zarządzaniu projektami należy potraktować jako:",
+      "options": ["Zagrożenie", "Opóźnienie", "Szansę", "Błąd planowania"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "521",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jakie  podstawowe  narzędzie  wykorzysta  menedżer  projektu  PRINCE2  do  zarządzania ryzykiem? ",
+      "options": ["Wykres Gantta", "Diagram Ishikawy", "Management of Risk", "Żadne z powyższych"],
+      "correctIndex": 2,
+      "explanation": "The MOR method is a generic approach to risk."
     },
     {
       "id": "522",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Zdarzenie „musimy użyć nowej technologii, w której nie mamy doświadczenia” w zarządzaniu projektami należy traktować jako:",
+      "options": ["Szansę", "Zagrożenie", "Mocną stronę", "Dojną krowę"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "523",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W którym miejscu strony HTML należy umieścić podstawowe informacje wykorzystywane przez wyszukiwarki internetowe do indeksowania stron? ",
+      "options": ["W sekcji body", "W sekcji footer", "W sekcji head", "Po znaczniku DOCTYPE! html"],
+      "correctIndex": 2,
+      "explanation": "W sekcji head, w znaczniku meta."
     },
     {
       "id": "524",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jakiej techniki należy użyć w celu bieżącego odświeżania danych z serwisu giełdowego na stronie HTML?",
+      "options": ["GET", "POST", "AJAX", "Żadne z powyższych"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "525",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Konfiguracja protokołu HTTPS po stronie serwera w celu zabezpieczenia przesyłanych danych wymaga:",
+      "options": ["Silnego hasła administratora", "Certyfikatu TLS/SSL", "Instalacji języka PHP", "Dodatkowej bazy danych"],
+      "correctIndex": 1,
+      "explanation": "Zastosowania protokołu TLS (protokół kryptograficzny), składającego się z 3 głównych warstw zabezpieczeń: Szyfrowania, Integralności danych i Uwierzytelniania."
     },
     {
       "id": "526",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Praktyczne wykorzystanie regułowego systemu szkieletowego wymaga zdefiniowania przez użytkownika:",
+      "options": ["Interfejsu graficznego", "Bazy danych SQL", "Modelu matematycznego", "Zbioru reguł i faktów"],
+      "correctIndex": 3,
+      "explanation": "Bazy wiedzy (zbioru faktów i zbioru reguł)."
     },
     {
       "id": "527",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Do realizacji klauzul Horna w Prologu stosuje się:",
+      "options": ["Operator :-", "Operator v", "Operator and", "Żadne z powyższych"],
+      "correctIndex": 0,
+      "explanation": "Reguły, w których lewa strona jest termem atomowym, a z prawej znajduje się koniunkcja lub alternatywa. Takie formuły logiczne, bez alternatyw, albo z alternatywami wyłącznie negatywnych literałów, albo z najwyżej jednym literałem pozytywnym, nazywa się klauzulami Horna (Klauzula Horna (ang. Horn clause) – klauzula, w której co najwyżej jeden element jest niezanegowany.)"
     },
     {
       "id": "528",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Sprawdzenie pewnej hipotezy jest realizowane przez wnioskowanie: ",
+      "options": ["Indukcyjne", "Wprzód", "Wstecz", "Żadne z powyższych"],
+      "correctIndex": 2,
+      "explanation": "Wnioskowanie w tył – działanie regresywne (Modus Tollendo Tollens). Polega na tym, że wychodzimy od tego, co chcemy udowodnić i idziemy w kierunku aksjomatów. "
     },
     {
       "id": "529",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Złączenie naturalne wymaga by w obu łączonych relacjach:",
+      "options": ["Były różne klucze podstawowe", "Wszystkie atrybuty miały takie same nazwy", "Były identyczne liczby rekordów", "Istniały atrybuty o tych samych nazwach"],
+      "correctIndex": 3,
+      "explanation": "Obie kolumny występujące w warunku łączącym były tej samej nazwy."
     },
     {
       "id": "530",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W celu zapewnienia integralności danych w różnych relacjach konieczne jest: ",
+      "options": ["Użycie wyłącznie kluczy głównych", "Przechowywanie danych w jednej tabeli", "Definiowanie unikatowych kluczy głównych", "Zastosowanie indeksów"],
+      "correctIndex": 2,
+      "explanation": "Integralność danych, także spójność (ang. data integrity) – własność danych wykluczająca wprowadzenie do nich zmian w nieautoryzowany sposób."
     },
     {
       "id": "531",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Mechanizm upraszczania opisu jakiegoś obiektu (np. banku) w projektowaniu obiektowym określamy jako:",
+      "options": ["Dziedziczenie", "Hermetyzacja", "Abstrakcja", "Polimorfizm"],
+      "correctIndex": 2,
+      "explanation": "Abstrakcja w programowaniu obiektowym to proces wyodrębniania najistotniejszych cech obiektu i pomijania szczegółów nieistotnych."
     },
     {
       "id": "532",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Grupa metod, która realizuje kluczowe zadania dla klasy np. zakładanieKonta, wykonajPrzelew itp. dla konta bankowego, określana jest w programowaniu obiektowym jako:",
+      "options": ["Konstruktor", "Atrybut", "Interfejs", "Pole publiczne"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "533",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Przekazywanie danych jakiegoś obiektu do innej zewnętrznej aplikacji biznesowej w postaci XML można zrealizować w .NET za pomocą:",
+      "options": ["FileStream", "XmlSerializer", "JSONparser", "BinaryFormatter"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "534",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W odniesieniu do której grupy metod zastosowanie nie jest zazwyczaj wymagane w przypadku konstrukcji systemów do wspomagania podejmowania decyzji dobrze ustrukturyzowanych:",
+      "options": ["Metody statystyczne", "Metody optymalizacyjne", "Metody sztucznej inteligencji", "Metody heurystyczne"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "535",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Konstrukcja systemów do wspomagania podejmowania decyzji słabo ustrukturyzowanych bazuje na zastosowaniu metod:",
+      "options": ["Hermetyzacji", "Optymalizacji i symulacji", "Deterministycznych", "Formalnych"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "536",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Implementacja algorytmów ukierunkowanych na wspomaganie decyzji w przedsiębiorstwie może być realizowana za pomocą:",
+      "options": ["Wyłącznie arkuszy kalkulacyjnych", "Systemów DBMS", "Systemów regułowych", "Edytorów tekstu"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "537",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Procesy decyzyjne w przedsiębiorstwie nie są wspomagane przez rozwiązania informatyczne ukierunkowane na:",
+      "options": ["Analizę danych i modelowanie", "Generalizowanie rekomendacji", "Symulacje i programowanie", "Przechowywanie danych bez analizy"],
+      "correctIndex": 3,
       "explanation": ""
     },
     {
       "id": "538",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Model dziedziny (konceptualny) nie zawiera: ",
+      "options": ["Relacji", "Atrybutów", "Operacji i szczegółów implementacyjnych", "Pojęć"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "539",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeżeli obiekty jednej klasy pełnią rolę całości, a obiekty innej klasy rolę części, przy czym obiekty pełniące rolę części mogą należeć do kilku obiektów pełniących rolę całości, to mamy do czynienia z: ",
+      "options": ["Agregacją", "Kompozycją", "Asjocjacją", "Generalizacją"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "540",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jeżeli obiekty jednej klasy pełnią rolę całości, a obiekty innej klasy rolę części, przy czym obiekt pełniący rolę części może w danym momencie należeć tylko do jednego obiektu typu całość, to mamy do czynienia z: ",
+      "options": ["Agregacją", "Kompozycją", "Asjocjacją", "Generalizacją"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "541",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Rozwiązań grę o sumie zero przy macierzy wypłat danej poniższą tabelą. Jakie decyzje powinien podjąć gracz A, a jakie gracz B:<table border='1' style='border-collapse: collapse;font-size:12px;margin: 20px'><tr><td style='padding: 5px;'></td><td style='padding: 5px;'>B1</td><td style='padding: 5px;'>B2</td><td style='padding: 5px;'>B3</td></tr><tr><td style='padding: 5px;'>A1</td><td style='padding: 5px;'>20</td><td style='padding: 5px;'>-150</td><td style='padding: 5px;'>-250</td></tr><tr><td style='padding: 5px;'>A2</td><td style='padding: 5px;'>150</td><td style='padding: 5px;'>-80</td><td style='padding: 5px;'>-100</td></tr><tr><td style='padding: 5px;'>A3</td><td style='padding: 5px;'>250</td><td style='padding: 5px;'>100</td><td style='padding: 5px;'>40</td></tr></table>",
+      "options": ["Obaj gracze strategią 1", "Obaj gracze stategią 2", "Obaj gracze strategią 3", "Stategiami mieszanymi"],
+      "correctIndex": 2,
+      "explanation": "Istnieje punkt siodłowy - strategie zdominowane."
     },
     {
       "id": "542",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W ramach projektu trzeba m.in. wykonać cztery operacje oznaczone literami a,…,d, o czasach trwania wynoszących odpowiednio 1, 2, 3 i 4 godzinę. O której godzinie najpóźniej powinna się rozpocząć operacja a, jeżeli dopiero po jej zakończeniu będą mogły rozpocząć się operacje b, c i d, a ich tzw. najpóźniejsze dopuszczalne terminy zakończenia określono odpowiednio na godzinę: 7:00, 6:00, 8:00: ",
+      "options": ["2:00", "3:00", "1:00", "5:00"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "543",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W celu bezpiecznego wywołania kodu SQL w aplikacji internetowej najlepiej jest wykorzystać: ",
+      "options": ["Proceduty składniowe", "Kod SQL w postaci binarnej", "Funkcje", "Kod SQL w postaci tekstowej"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "544",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Mechanizm pozwalający na niezaplanowane wykonanie kodu SQL np. za pomocą formularza HTML określany jest jako: ",
+      "options": ["SQL False Execution", "Form violation", "SQL Injection", "Form overriding"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "545",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W celu uniknięcia problemów z bezpieczeństwem w JavaScript nie należy wykorzystywać funkcji: ",
+      "options": ["parseInt()", "eval()", "setTimeout()", "console.log()"],
+      "correctIndex": 1,
+      "explanation": "Funkcja eval() wykonuje przekazany do niej kod JavaScript jako tekst (string)."
     },
     {
       "id": "546",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Komunikacja zaszyfrowana pomiędzy klientem a serwerem WWW odbywa się standardowo na porcie: ",
+      "options": ["443", "403", "83", "404"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "547",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Odpowiedź z serwera o braku uprawnień klienta do żądanego zasobu oznaczona jest statusem błędu: ",
+      "options": ["443", "403", "83", "404"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "548",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Warunkiem koniecznym pozwalającym na komunikację pomiędzy klientem a serwerem po porcie HTTPS jest ważny certyfikat: ",
+      "options": ["TCP/IP", "SSL", "HTTP", "WebSocket"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "549",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Nadrzędnym celem polityki bezpieczeństwa danych jest: ",
+      "options": ["Szyfrowanie danych", "Przechowywanie danych w chmurze", "Zachowanie poufności danych", "Uniemożliwienie dostępu zdalnego"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "550",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Wymiernym efektem polityki bezpieczeństwa danych jest/są: ",
+      "options": ["Zwiększenie liczby kopii zapasowych", "Automatyzacja aktualizacji systemów", "Unikanie powtarzania się incydentów", "Szyfrowanie danych"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "551",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Określ, kiedy system informatyczny organizacji można uznać za bezwarunkowo bezpieczny: ",
+      "options": ["Po wdrożeniu polityki bezpieczeństwa", "Gdy przejdzie audyt zewnętrzny", "Gdy jest fizycznie odłączony od internetu", "Nigdy"],
+      "correctIndex": 3,
       "explanation": ""
     },
     {
       "id": "552",
-      "question": "",
+      "question": "Podstawowym, programowym mechanizmem zabezpieczającym system komputerowy jest: ",
       "options": [],
       "correctIndex": null,
       "explanation": ""

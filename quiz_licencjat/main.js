@@ -1,12 +1,12 @@
 function begin_test(n_questions){
     document.getElementsByClassName('initial')[0].style.display = 'none'
 
-    fetch('questions.json').then(response => {
+    fetch('questions_test.json').then(response => {
         return response.json();
     }).then(data => {
         questions = data.questions
         questions = questions.filter(item => item.correctIndex != null)
-        
+        console.log(`Liczba opracowanych pytań: ${questions.length}`)
         const shuffled_questions = shuffleArray(questions.slice());
 
         questions = shuffled_questions.slice(0, n_questions)
