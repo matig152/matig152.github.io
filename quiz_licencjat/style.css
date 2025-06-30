@@ -13,6 +13,19 @@ header{
 }
 
 
+/* KOD */
+.code{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+.code-inline{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.tab{padding-left: 25px;}
+
 .initial_button{
     font-family: 'Open Sans';
     font-size: 30px;

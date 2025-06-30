@@ -7,7 +7,6 @@ function begin_test(n_questions){
         questions = data.questions
         questions = questions.filter(item => item.correctIndex != null)
         console.log(`Liczba pytań opracowanych: ${questions.length}`)
-        
         const shuffled_questions = shuffleArray(questions.slice());
 
         questions = shuffled_questions.slice(0, n_questions)

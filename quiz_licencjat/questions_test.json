@@ -1,0 +1,11 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "question": "Rozwiązań grę o sumie zero przy macierzy wypłat danej poniższą tabelą. Jakie decyzje powinien podjąć gracz A, a jakie gracz B:<table border='1' style='border-collapse: collapse;font-size:12px;margin: 20px'><tr><td style='padding: 5px;'></td><td style='padding: 5px;'>B1</td><td style='padding: 5px;'>B2</td><td style='padding: 5px;'>B3</td></tr><tr><td style='padding: 5px;'>A1</td><td style='padding: 5px;'>20</td><td style='padding: 5px;'>-150</td><td style='padding: 5px;'>-250</td></tr><tr><td style='padding: 5px;'>A2</td><td style='padding: 5px;'>150</td><td style='padding: 5px;'>-80</td><td style='padding: 5px;'>-100</td></tr><tr><td style='padding: 5px;'>A3</td><td style='padding: 5px;'>250</td><td style='padding: 5px;'>100</td><td style='padding: 5px;'>40</td></tr></table>",
+      "options": ["<span class='code-inline'>Niepoprawne dane</span>", "<span class='code-inline'>0</span>", "<span class='code-inline'>Niepoprawne dane Wynik: null</span>", "<span class='code-inline'>1</span>"],
+      "correctIndex": 0,
+      "explanation": ""
+    }
+  ]
+}
