@@ -1,7 +1,7 @@
 function begin_test(n_questions){
     document.getElementsByClassName('initial')[0].style.display = 'none'
 
-    fetch('questions_test.json').then(response => {
+    fetch('questions.json').then(response => {
         return response.json();
     }).then(data => {
         questions = data.questions
