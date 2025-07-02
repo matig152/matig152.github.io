@@ -1822,36 +1822,36 @@
     },
     {
       "id": "261",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Analizę istotności współczynnika determinacji w w jednorównaniowym liniowym modelu ekonometrycznym dokonać można z użyciem",
+      "options": ["Testu t-Studenta", "Testu chi-kwadrat", "Testu F-Snedecora", "Testu Durbina-Watsona"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "262",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Według założeń Klasycznej Metody Najmniejszych Kwadratów zmiennymi losowymi w jednorównaniowym liniowym modelu ekonometrycznym są",
+      "options": ["Zmienne losowe", "Parametry", "Zmienne zależne", "Składniki losowe"],
+      "correctIndex": 3,
+      "explanation": "Zmienne objaśniające są nielosowe a przez to nie są skorelowane ze składnikiem losowym. Ponieważ zmienne ekonomiczne są losowe (więc dopuszcza się losowość zmiennych, ale muszą one być nieskorelowane ze składnikiem losowym."
     },
     {
       "id": "263",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Estymując parametry wielorównaniowego modelu ekonometrycznego można posłużyć się Klasyczną Metodą Najmniejszych Kwadratów w sytuacji, gdy jest to model:",
+      "options": ["o równaniach współzależnych", "rekurencyjny", "autoregresyjny", "jednoczesny"],
+      "correctIndex": 1,
+      "explanation": "Można tylko w przypadku modeli prostych i rekurencyjnych"
     },
     {
       "id": "264",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "W modelu ekonometrycznym grupa zmiennych egzogenicznych opisuje zbiorczo interesujące badacza zjawisko. Aby zbadać łączną istotność wpływu wybranej grupy zmiennych na zmienną endogeniczną,należy posłużyć się:",
+      "options": ["testem t-Studenta", "testem Walda", "testem Durbina-Watsona", "testem White'a"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "265",
-      "question": "",
-      "options": [],
+      "question": "Skutkiem występowania współliniowości zmiennych objaśniających w modelu ekonometrycznym nie jest:",
+      "options": ["Duże wariancje estymatorów", "Wrażliwość parametrów na usunięcie niewielkiej liczby obserwacji", "", ""],
       "correctIndex": null,
       "explanation": ""
     },
