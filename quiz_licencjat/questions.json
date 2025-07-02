@@ -1416,204 +1416,204 @@
     },
     {
       "id": "203",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Celem rachunkowości finansowej jest:",
+      "options": ["Planowanie strategiczne działalności przedsiębiorstwa", "Ewidencjonowanie i prezentacja informacji finansowych dla interesariuszy zewnętrznych", "Motywowanie pracowników poprzez system premiowy", "Optymalizacja procesu produkcyjnego"],
+      "correctIndex": 1,
+      "explanation": "Dostarczanie informacji o zdarzeniach gospodarczych na zewnątrz podmiotu gospodarczego. *dotycząca sprawozdawczości finansowej: tradycyjnego rachunku kosztów, sprawozdania finansowego, ewidencji danych o zdarzeniach gospodarczych"
     },
     {
       "id": "204",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Podstawy prawne rachunkowości finansowej kształtuje:",
+      "options": ["Statut spółki", "Uchwały zarządu", "Ustawa o rachunkowości i krajowe oraz międzynarodowe standardy rachunkowości", "Regulamin pracy"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "205",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Do zasad rachunkowości zalicza się:",
+      "options": ["Zasadę konkurencyjności", "Zasadę niedostępności", "Zasadę memoriałową", "Zasadę innowacyjności"],
+      "correctIndex": 2,
+      "explanation": "Także: zasada memoriałowa, zasada współmierności, zasada ostrożnej wyceny, zasada kontynuacji działalności, zasada istotności, zasada przewagi treści nad formą, zasada przewagi treści nad formą, zasada zakazu kompensat, zasada ciągłości."
     },
     {
       "id": "206",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Płynność to zdolność do terminowego regulowania:",
+      "options": ["Wyników finansowych jednostki", "Zobowiązań krótkoterminowych", "Przepisów prawa pracy", "Zobowiązań podatkowych innych podmiotów"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "207",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Podstawowe sprawozdanie finansowe składa się z:",
+      "options": ["Rachunku kosztów i raportu marketingowego", "Bilansu, rachunku zysków i strat oraz informacji dodatkowej", "Biznesplanu i raportu rocznego", "Zestawienia płac i ewidencji środków trwałych"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "208",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Spółka zwiększa kapitał obcy poprzez:",
+      "options": ["Emisję akcji", "Zwiększenie zysku netto", "Zaciąganie kredytów i pożyczek", "Wniesienie wkładów przez właścicieli"],
+      "correctIndex": 2,
+      "explanation": "Także wpływy z emisji obligacji oraz leasing finansowy."
     },
     {
       "id": "209",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Najważniejszym celem NBP jest:",
+      "options": ["Finansowanie deficytu budżetowego", "Wspieranie eksportu polskich towarów", "Zapewnienie stabilności cen", "Kontrola działalności wszystkich banków komercyjnych"],
+      "correctIndex": 2,
+      "explanation": "Podstawowym celem działalności NBP jest utrzymanie stabilnego poziomu cen, przy jednoczesnym wspieraniu polityki gospodarczej Rządu, o ile nie ogranicza to podstawowego celu NBP."
     },
     {
       "id": "210",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Której z wymienionych funkcji nie pełni NBP:",
+      "options": ["Banku emisyjnego", "Banku centralnego państwa", "Udzielania kredytów konsumpcyjnych obywatelom", "Bank banków"],
+      "correctIndex": 2,
+      "explanation": "NBP pełni trzy podstawowe funkcje: banku emisyjnego, banku banków oraz centralnego banku państwa."
     },
     {
       "id": "211",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Polityka restrykcyjna banku centralnego polega na:",
+      "options": ["Obniżeniu stopy lombardowej i dyskontowej", "Kupnie papierów wartościowych w ramach polityki otwartego rynku", "Podwyższeniu stopy lombardowej i dyskontowej", "Obniżeniu stopy rezerwy obowiązkowej"],
+      "correctIndex": 2,
+      "explanation": "Zmniejszaniu podaży pieniądza, spadku popytu, wzrostu bezrobocia i zahamowaniu inflacji poprzez sprzedaż papierów wartościowych na otwartym rynku, podwyższanie stóp procentowych, podwyższaniu wskaźnika rezerw obowiązkowych, sprzedaż lub emisję papierów wartościowych– jest to polityka antyinflacyjna w celu zachowania stabilności cen."
     },
     {
       "id": "212",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Hipoteza Fishera mówi, że wzrostowi inflacji o 1% towarzyszy wzrost nominalnej stopy procentowej: ",
+      "options": ["0.5%", "1%", "2%", "3%"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "213",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W systemie zmiennego kursu walutowego wzmocnienie kursu danej waluty nazywamy:",
+      "options": ["Dewaluacją", "Aprecjacją", "Rewaluacją", "Inflacją"],
+      "correctIndex": 1,
+      "explanation": "Aprecjacja to wzrost wartości waluty w stosunku do innych walut w systemie zmiennego kursu walutowego. Dewaluacja i rewaluacja dotyczą kursów ustalanych administracyjnie."
     },
     {
       "id": "214",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "W systemie stałego kursu walutowego osłabienie kursu danej waluty przez rząd nazywamy:",
+      "options": ["Dewaluacją", "Aprecjacją", "Rewaluacją", "Inflacją"],
+      "correctIndex": 0,
+      "explanation": "Dewaluacja to oficjalne, administracyjne obniżenie wartości waluty w systemie stałego kursu walutowego przez władze monetarne."
     },
     {
       "id": "215",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Przepisy regulujące podejmowanie działalności gospodarczej przez przedsiębiorcę będącego osobą fizyczną znajdują się w:",
+      "options": ["Ustawa o rachunkowości", "Ustawa Prawo Przedsiębiorców", "Kodeksie pracy", "Kodeksie cywilnym"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "216",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Naczelna podstawa prawna wolności działalności gospodarczej zawarta jest w:",
+      "options": ["Konstytucji RP", "Kodeksie cywilnym", "Ustawie o podatku dochodowym", "Ustawie o rachunkowości"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "217",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Przepisy nakładające obowiązek zapłaty odsetek za opóźnienie świadczenia pieniężnego znajdują się w: ",
+      "options": ["Konstytucji RP", "Kodeksie cywilnym", "Ustawie o podatku dochodowym", "Ustawie o rachunkowości"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "218",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jednostka organizacyjna uzyskuje osobowość prawną z chwilą:",
+      "options": ["Rozpoczęcia działalności gospodarczej", "Podpisania umowy założycielskiej", "Zarejestrowania we właściwym rejestrze", "Złożenia wniosku o wpis do rejestru działalności gospodarczej"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "219",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Powstanie, ustrój i ustanie osób prawnych określa (określa/ją): ",
+      "options": ["Konstytucja RP", "Kodeks cywilnym", "Kodeks spółek handlowych", "Ustawa o rachunkowości"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "220",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Zasadnicze przepisy dotyczące zawiązania spółki cywilnej znajdują się w:",
+      "options": ["Konstytucji RP", "Kodeksie cywilnym", "Ustawie o podatku dochodowym", "Ustawie o rachunkowości"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "221",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Zasadnicze przepisy dotyczące funkcjonowania spółek handlowych znajdują się w:",
+      "options": ["Konstytucji RP", "Kodeksie cywilnym", "Kodeksie spółek handlowych", "Ustawie o rachunkowości"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "222",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Umowa spółki jawnej powinna zawierać:",
+      "options": ["Regulamin wynagrodzeń pracowników", "Określenie wkładów wnoszonych przez wspólników", "Liczbę akcji i sposób ich emisji", "Plan finansowy firmy"],
+      "correctIndex": 1,
+      "explanation": "Umowa spółki jawnej powinna zawierać: firmę i siedzibę spółki, określenie wkładów wnoszonych przez każdego wspólnika i ich wartość, przedmiot działalności spółki, czas trwania spółki, jeżeli jest oznaczony."
     },
     {
       "id": "223",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Spółka z ograniczoną odpowiedzialnością może być utworzona przez:",
+      "options": ["Jedną lub więcej osób fizycznych lub prawnych", "Wyłącznie osoby fizyczne", "Wyłącznie osoby prawne", "Jedynie przedsiębiorstwa państwowe"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "224",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Do powstania spółki akcyjnej wymaga się:",
+      "options": ["Jedynie zgłoszenia do urzędu skarbowego", "Ustalenia wysokości kapitału zakładowego na minimum 10 000 zł", "Rejestracji w Krajowym Rejestrze Sądowym bez konieczności sporządzania aktu notarialnego", "Wniesienia przez akcjonariuszy wkładów na pokrycie całego kapitału zakładowego"],
+      "correctIndex": 3,
+      "explanation": "Do powstania spółki akcyjnej wymaga się: 1) zawiązania spółki, w tym podpisania statutu przez założycieli; 2) wniesienia przez akcjonariuszy wkładów na pokrycie całego kapitału zakładowego, z uwzględnieniem art. 309 zasady obejmowania i pokrycia akcji spółki akcyjnej § 3 i § 4; 3) ustanowienia zarządu i rady nadzorczej; 4) wpisu do rejestru."
     },
     {
       "id": "225",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jaka jest forma umowy o przeniesieniu patentu?",
+      "options": ["Forma ustna", "Forma pisemna zwykła", "Forma pisemna pod rygorem nieważności", "Forma pisemna z podpisami notarialnie poświadczonymi"],
+      "correctIndex": 2,
       "explanation": ""
     },
     {
       "id": "226",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Jakie są kryteria zdolności patentowej?",
+      "options": ["Tylko nowość i oryginalność", "Zyskowność i popularność wynalazku", "Dostępność na rynku i niska cena", "Nowość, poziom wynalazczy, przemysłowa stosowalność"],
+      "correctIndex": 3,
+      "explanation": "Nowość, poziom wynalazczy, przemysłowa stosowalność"
     },
     {
       "id": "227",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
-      "explanation": ""
+      "question": "Co jest przedmiotem ochrony prawno autorskiej?",
+      "options": ["Wynalazki i patenty", "Utwory literackie, artystyczne i naukowe", "Znaki towarowe i wzory przemysłowe", "Nazwy firm i logo"],
+      "correctIndex": 1,
+      "explanation": "Utwory, opracowania utworów, bazy danych, zbiory, antologie, wybory"
     },
     {
       "id": "228",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Jakie są zasady rozporządzania i korzystania z opracowania przez jego twórcę?",
+      "options": ["Twórca może dowolnie rozporządzać opracowaniem bez ograniczeń prawnych", "Twórca ma prawo do korzystania z opracowania oraz do rozporządzania nim, ale musi szanować prawa osób trzecich i postanowienia umów", "Twórca nie ma żadnych praw do opracowania po jego przekazaniu", "Twórca może korzystać z opracowania, ale nie może go rozporządzać"],
+      "correctIndex": 1,
       "explanation": ""
     },
     {
       "id": "229",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Co to jest utwór rozpowszechniony?",
+      "options": ["Utwór, który został opublikowany lub udostępniony publicznie w jakiejkolwiek formie", "Utwór zarejestrowany w urzędzie patentowym", "Utwór chroniony wyłącznie prawami majątkowymi", "Utwór, który nie może być kopiowany"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "230",
-      "question": "",
-      "options": [],
-      "correctIndex": null,
+      "question": "Metodą ochrony programów komputerowych jest:",
+      "options": ["Ochrona programu komputerowego wynika z umowy między wykonawca i zamawiającym", "Programy komputerowe podlegają ochronie patentowej", "Programy komputerowe podlegają ochronie wyłącznie, jeżeli stanowią tajemnicę przedsiębiorstwa", "Programy komputerowe podlegają ochronie jako utwory literackie"],
+      "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": "231",
-      "question": "",
-      "options": [],
+      "question": "Jakie są przesłanki dozwolonego użytku prywatnego?",
+      "options": ["", "", "", ""],
       "correctIndex": null,
       "explanation": ""
     },
@@ -2207,7 +2207,7 @@
     },
     {
       "id": "316",
-      "question": "Ile wynosi wyznacznik z macierzy $ A = \\begin{bmatrix} -1 & 0 & 0 \\ 4 & 2 & 0 \\ 1 & -2 & -3  \\end{bmatrix} $",
+      "question": "Ile wynosi wyznacznik z macierzy $$ A = \\begin{bmatrix} -1 & 0 & 0 \\ 4 & 2 & 0 \\ 1 & -2 & -3  \\end{bmatrix} $$",
       "options": ["0", "3", "6", "-6"],
       "correctIndex": 2,
       "explanation": "Macierz górnotrójkątna, czyli wyznacznik to iloczyn elementów na przekątnej."
@@ -3894,7 +3894,7 @@
     },
     {
       "id": "557",
-      "question": "Mechanizm, jaki może zastosować programista klienta internetowego do ukrycia hasła wpisywanego do pola <input>, to:",
+      "question": "Mechanizm, jaki może zastosować programista klienta internetowego do ukrycia hasła wpisywanego do pola < input >, to:",
       "options": ["Ustawienie atrybutu type='hidden'", "Ustawienie atrybutu type='text'", "Ustawienie atrybutu type='password'", "Ustawienie atrybutu visibility: hidden w stylach CSS"],
       "correctIndex": 2,
       "explanation": "W HTML, aby ukryć wpisywane znaki w polu formularza (np. dla hasła), należy ustawić w elemencie <input> atrybut type='password'. Dzięki temu przeglądarka zamienia znaki na kropki lub gwiazdki, uniemożliwiając podgląd hasła przez osoby postronne."
@@ -4154,7 +4154,7 @@
     {
       "id": "594",
       "question": "Menu w standardzie HTML5 powinno być zapisywane w znaczniku:",
-      "options": ["<section>","<menu>","<nav>","<div>"],
+      "options": ["< section >","< menu >","< nav >","< div >"],
       "correctIndex": 2,
       "explanation": ""
     },
