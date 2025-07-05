@@ -1305,7 +1305,7 @@
     {
       "id": "187",
       "question": "Sprawdzenie poprawności danych (np. adresu e-mail) wpisanego przez użytkownika w formularzu na stronie WWW najłatwiej zrealizować przez: ",
-      "options": ["Wykorzystanie frameworka np. Angular", "Ustawienia odpowiednich atrybutów elementów <input>", "Napisanie odpowiedniego kodu po stronie serwera (np. w PHP)", "Dopisanie kodu JavaScript, który sprawdza poprawność danych"],
+      "options": ["Wykorzystanie frameworka np. Angular", "Ustawienia odpowiednich atrybutów elementów < input >", "Napisanie odpowiedniego kodu po stronie serwera (np. w PHP)", "Dopisanie kodu JavaScript, który sprawdza poprawność danych"],
       "correctIndex": 1,
       "explanation": "wyrażenia regularne(regex) - pattern=.+@globex.com. Input o typie email"
     },
@@ -2207,7 +2207,7 @@
     },
     {
       "id": "316",
-      "question": "Ile wynosi wyznacznik z macierzy $$ A = \\begin{bmatrix} -1 & 0 & 0 \\ 4 & 2 & 0 \\ 1 & -2 & -3  \\end{bmatrix} $$",
+      "question": "Ile wynosi wyznacznik z macierzy $$ A = \\begin{bmatrix} -1 & 0 & 0  \\ \\ 4 & 2 & 0 \\ \\ 1 & -2 & -3  \\end{bmatrix} $$",
       "options": ["0", "3", "6", "-6"],
       "correctIndex": 2,
       "explanation": "Macierz górnotrójkątna, czyli wyznacznik to iloczyn elementów na przekątnej."
@@ -2892,7 +2892,7 @@
     {
       "id": "412",
       "question": "Produkcja 3 wyrobów w liczbie x1, x2, x3 musi się odbywać w proporcji 3:2:5.Jaką postać liniową ma ta zależność:",
-      "options": ["$ \frac{3}{10}x_1 + \frac{2}{10}x_2 + \frac{5}{10}x_3 = 1 $", "$ 2x_1 - 3x_2 = 0 \\land 5x_2 - 2x_3 = 0 $ ", "$  x_1 + x_2 + x_3 = 10 $", "Żadne z powyższych"],
+      "options": ["$ \\frac{3}{10}x_1 + \\frac{2}{10}x_2 + \\frac{5}{10}x_3 = 1 $", "$ 2x_1 - 3x_2 = 0 \\land 5x_2 - 2x_3 = 0 $ ", "$  x_1 + x_2 + x_3 = 10 $", "Żadne z powyższych"],
       "correctIndex": 1,
       "explanation": "Musi być warunek: $ \\frac{x_1}{3} = \\frac{x_2}{2} = \\frac{x_3}{5} $. Dwa równania oddzielnie mnożymy na krzyż i przeniosimy wszystko na lewo."
     },
@@ -4151,7 +4151,7 @@
     {
       "id": "590",
       "question": "Który styl CSS będzie miał najwyższy priorytet przy ustalaniu ostatecznego wyglądu elementu HTML:",
-      "options": ["Styl inline (w atrybucie style)","Styl zewnętrzny (plik CSS)","Styl wewnętrzny (w sekcji <style>)","Styl zdefiniowany przez przeglądarkę"],
+      "options": ["Styl inline (w atrybucie style)","Styl zewnętrzny (plik CSS)","Styl wewnętrzny (w sekcji < style >)","Styl zdefiniowany przez przeglądarkę"],
       "correctIndex": 0,
       "explanation": ""
     },
@@ -4186,7 +4186,7 @@
     {
       "id": "595",
       "question": "W jakim znaczniku włączamy informację o zewnętrznym arkuszu stylów do kodu HTML:",
-      "options": ["<link>","<style>","<script>","<meta>"],
+      "options": ["< link >","< style >","< script >","< meta >"],
       "correctIndex": 0,
       "explanation": ""
     },
